@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d8661b359002c1c48aad962c75c31c23
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Evil Dead
+  fontNames:
+  - Evil Dead
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: be716d883124148288736330b25cc762, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

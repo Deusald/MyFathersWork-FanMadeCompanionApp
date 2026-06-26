@@ -1,0 +1,54 @@
+﻿@page "/PlayersScenario"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="scenario-selection-container">
+    <h1>@GlobalData.GetLocalizedUITag(GlobalTags.Scenario_Title)</h1>
+    <p>@GlobalData.GetLocalizedUITag(GlobalTags.Scenario_Subtitle).FormatWithReplacement(0, GlobalData.PlayersNum.ToString())</p>
+
+    <div class="scenario-options">
+        <div class="scenario-card" @onclick="() => SelectScenario(1)">
+            <img src="./images/disease.png" alt="The Cost of Disease">
+            <h2>@GlobalData.GetLocalizedUITag(GlobalTags.Scenario_TheCostOfDisease)</h2>
+            <p>
+                @GlobalData.GetLocalizedUITag(GlobalTags.Scenario_TheCostOfDisease_Desc).AsMarkup()
+            </p>
+        </div>
+
+        <div class="scenario-card" @onclick="() => SelectScenario(2)">
+            <img src="./images/fear.png" alt="Fear of the Unknown">
+            <h2>@GlobalData.GetLocalizedUITag(GlobalTags.Scenario_FearOfTheUnknown)</h2>
+            <p>
+                @GlobalData.GetLocalizedUITag(GlobalTags.Scenario_FearOfTheUnknown_Desc).AsMarkup()
+            </p>
+        </div>
+
+        <div class="scenario-card" @onclick="() => SelectScenario(3)">
+            <img src="./images/war.png" alt="A Time of War">
+            <h2>@GlobalData.GetLocalizedUITag(GlobalTags.Scenario_ATimeOfWar)</h2>
+            <p>
+                @GlobalData.GetLocalizedUITag(GlobalTags.Scenario_ATimeOfWar_Desc).AsMarkup()
+            </p>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private void GoBack()
+    {
+        Nav.NavigateTo("PlayersVillageConfirm");
+    }
+
+    private void SelectScenario(int id)
+    {
+        GlobalData.ScenarioId = (ScenarioId)id;
+
+        Nav.NavigateTo("PlayersScenarioLanguage");
+    }
+}

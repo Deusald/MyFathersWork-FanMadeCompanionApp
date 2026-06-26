@@ -1,0 +1,11 @@
+﻿.main-menu-footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    padding: 1rem;
+}
+
+.disclaimer {
+    font-style: italic;
+}

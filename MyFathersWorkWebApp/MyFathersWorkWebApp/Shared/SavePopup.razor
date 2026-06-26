@@ -1,0 +1,35 @@
+﻿@if (Visible)
+{
+    <div class="pause-menu-overlay">
+        <div class="pause-menu">
+            <h2>@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_SaveGame)</h2>
+
+            <textarea class="save-box" readonly>@Base64Save</textarea>
+
+            <div class="save-buttons">
+                <button class="pause-button" @onclick="CopyToClipboard">@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_Copy)</button>
+                <button class="pause-button" @onclick="DownloadSave">@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_DownloadFile)</button>
+                <button class="pause-button" @onclick="OnBack">@GlobalData!.GetLocalizedUITag(GlobalTags.MainMenu_Back)</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public bool          Visible    { get; set; }
+    [Parameter] public string        Base64Save { get; set; } = "";
+    [Parameter] public EventCallback OnBack     { get; set; }
+    [Parameter] public GlobalData?   GlobalData { get; set; }
+
+    [Inject] IJSRuntime Js { get; set; } = null!;
+
+    private async Task DownloadSave()
+    {
+        await Js.InvokeVoidAsync("BlazorDownloadFile", "MyFathersWorkWebGameSave.txt", "text/plain;charset=utf-8", Base64Save);
+    }
+    
+    private async Task CopyToClipboard()
+    {
+        await Js.InvokeVoidAsync("navigator.clipboard.writeText", Base64Save);
+    }
+}

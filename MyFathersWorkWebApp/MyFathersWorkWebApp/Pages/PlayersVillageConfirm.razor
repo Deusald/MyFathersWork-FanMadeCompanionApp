@@ -1,0 +1,31 @@
+﻿@page "/PlayersVillageConfirm"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="village-confirmation-container">
+    <div class="text-box">
+        @GlobalData.GetLocalizedUITag(GlobalTags.VillageConfirm_Content).FormatWithReplacement(0, GlobalData.TownName).AsMarkup()
+    </div>
+
+    <button class="continue-button" @onclick="Continue">
+        @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Continue)
+    </button>
+</div>
+
+@code 
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private void GoBack()
+    {
+        Nav.NavigateTo("PlayersVillage");
+    }
+
+    private void Continue()
+    {
+        Nav.NavigateTo("PlayersScenario");
+    }
+}

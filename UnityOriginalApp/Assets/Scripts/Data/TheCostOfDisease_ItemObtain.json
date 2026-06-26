@@ -1,0 +1,821 @@
+{
+    "TheCostOfDisease": [
+        {
+            "id": 0,
+            "identifier": "Bottle",
+            "EnglishName": "Bottle",
+            "SpanishName": "botella",
+            "GermanName": "Flasche",
+            "PortugeseName": "garrafa",
+            "ItalianName": "bottiglia",
+            "ChineseName": "瓶子",
+            "JapaneseName": "ボトル",
+            "spriteName": "01-bottle"
+        },
+        {
+            "id": 1,
+            "identifier": "Animal",
+            "EnglishName": "Animal",
+            "SpanishName": "Tier",
+            "GermanName": "Animal",
+            "PortugeseName": "Corpo",
+            "ItalianName": "Animale",
+            "ChineseName": "动物",
+            "JapaneseName": "動物",
+            "spriteName": "02-animal"
+        },
+        {
+            "id": 2,
+            "identifier":"Chemistry",
+            "EnglishName": "Chemistry",
+            "SpanishName": "Química",
+            "GermanName": "Chemie",
+            "PortugeseName": "Química",
+            "ItalianName": "Chimica",
+            "ChineseName": "化学",
+            "JapaneseName": "化学",
+            "spriteName": "05-chemistry"
+        },
+        {
+            "id": 3,
+            "identifier":"Gear",
+            "EnglishName": "Gear",
+            "SpanishName": "Engranaje",
+            "GermanName": "Ausrüstung",
+            "PortugeseName": "Engrenagem",
+            "ItalianName": "Ingranaggio",
+            "ChineseName": "齿轮",
+            "JapaneseName": "装備",
+            "spriteName": "03-gear" 
+        },
+        {
+            "id": 4,
+            "identifier":"Body",
+            "EnglishName": "Body",
+            "SpanishName": "Cuerpo",
+            "GermanName": "Körper",
+            "PortugeseName": "Corpo",
+            "ItalianName": "Corpo",
+            "ChineseName": "身体",
+            "JapaneseName": "体",
+            "spriteName": "04-body"
+        },
+        {
+            "id": 5,
+            "identifier":"Engineering",
+            "EnglishName": "Engineering",
+            "SpanishName": "Ingenieria",
+            "GermanName": "Ingenieurwesen",
+            "PortugeseName": "Engenharia",
+            "ItalianName": "Ingegneria",
+            "ChineseName": "工程",
+            "JapaneseName": "エンジニアリング",
+            "spriteName": "05-engineering"
+        },
+        {
+            "id": 6,
+            "identifier":"Occult",
+            "EnglishName": "Occult",
+            "SpanishName": "Oculta",
+            "GermanName": "Okkulte",
+            "PortugeseName": "Oculta",
+            "ItalianName": "Occulta",
+            "ChineseName": "神秘的",
+            "JapaneseName": "オカルト",
+            "spriteName": "07-occult"
+        },
+        {
+            "id": 7,
+            "identifier":"Biology",
+            "EnglishName": "Biology",
+            "SpanishName": "Biología",
+            "GermanName": "Biologie",
+            "PortugeseName": "Biologia",
+            "ItalianName": "Biologia",
+            "ChineseName": "生物学",
+            "JapaneseName": "生物学",
+            "spriteName": "08-biology"
+        },
+        {
+            "id": 8,
+            "identifier":"Gear Source",
+            "EnglishName": "Gear Source",
+            "SpanishName": "Fuente de engranajes",
+            "GermanName": "Zahnradquelle",
+            "PortugeseName": "Fonte de engrenagem",
+            "ItalianName": "Fonte dell'ingranaggio",
+            "ChineseName": "齿轮源",
+            "JapaneseName": "ギアソース",
+            "spriteName": "09-gear-source"
+        },
+        {
+            "id": 9,
+            "identifier":"Germ",
+            "EnglishName": "Germ",
+            "SpanishName": "Germen",
+            "GermanName": "Keim",
+            "PortugeseName": "Germe",
+            "ItalianName": "Germe",
+            "ChineseName": "胚芽",
+            "JapaneseName": "胚芽",
+            "spriteName": "10-germ"
+        },
+        {
+            "id": 10,
+            "identifier":"Sickness",
+            "EnglishName": "Sickness",
+            "SpanishName": "Enfermedad",
+            "GermanName": "Krankheit",
+            "PortugeseName": "Doença",
+            "ItalianName": "Malattia",
+            "ChineseName": "疾病",
+            "JapaneseName": "病気",
+            "spriteName": "11-sickness"
+        },
+        {
+            "id": 11,
+            "identifier":"Creepy",
+            "EnglishName": "Creepy",
+            "SpanishName": "Espeluznante",
+            "GermanName": "Gruselig",
+            "PortugeseName": "Arrepiante",
+            "ItalianName": "Raccapricciante",
+            "ChineseName": "爬行",
+            "JapaneseName": "不気味な",
+            "spriteName": "12-creepy"
+        },
+        {
+            "id": 12,
+            "identifier":"Weapon",
+            "EnglishName": "Weapon",
+            "SpanishName": "Arma",
+            "GermanName": "Waffe",
+            "PortugeseName": "Arma",
+            "ItalianName": "Arma",
+            "ChineseName": "武器",
+            "JapaneseName": "武器",
+            "spriteName": "13-weapon"
+        },
+        {
+            "id": 13,
+            "identifier":"Stick",
+            "EnglishName": "Stick",
+            "SpanishName": "Palo",
+            "GermanName": "Stock",
+            "PortugeseName": "Bastão",
+            "ItalianName": "Bastone",
+            "ChineseName": "戳",
+            "JapaneseName": "スティック",
+            "spriteName": "14-stick"
+        },
+        {
+            "id": 14,
+            "identifier":"Award",
+            "EnglishName": "Award",
+            "SpanishName": "Otorgar",
+            "GermanName": "Vergeben",
+            "PortugeseName": "Prêmio",
+            "ItalianName": "Premio",
+            "ChineseName": "奖",
+            "JapaneseName": "賞",
+            "spriteName": "15-award"
+        }, 
+        {
+            "id": 15,
+            "identifier":"Circuitry",
+            "EnglishName": "Circuitry",
+            "SpanishName": "Circuitería",
+            "GermanName": "Schaltung",
+            "PortugeseName": "Circuito",
+            "ItalianName": "circuiti",
+            "ChineseName": "电路",
+            "JapaneseName": "回路",
+            "spriteName": "16-circuitry"
+        },
+        {
+            "id": 16,
+            "identifier":"Vitamin",
+            "EnglishName": "Vitamin",
+            "SpanishName": "Vitamina",
+            "GermanName": "Vitamin",
+            "PortugeseName": "Vitamina",
+            "ItalianName": "Vitamina",
+            "ChineseName": "维他命",
+            "JapaneseName": "ビタミン",
+            "spriteName": "17-vitamin"
+        },
+        {
+            "id": 17,
+            "identifier":"Gasoline",
+            "EnglishName": "Gasoline",
+            "SpanishName": "Gasolina",
+            "GermanName": "Benzin",
+            "PortugeseName": "Gasolina",
+            "ItalianName": "Benzina",
+            "ChineseName": "汽油",
+            "JapaneseName": "ガソリン",
+            "spriteName": "18-gasoline"
+        },
+        {
+            "id": 18,
+            "identifier":"Angry Mob",
+            "EnglishName": "Angry Mob",
+            "SpanishName": "Angry Mob",
+            "GermanName": "Wütende Menge",
+            "PortugeseName": "Multidão enfurecida",
+            "ItalianName": "folla arrabbiata",
+            "ChineseName": "愤怒的暴民",
+            "JapaneseName": "怒っている暴徒",
+            "spriteName": "19-angry-mob"
+        },
+        {
+            "id": 19,
+            "identifier":"Animal Source",
+            "EnglishName": "Animal Source",
+            "SpanishName": "Fuente animal",
+            "GermanName": "Tierische Quelle",
+            "PortugeseName": "Animal Source",
+            "ItalianName": "Fonte animale",
+            "ChineseName": "动物源",
+            "JapaneseName": "動物の源",
+            "spriteName": "20-animal-Source"
+        },
+        {
+            "id": 20,
+            "identifier":"Mayor",
+            "EnglishName": "Mayor",
+            "SpanishName": "Alcaldesa",
+            "GermanName": "Bürgermeisterin",
+            "PortugeseName": "Prefeita",
+            "ItalianName": "Sindaca",
+            "ChineseName": "市长",
+            "JapaneseName": "市長",
+            "spriteName": "21-mayor"
+        },
+        {
+            "id": 21,
+            "identifier":"Charity",
+            "EnglishName": "Charity",
+            "SpanishName": "Caridad",
+            "GermanName": "Nächstenliebe",
+            "PortugeseName": "Caridade",
+            "ItalianName": "Beneficenza",
+            "ChineseName": "慈善机构",
+            "JapaneseName": "チャリティー",
+            "spriteName": "22-charity"
+        },
+        {
+            "id": 22,
+            "identifier":"Zombie",
+            "EnglishName": "Zombie",
+            "SpanishName": "Zombi",
+            "GermanName": "Zombie",
+            "PortugeseName": "Zumbi",
+            "ItalianName": "Zombie",
+            "ChineseName": "僵尸",
+            "JapaneseName": "ゾンビ",
+            "spriteName": "23-zombie"
+        },
+        {
+            "id": 23,
+            "identifier":"scenario",
+            "EnglishName": "scenario",
+            "SpanishName": "guión",
+            "GermanName": "Szenario",
+            "PortugeseName": "cenário",
+            "ItalianName": "scenario",
+            "ChineseName": "设想",
+            "JapaneseName": "シナリオ",
+            "spriteName": "24-scen1"
+        },
+        {
+            "id": 24,
+            "identifier":"discard",
+            "EnglishName": "discard",
+            "SpanishName": "descarte",
+            "GermanName": "verwerfen",
+            "PortugeseName": "descartar",
+            "ItalianName": "scartare",
+            "ChineseName": "丢弃",
+            "JapaneseName": "破棄する",
+            "spriteName": "28-discard-a-card"
+        },
+        {
+            "id": 25,
+            "identifier":"Card",
+            "EnglishName": "Card",
+            "SpanishName": "tarjeta",
+            "GermanName": "Karte",
+            "PortugeseName": "cartão",
+            "ItalianName": "carta",
+            "ChineseName": "卡片",
+            "JapaneseName": "カード",
+            "spriteName": "27-draw-a-card"
+        },
+        {
+            "id": 26,
+            "identifier":"Draw",
+            "EnglishName": "Draw",
+            "SpanishName": "Dibujar",
+            "GermanName": "Zeichnen",
+            "PortugeseName": "Desenhar",
+            "ItalianName": "Disegnare",
+            "ChineseName": "画",
+            "JapaneseName": "ドロー",
+            "spriteName": "29-draw-3-keep-1"
+        },
+        {
+            "id": 27,
+            "identifier":"Chemistry Source",
+            "EnglishName": "Chemistry Source",
+            "SpanishName": "Fuente de química",
+            "GermanName": "Chemiequelle",
+            "PortugeseName": "Fonte de Química",
+            "ItalianName": "Fonte di chimica",
+            "ChineseName": "化学来源",
+            "JapaneseName": "化学ソース",
+            "spriteName": "30-chemistry-source"
+        },
+        {
+            "id": 28,
+            "identifier":"Vial",
+            "EnglishName": "Vial",
+            "SpanishName": "Frasca",
+            "GermanName": "Phiole",
+            "PortugeseName": "Frasca",
+            "ItalianName": "fiala",
+            "ChineseName": "小瓶",
+            "JapaneseName": "瓶",
+            "spriteName": "31-vial"
+        },
+        {
+            
+            "id": 29,
+            "identifier":"Hunt",
+            "EnglishName": "Hunt",
+            "SpanishName": "Cazar",
+            "GermanName": "Jagd",
+            "PortugeseName": "Caçar",
+            "ItalianName": "Caccia",
+            "ChineseName": "打猎",
+            "JapaneseName": "ハント",
+            "spriteName": "32-hunt"
+        },
+        {
+            
+            "id": 30,
+            "identifier":"Hunter",
+            "EnglishName": "Hunter",
+            "SpanishName": "Hunter",
+            "GermanName": "Jägerin",
+            "PortugeseName": "Caçadora",
+            "ItalianName": "Cacciatrice",
+            "ChineseName": "猎人",
+            "JapaneseName": "猟師",
+            "spriteName": "33-hunter"
+        },
+        {
+            
+            "id": 31,
+            "identifier":"Insanity",
+            "EnglishName": "Insanity",
+            "SpanishName": "Locura",
+            "GermanName": "Wahnsinn",
+            "PortugeseName": "Insanidade",
+            "ItalianName": "Follia",
+            "ChineseName": "疯狂",
+            "JapaneseName": "狂気",
+            "spriteName": "34-insanity"
+        },
+        {
+            
+            "id": 32,
+            "identifier":"Currency",
+            "EnglishName": "Currency",
+            "SpanishName": "Divisa",
+            "GermanName": "Währung",
+            "PortugeseName": "Moeda",
+            "ItalianName": "Moneta",
+            "ChineseName": "货币",
+            "JapaneseName": "通貨",
+            "spriteName": "35-currency"
+        },
+        {
+            
+            "id": 33,
+            "identifier":"Miasma",
+            "EnglishName": "Miasma",
+            "SpanishName": "Miasma",
+            "GermanName": "Miasma",
+            "PortugeseName": "Miasma",
+            "ItalianName": "Miasma",
+            "ChineseName": "瘴气",
+            "JapaneseName": "瘴気",
+            "spriteName": "36-miasma"
+        },
+        {
+            
+            "id": 34,
+            "identifier":"Nobel Prize",
+            "EnglishName": "Nobel Prize",
+            "SpanishName": "premio Nobel",
+            "GermanName": "Nobelpreis",
+            "PortugeseName": "premio Nobel",
+            "ItalianName": "premio Nobel",
+            "ChineseName": "诺贝尔奖",
+            "JapaneseName": "ノーベル賞",
+            "spriteName": "37-nobel-prize"
+        },
+        {
+            
+            "id": 35,
+            "identifier":"Paradox",
+            "EnglishName": "Paradox",
+            "SpanishName": "Paradoja",
+            "GermanName": "Paradox",
+            "PortugeseName": "Paradoxo",
+            "ItalianName": "Paradosso",
+            "ChineseName": "悖论",
+            "JapaneseName": "逆説",
+            "spriteName": "38-paradox"
+        },
+        {
+            
+            "id": 36,
+            "identifier":"Compulsion",
+            "EnglishName": "Compulsion",
+            "SpanishName": "Compulsión",
+            "GermanName": "Zwang",
+            "PortugeseName": "Compulsão",
+            "ItalianName": "Costrizione",
+            "ChineseName": "强迫症",
+            "JapaneseName": "強迫",
+            "spriteName": "39-compulsion"
+        },
+        {
+            
+            "id": 37,
+            "identifier":"syringe",
+            "EnglishName": "syringe",
+            "SpanishName": "jeringuilla",
+            "GermanName": "Spritze",
+            "PortugeseName": "seringa",
+            "ItalianName": "siringa",
+            "ChineseName": "注射器",
+            "JapaneseName": "注射器",
+            "spriteName": "40-syringe"
+        },
+        {
+            
+            "id": 38,
+            "identifier":"Immortality",
+            "EnglishName": "Immortality",
+            "SpanishName": "Inmortalidad",
+            "GermanName": "Unsterblichkeit",
+            "PortugeseName": "Imortalidade",
+            "ItalianName": "Immortalità",
+            "ChineseName": "不朽",
+            "JapaneseName": "不死",
+            "spriteName": "41-immortality"
+        },
+        {
+            
+            "id": 39,
+            "identifier":"Wolf",
+            "EnglishName": "Wolf",
+            "SpanishName": "Loba",
+            "GermanName": "Wölfin",
+            "PortugeseName": "Loba",
+            "ItalianName": "Lupa",
+            "ChineseName": "狼",
+            "JapaneseName": "狼",
+            "spriteName": "42-wolf"
+        },
+        {
+            
+            "id": 40,
+            "identifier":"Witch Hex",
+            "EnglishName": "Witch Hex",
+            "SpanishName": "Bruja maleficio",
+            "GermanName": "Hexenhexe",
+            "PortugeseName": "Bruxa Hex",
+            "ItalianName": "Strega strega Witch",
+            "ChineseName": "巫术",
+            "JapaneseName": "魔女の呪い",
+            "spriteName": "43-witch-hex"
+        },
+        {
+            
+            "id": 41,
+            "identifier":"Storybook",
+            "EnglishName": "Storybook",
+            "SpanishName": "Libro de cuentos",
+            "GermanName": "Märchenbuch",
+            "PortugeseName": "Livro de histórias",
+            "ItalianName": "Libro di storia",
+            "ChineseName": "故事书",
+            "JapaneseName": "ストーリーブック",
+            "spriteName": "44-storybook"
+        },
+        {
+            
+            "id": 42,
+            "identifier":"Detective",
+            "EnglishName": "Detective",
+            "SpanishName": "La detective",
+            "GermanName": "Detektivin",
+            "PortugeseName": "Detetive",
+            "ItalianName": "Detective",
+            "ChineseName": "侦探",
+            "JapaneseName": "探偵",
+            "spriteName": "45-detective"
+        },
+        {
+            
+            "id": 43,
+            "identifier":"Romani",
+            "EnglishName": "Romani",
+            "SpanishName": "Gitana",
+            "GermanName": "Roma",
+            "PortugeseName": "Cigana",
+            "ItalianName": "romani",
+            "ChineseName": "罗姆语",
+            "JapaneseName": "ロマニー",
+            "spriteName": "46-romani"
+        },
+        {
+            
+            "id": 44,
+            "identifier":"Collaborative",
+            "EnglishName": "Collaborative",
+            "SpanishName": "Colaborativa",
+            "GermanName": "Kollaborativ",
+            "PortugeseName": "Colaborativa",
+            "ItalianName": "Collaborativa",
+            "ChineseName": "协作的",
+            "JapaneseName": "コラボレーティブ",
+            "spriteName": "47-collaborative"
+        },
+        {
+            
+            "id": 45,
+            "identifier":"Mind Control",
+            "EnglishName": "Mind Control",
+            "SpanishName": "Control mental",
+            "GermanName": "Bewusstseinskontrolle",
+            "PortugeseName": "Controle mental",
+            "ItalianName": "Controllo mentale",
+            "ChineseName": "精神控制",
+            "JapaneseName": "マインドコントロール",
+            "spriteName": "48-mind-control"
+        },
+        {
+            
+            "id": 46,
+            "identifier":"Brick",
+            "EnglishName": "Brick",
+            "SpanishName": "Ladrillo",
+            "GermanName": "Backstein",
+            "PortugeseName": "Tijolo",
+            "ItalianName": "mattone",
+            "ChineseName": "砖",
+            "JapaneseName": "レンガ",
+            "spriteName": "49-brick"
+        },
+        {
+            
+            "id": 47,
+            "identifier":"Radioactivity",
+            "EnglishName": "Radioactivity",
+            "SpanishName": "Radioactividad",
+            "GermanName": "Radioaktivität",
+            "PortugeseName": "Radioatividade",
+            "ItalianName": "Radioattività",
+            "ChineseName": "放射性",
+            "JapaneseName": "放射能",
+            "spriteName": "50-radioactivity"
+        },
+        {
+            
+            "id": 48,
+            "identifier":"Electricity",
+            "EnglishName": "Electricity",
+            "SpanishName": "Electricidad",
+            "GermanName": "Elektrizität",
+            "PortugeseName": "Eletricidade",
+            "ItalianName": "Elettricità",
+            "ChineseName": "电",
+            "JapaneseName": "電気",
+            "spriteName": "51-electricity"
+        },
+        {
+            
+            "id": 49,
+            "identifier":"Maladjustment",
+            "EnglishName": "Maladjustment",
+            "SpanishName": "Inadaptación",
+            "GermanName": "Fehleinstellung",
+            "PortugeseName": "Desajustamento",
+            "ItalianName": "disadattamento",
+            "ChineseName": "不适应",
+            "JapaneseName": "不適応",
+            "spriteName": "52-maladjustment"
+        },
+        {
+            
+            "id": 50,
+            "identifier":"Self",
+            "EnglishName": "Self",
+            "SpanishName": "Uno mismo",
+            "GermanName": "Selbst",
+            "PortugeseName": "Auto",
+            "ItalianName": "Se stesso",
+            "ChineseName": "自己",
+            "JapaneseName": "自己",
+            "spriteName": "53-self"
+        },
+        {
+            
+            "id": 51,
+            "identifier":"Spouse",
+            "EnglishName": "Spouse",
+            "SpanishName": "Esposa",
+            "GermanName": "Ehepartnerin",
+            "PortugeseName": "Cônjuge",
+            "ItalianName": "Sposa",
+            "ChineseName": "配偶",
+            "JapaneseName": "配偶者",
+            "spriteName": "54-spouse"
+        },
+        {
+            
+            "id": 52,
+            "identifier":"Caretaker",
+            "EnglishName": "Caretaker",
+            "SpanishName": "Caretaker",
+            "GermanName": "Hausmeisterin",
+            "PortugeseName": "Zeladora",
+            "ItalianName": "Custode",
+            "ChineseName": "看门人",
+            "JapaneseName": "世話人",
+            "spriteName": "55-caretaker"
+        },
+        {
+            
+            "id": 53,
+            "identifier":"Servant",
+            "EnglishName": "Servant",
+            "SpanishName": "Servidora",
+            "GermanName": "Dienerin",
+            "PortugeseName": "Serva",
+            "ItalianName": "Serva",
+            "ChineseName": "仆人",
+            "JapaneseName": "サーバント",
+            "spriteName": "56-servant"
+        },
+        {
+            
+            "id": 54,
+            "identifier":"Spouse Servant",
+            "EnglishName": "Spouse Servant",
+            "SpanishName": "Sirvienta",
+            "GermanName": "Ehepartner",
+            "PortugeseName": "Cônjuge Servo",
+            "ItalianName": "Coniuge Servo",
+            "ChineseName": "配偶仆人",
+            "JapaneseName": "配偶者の使用人",
+            "spriteName": "57-spouse-servant"
+        },
+        {
+            
+            "id": 55,
+            "identifier":"gain estate tile",
+            "EnglishName": "gain estate tile",
+            "SpanishName": "ganar tesela de finca",
+            "GermanName": "Nachlassplättchen erhalten",
+            "PortugeseName": "ganhar bloco de propriedade",
+            "ItalianName": "guadagna tessera immobiliare estate",
+            "ChineseName": "获得地产板块",
+            "JapaneseName": "不動産タイルを取得する",
+            "spriteName": "58-gain-estate-tile"
+        },{
+            
+            "id": 56,
+            "identifier":"gain vanity estate tile",
+            "EnglishName": "gain vanity estate tile",
+            "SpanishName": "ganar azulejo de estado de vanidad",
+            "GermanName": "Eitelkeitsgrundstück erhalten",
+            "PortugeseName": "ganhar bloco de propriedade de vaidade",
+            "ItalianName": "ottenere la tessera vanità immobiliare",
+            "ChineseName": "获得虚荣地砖",
+            "JapaneseName": "バニティエステートタイルを取得する",
+            "spriteName": "59-gain-vanity-estate-tile"
+        },
+        {
+           
+            "id": 57,
+            "identifier":"gain self",
+            "EnglishName": "gain self",
+            "SpanishName": "ganarme a sí mismo",
+            "GermanName": "selbst gewinnen",
+            "PortugeseName": "ganhar a si mesmo",
+            "ItalianName": "guadagnarsi",
+            "ChineseName": "获得自我",
+            "JapaneseName": "自己を得る",
+            "spriteName": "60-gain-self" 
+        },
+        {
+            
+            "id": 58,
+            "identifier":"gain spouse",
+            "EnglishName": "gain spouse",
+            "SpanishName": "Ganar esposa",
+            "GermanName": "Ehepartner gewinnen",
+            "PortugeseName": "ganhar esposo",
+            "ItalianName": "guadagnare coniuge",
+            "ChineseName": "获得配偶",
+            "JapaneseName": "配偶者を得る",
+            "spriteName": "61-gain-spouse"
+        },
+        {
+            
+            "id": 59,
+            "identifier":"VP",
+            "EnglishName": "VP",
+            "SpanishName": "VP",
+            "GermanName": "VP",
+            "PortugeseName": "VP",
+            "ItalianName": "VP",
+            "ChineseName": "副总裁",
+            "JapaneseName": "副社長",
+            "spriteName": "46-VP"
+        },
+        {
+            
+            "id": 60,
+            "identifier":"gain",
+            "EnglishName": "gain",
+            "SpanishName": "ganar",
+            "GermanName": "dazugewinnen",
+            "PortugeseName": "ganho",
+            "ItalianName": "guadagno",
+            "ChineseName": "获得",
+            "JapaneseName": "利得",
+            "spriteName": "64-gain-spouse-servant"
+        },
+        {
+            
+            "id": 61,
+            "identifier":"lose self",
+            "EnglishName": "lose self",
+            "SpanishName": "perderse",
+            "GermanName": "Selbst verlieren",
+            "PortugeseName": "perder a si mesmo",
+            "ItalianName": "perdersi",
+            "ChineseName": "失去自我",
+            "JapaneseName": "自己を失う",
+            "spriteName": "65-lose-self"
+        },
+        {
+            
+            "id": 62,
+            "identifier":"lose spouse",
+            "EnglishName": "lose spouse",
+            "SpanishName": "perder cónyuge",
+            "GermanName": "Ehepartner verlieren",
+            "PortugeseName": "perder cônjuge",
+            "ItalianName": "perdere il coniuge",
+            "ChineseName": "失去配偶",
+            "JapaneseName": "配偶者を失う",
+            "spriteName": "66-lose-spouse"
+        },
+        {
+            
+            "id": 63,
+            "identifier":"lose",
+            "EnglishName": "lose",
+            "SpanishName": "perder",
+            "GermanName": "verlieren",
+            "PortugeseName": "perder",
+            "ItalianName": "perdere",
+            "ChineseName": "失去",
+            "JapaneseName": "失う",
+            "spriteName": "69-lose-spouse-servant"
+        },
+        {
+            
+            "id": 64,
+            "identifier":"crown",
+            "EnglishName": "crown",
+            "SpanishName": "corona",
+            "GermanName": "Krone",
+            "PortugeseName": "coroa",
+            "ItalianName": "corona",
+            "ChineseName": "王冠",
+            "JapaneseName": "クラウン",
+            "spriteName": "40-crown"
+        }
+        
+
+    ]
+}

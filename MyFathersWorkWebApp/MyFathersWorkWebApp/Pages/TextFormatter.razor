@@ -1,0 +1,38 @@
+﻿@page "/TextFormatter"
+@using System.Text.RegularExpressions
+<h3 style="color: white">Text Formatter</h3>
+
+<textarea style="overflow: scroll; white-space: nowrap; background-color: #262626; color: #bdbdbd;" rows="35" cols="250" @bind="Text"></textarea>
+<button @onclick="Format">Format</button>
+
+@code 
+{
+    private string Text { get; set; } = string.Empty;
+
+    private void Format()
+    {
+        string[] lines     = Text.Split('\n');
+        string   formatted = "";
+
+        foreach (string line in lines)
+        {
+            if (line.Contains("Console.Write(\""))
+            {
+                formatted += line.TrimStart().Replace("Console.Write(\"", "").Replace("\");", "").Replace("\t", "");
+            }
+            else if (line.Contains("Console.Write("))
+            {
+                formatted += line.TrimStart().Replace("Console.Write(", "").Replace(");", "").Replace("\t", "");
+            }
+            else if (line.Contains("Console.WriteLine()"))
+            {
+                formatted += "<br />";
+            }
+        }
+
+        formatted = formatted.Replace("<bold>", "<b>").Replace("</bold>", "</b>").Replace("<italic>", "<i>").Replace("</italic>", "</i>");
+        formatted = Regex.Replace(formatted,  @"<sprite=\\""([A-Za-z0-9_]+)\\"" index=0>", "<icon=$1>");
+        formatted = formatted.Replace(";", " - ");
+        Text      = formatted;
+    }
+}

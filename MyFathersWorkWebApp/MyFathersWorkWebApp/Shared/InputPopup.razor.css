@@ -1,0 +1,76 @@
+﻿/* Overlay Same as InfoPopup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+/* Box */
+.popup-box.input-popup {
+    background-color: #d4bfa5;
+    border: 3px solid #2e1f14;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.8);
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Content */
+.input-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.input-content p {
+    color: #2e1f14;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Input Field */
+.input-field {
+    width: 180px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 3px solid #2e1f14;
+    border-radius: 8px;
+    background-color: #1f1f1f;
+    color: #f2c8a0;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
+/* Button */
+.popup-button {
+    margin-top: 1rem;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.2rem;
+    background-color: #3a5c3a;
+    color: #e0d3b8;
+    border: 3px solid #2e1f14;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    transition: transform 0.1s, background-color 0.3s;
+}
+
+.popup-button:hover {
+    background-color: #4e7b4e;
+    transform: scale(1.05);
+}
+
+.popup-button:active {
+    transform: scale(0.95);
+}

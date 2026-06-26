@@ -1,0 +1,224 @@
+﻿@page "/Gameplay"
+@using MyFathersWorkWebApp.Shared
+@inject IJSRuntime        Js
+@inject NavigationManager Nav
+@inject HttpClient        Http
+
+<div class="header-buttons" xmlns="http://www.w3.org/1999/html">
+    <button class="back-button" disabled="@GlobalData.IsUndoDisabled" @onclick="GoBack">⬅</button>
+    <button class="pause-button" @onclick="Pause">⏸</button>
+</div>
+
+<SaveNotification Visible="@_ShowSaveNotification" GlobalData="GlobalData"/>
+
+<div class="round-tracker">
+    @for (int i = 0; i < _RoundLabels.Length; i++)
+    {
+        bool isFuture = i > CurrentRoundIndex;
+        string genClass = i switch
+        {
+            <= 2 => "generation1",
+            <= 5 => "generation2",
+            <= 8 => "generation3",
+            _    => ""
+        };
+
+        <div class="round-step @(genClass) @(isFuture ? "future" : "") @(i == CurrentRoundIndex ? "current" : "")">
+            @_RoundLabels[i]
+        </div>
+    }
+</div>
+
+<div class="gameplay-container">
+
+    @if (GlobalData.ActivePopup == null && GlobalData.ActiveInputPopup == null && GlobalData.ActiveWindow != null)
+    {
+        _SaveGame = true;
+        <h1>@GlobalData.ActiveWindow.Title.InsertImages().AsMarkup()</h1>
+
+        @if (GlobalData.ActiveWindow.Subtitle != string.Empty)
+        {
+            <h2>@GlobalData.ActiveWindow.Subtitle.InsertImages().AsMarkup()</h2>
+        }
+
+        <div class="parchment-box">
+            @foreach (GameplayElement element in GlobalData.ActiveWindow.Elements)
+            {
+                if (element.FromNewLine)
+                {
+                    <br/>
+                    <br/>
+                }
+
+                if (element.Callback == null)
+                {
+                    @element.Content.InsertImages().AsMarkup()
+                }
+                else
+                {
+                    <a @onclick="() => InvokeWindowCallback(element.Callback)">[@element.Content]</a>
+                }
+            }
+        </div>
+    }
+    else if (GlobalData.ActivePopup == null && GlobalData.ActiveInputPopup == null && GlobalData.ActiveHub != null)
+    {
+        if (_SaveGame)
+        {
+            GlobalData.TmpValues.Clear();
+            SaveGameAsync();
+            _SaveGame = false;
+        }
+
+        <h1>@GlobalData.ActiveHub.Title.InsertImages().AsMarkup()</h1>
+
+        @if (GlobalData.ActiveHub.Subtitle != string.Empty)
+        {
+            <h2>@GlobalData.ActiveHub.Subtitle.InsertImages().AsMarkup()</h2>
+        }
+
+        foreach (GameplayHubSection hubSection in GlobalData.ActiveHub.Sections)
+        {
+            @if (hubSection.ShouldShow())
+            {
+                <div class="@(hubSection.Main ? "main-panel" : "section-panel")">
+                    @if (hubSection.Main)
+                    {
+                        <h3>@hubSection.Title.InsertImages().AsMarkup()</h3>
+                    }
+                    else
+                    {
+                        <h4>@hubSection.Title.InsertImages().AsMarkup()</h4>
+                    }
+
+                    @foreach (GameplayElement element in hubSection.Elements)
+                    {
+                        if (element.FromNewLine)
+                        {
+                            <br/>
+                            <br/>
+                        }
+
+                        if (element.Callback == null)
+                        {
+                            @element.Content.InsertImages().AsMarkup()
+                        }
+                        else
+                        {
+                            <a class="gameplay-link"
+                               @onclick="() => InvokeWindowCallback(element.Callback)">[@element.Content]</a>
+                        }
+                    }
+                </div>
+            }
+        }
+    }
+
+</div>
+
+@if (GlobalData.ActivePopup != null)
+{
+    _SaveGame = true;
+    <InfoPopup GlobalData=@GlobalData GameplayPopUp=@GlobalData.ActivePopup Refresh=Refresh/>
+}
+
+@if (GlobalData.ActiveInputPopup != null)
+{
+    _SaveGame = true;
+    <InputPopup GlobalData=@GlobalData GameplayPopUp=@GlobalData.ActiveInputPopup Refresh=Refresh/>
+}
+
+<PauseMenu 
+    Visible="@_ShowPauseMenu"
+    OnResume="HidePauseMenu"
+    OnShowSavePopup="TriggerSavePopup"
+    GlobalData="@GlobalData"
+    IsThereAnySavedState="@_IsThereAnySavedState"/>
+
+<SavePopup 
+    Visible="@_ShowSavePopup" 
+    Base64Save="@_Base64EncodedGame" 
+    OnBack="HideSavePopup"
+    GlobalData="@GlobalData"/>
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private bool   _SaveGame;
+    private bool   _ShowSaveNotification;
+    private bool   _ShowPauseMenu;
+    private bool   _IsThereAnySavedState;
+    private bool   _ShowSavePopup;
+    private string _Base64EncodedGame = string.Empty;
+
+    private readonly string[] _RoundLabels =
+    [
+        "I - 1", "I - 2", "I - 3",
+        "II - 1", "II - 2", "II - 3",
+        "III - 1", "III - 2", "III - 3"
+    ];
+
+    private int CurrentRoundIndex => (int)GlobalData.Generation * 3 + (int)GlobalData.Years;
+    
+    private void HidePauseMenu() => _ShowPauseMenu = false;
+    
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        if (GlobalData.ActiveHub != null || GlobalData.ActiveWindow != null || GlobalData.ActivePopup != null || GlobalData.ActiveInputPopup != null) return;
+        await GlobalData.LoadGameAsync(string.Empty, Nav, Http, Js);
+    }
+    
+    private async Task TriggerSavePopup()
+    {
+        _ShowPauseMenu     = false;
+        _ShowSavePopup     = true;
+        _Base64EncodedGame = await Js.InvokeAsync<string>("localStorage.getItem", "continue");
+        StateHasChanged();
+    }
+
+    private void HideSavePopup()
+    {
+        _ShowSavePopup = false;
+        _ShowPauseMenu = true;
+        StateHasChanged();
+    }
+
+    private void GoBack()
+    {
+        GlobalData.Undo();
+        StateHasChanged();
+    }
+
+    private async void Pause()
+    {
+        string? saveState = await Js.InvokeAsync<string?>("localStorage.getItem", "continue");
+        _IsThereAnySavedState = !string.IsNullOrEmpty(saveState);
+        _ShowPauseMenu        = true;
+        StateHasChanged();
+    }
+
+    private void Refresh()
+    {
+        StateHasChanged();
+    }
+
+    private async void SaveGameAsync()
+    {
+        GlobalData.SaveGame(Js);
+
+        _ShowSaveNotification = true;
+        StateHasChanged();
+
+        await Task.Delay(3000);
+        _ShowSaveNotification = false;
+        StateHasChanged();
+    }
+
+    private void InvokeWindowCallback(Action<GlobalData> nextCallback)
+    {
+        GlobalData.ActiveWindow = null;
+        nextCallback.Invoke(GlobalData);
+    }
+}

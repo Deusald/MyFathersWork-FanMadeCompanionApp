@@ -1,0 +1,110 @@
+﻿@page "/PlayersNameEntry/{PlayerIndex:int}"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="name-entry-container">
+    <div class="instruction-box">
+        ⚠️ @GlobalData.GetLocalizedUITag(GlobalTags.PlayersNameEntry_Title).FormatWithIndex(0, PlayerIndex).AsMarkup()
+    </div>
+
+    <div class="prompt">
+        @GlobalData.GetLocalizedUITag(GlobalTags.PlayersNameEntry_SubTitle).FormatWithIndex(0, PlayerIndex).AsMarkup()
+    </div>
+
+    <input class="name-input" @bind="_PlayerName" placeholder="@GlobalData.GetLocalizedUITag(GlobalTags.PlayersNameEntry_Placeholder)"/>
+
+    <button class="continue-button" @onclick="Continue">
+        @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Continue)
+    </button>
+</div>
+
+@if (_ShowPopup)
+{
+    <div class="popup-overlay">
+        <div class="popup-box">
+            <p>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersNameEntry_PopUp)</p>
+            <button @onclick="ClosePopup">OK</button>
+        </div>
+    </div>
+}
+
+@if (_ShowPopUp2)
+{
+    <div class="popup-overlay">
+        <div class="popup-box">
+            <p>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersNameEntry_PopUp2)</p>
+            <button @onclick="ClosePopup">OK</button>
+        </div>
+    </div>
+}
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+    
+    [Parameter] public int PlayerIndex { get; set; }
+
+    private string _PlayerName = string.Empty;
+    private bool   _ShowPopup;
+    private bool   _ShowPopUp2;
+
+    private void GoBack()
+    {
+        Nav.NavigateTo(PlayerIndex == 0 ? "PlayersInitial" : $"PlayersWelcome/{PlayerIndex - 1}");
+    }
+
+    private void Continue()
+    {
+        if (_PlayerName.Length < 2 || _PlayerName.Length > 15)
+        {
+            _ShowPopup = true;
+            return;
+        }
+
+        for (int x = 0; x < PlayerIndex; ++x)
+        {
+            if (!string.Equals(GlobalData.GetPlayerNameByIndex(x), _PlayerName, StringComparison.CurrentCultureIgnoreCase)) continue;
+            _ShowPopUp2 = true;
+            return;
+        }
+
+        switch (PlayerIndex)
+        {
+            case 0:
+            {
+                GlobalData.PlayerAName = _PlayerName;
+                break;
+            }
+            case 1:
+            {
+                GlobalData.PlayerBName = _PlayerName;
+                break;
+            }
+            case 2:
+            {
+                GlobalData.PlayerCName = _PlayerName;
+                break;
+            }
+            case 3:
+            {
+                GlobalData.PlayerDName = _PlayerName;
+                break;
+            }
+            default:
+            {
+                Nav.NavigateTo("");
+                break;
+            }
+        }
+        
+        Nav.NavigateTo($"PlayersWelcome/{PlayerIndex}");
+    }
+    
+    private void ClosePopup()
+    {
+        _ShowPopup = false;
+    }
+}

@@ -1,0 +1,31 @@
+﻿.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(30, 30, 30, 0.95);
+    color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    z-index: 1000;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.cookie-buttons {
+    margin-top: 0.5rem;
+}
+
+.cookie-buttons button {
+    margin: 0 0.5rem;
+    padding: 0.4rem 1rem;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cookie-buttons button:last-child {
+    background-color: #f44336;
+}

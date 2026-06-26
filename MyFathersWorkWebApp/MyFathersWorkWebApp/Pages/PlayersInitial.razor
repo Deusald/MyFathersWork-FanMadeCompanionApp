@@ -1,0 +1,33 @@
+﻿@page "/PlayersInitial"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="initial-players-container">
+    <div class="text-box">
+        <p>
+            @GlobalData.GetLocalizedUITag(GlobalTags.PlayersInitial_Content).FormatWithIndex(0, GlobalData.LocalizedPlayerNumberIndex()).AsMarkup()
+        </p>
+    </div>
+
+    <button class="continue-button" @onclick="Continue">
+        @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Continue)
+    </button>
+</div>
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private void GoBack()
+    {
+        Nav.NavigateTo("PlayersSelect");
+    }
+
+    private void Continue()
+    {
+        Nav.NavigateTo("PlayersNameEntry/0");
+    }
+}

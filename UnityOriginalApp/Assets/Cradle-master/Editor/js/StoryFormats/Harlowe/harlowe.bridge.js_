@@ -1,0 +1,109 @@
+(function() {
+	'use strict';
+
+	var phantomExit = function(result) {
+		if (window.callPhantom)
+			window.callPhantom(result);
+		else
+			console.error('UnityTwine: PhantomJS context not available.');
+	};
+
+	var $storydata = $('tw-storydata');
+	if (!$storydata.length)
+	{
+		console.error("The file is not a valid Twine 2 story.");
+		phantomExit();
+		return;
+	}
+	if ($storydata.attr("format") != "Harlowe")
+	{
+		console.error("The story was not created with the Harlowe story format.");
+		phantomExit();
+		return;
+	}
+
+	var htmlDecoder = document.createElement('textarea');
+	function htmlDecode(text)
+	{
+		htmlDecoder.innerHTML = text;
+		return htmlDecoder.value
+			.replace(/\\n/g, "\n")
+			.replace(/\\t/g, "\t");
+	}
+
+	window.unityTwineHarloweBridge = function($, require) {
+
+		require(['markup', 'utils'], function(TwineMarkup, utils){
+			"use strict";
+
+			function simplify(tokens) {
+				var result = [];
+				for (var i = 0; i < tokens.length; i++) {
+					var complex = tokens[i];
+					var simple = {};
+
+					// // special cases
+					// switch(complex.type) {
+					// 	case "twineLink": {
+					// 		// Desugar links
+					// 		complex = TwineMarkup.lex("(link-goto:"
+					// 			+ utils.toJSLiteral(complex.innerText) + ","
+					// 			+ utils.toJSLiteral(complex.passage) + ")"
+					// 		).children[0];
+					// 		break;
+					// 	}
+					// }
+
+					simple.type = complex.type;
+
+					if (complex.children && complex.children.length && complex.type !== 'string' && complex.type !== 'verbatim')
+						simple.tokens = simplify(complex.children);
+					if (complex.text)
+						simple.text = htmlDecode(complex.text);
+					if (complex.innerText)
+						simple.innerText = htmlDecode(complex.innerText);
+					if (complex.value)
+						simple.value = complex.value;
+					if (complex.align)
+						simple.align = complex.align;
+					if (complex.depth)
+						simple.depth = complex.depth;
+					if (complex.passage)
+						simple.passage = complex.passage;
+					if (complex.name)
+						simple.name = complex.type === "macro" ?
+							utils.insensitiveName(complex.name) :
+							complex.name;
+
+					result.push(simple);
+				}
+				return result;
+			}
+
+			var result = {
+				startPid: $('tw-storydata').attr('startnode'),
+				passages:[]
+			};
+
+			$('tw-passagedata').each(function(i,p){
+				var $p = $(p);
+				var passage = {
+					Pid: $p.attr('pid'),
+					Name: htmlDecode($p.attr('name')),
+					Tags: htmlDecode($p.attr('tags')),
+					Tokens: simplify(TwineMarkup.lex(htmlDecode($p.html())).children)
+				};
+				result.passages.push(passage);
+			});
+
+			phantomExit(result);
+		});
+	};
+
+	var req = $('<script/>')
+		.attr('role', 'script')
+		.attr('id', 'unitytwine-bridge')
+		.attr('type', 'text/twine-javascript')
+		.html("window.unityTwineHarloweBridge($, require);")
+		.insertBefore('#twine-user-script');
+}());

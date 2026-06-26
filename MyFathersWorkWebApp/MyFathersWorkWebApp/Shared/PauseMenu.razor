@@ -1,0 +1,96 @@
+﻿@using Newtonsoft.Json
+@inject NavigationManager Nav
+@inject IJSRuntime        Js
+
+@if (Visible)
+{
+    <div class="pause-menu-overlay">
+        <div class="pause-menu">
+            <h2>@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_PauseMenu)</h2>
+
+            <button class="pause-button"
+                    @onclick="OnResume">@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_Resume)</button>
+            <button class="pause-button"
+                    @onclick="OnReturnToMainMenu">@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_ReturnToMainMenu)</button>
+
+            @if (IsThereAnySavedState)
+            {
+                <button class="pause-button"
+                        @onclick="ShowSavePopup">@GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_LocalSaveGame)</button>
+
+                <div class="dropdowns">
+                    <div>
+                        <label>@GlobalData!.GetLocalizedUITag(GlobalTags.MainMenu_Language)</label>
+                        <select value="@GlobalData.Language" @onchange="OnLanguageChanges">
+                            @foreach (string lang in GlobalData.UI_Localization.Keys)
+                            {
+                                <option value="@lang">@GlobalData.GetLocalizedUITag(lang)</option>
+                            }
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>@GlobalData.GetLocalizedUITag(GlobalTags.ScenarioLanguage_Title)</label>
+                        <select value="@GlobalData.ScenarioLanguage" @onchange="OnScenarioLanguageChanges">
+                            @foreach (string lang in GlobalData.OtherPossibleScenarioLanguages)
+                            {
+                                <option value="@lang">@GlobalData.GetLocalizedUITag("ScenarioLang_" + lang)</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public bool          Visible              { get; set; }
+    [Parameter] public EventCallback OnResume             { get; set; }
+    [Parameter] public EventCallback OnShowSavePopup      { get; set; }
+    [Parameter] public GlobalData?   GlobalData           { get; set; }
+    [Parameter] public bool          IsThereAnySavedState { get; set; }
+
+    private Task ShowSavePopup() => OnShowSavePopup.InvokeAsync();
+
+    private void OnReturnToMainMenu()
+    {
+        Nav.NavigateTo("");
+    }
+
+    private async Task OnLanguageChanges(ChangeEventArgs e)
+    {
+        string base64 = await Js.InvokeAsync<string>("localStorage.getItem", "continue");
+        string json   = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(base64));
+        JsonSerializerSettings settings = new JsonSerializerSettings
+        {
+            ObjectCreationHandling = ObjectCreationHandling.Reuse,
+            NullValueHandling      = NullValueHandling.Ignore
+        };
+        GlobalData savedData = new GlobalData();
+        JsonConvert.PopulateObject(json, savedData, settings);
+        savedData.Language = e.Value!.ToString()!;
+        string newJson = JsonConvert.SerializeObject(savedData, Formatting.Indented);
+        await Js.InvokeVoidAsync("localStorage.setItem", "continue", Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(newJson)));
+        Nav.NavigateTo(Nav.Uri, true);
+    }
+
+    private async Task OnScenarioLanguageChanges(ChangeEventArgs e)
+    {
+        string base64 = await Js.InvokeAsync<string>("localStorage.getItem", "continue");
+        string json   = System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(base64));
+        JsonSerializerSettings settings = new JsonSerializerSettings
+        {
+            ObjectCreationHandling = ObjectCreationHandling.Reuse,
+            NullValueHandling      = NullValueHandling.Ignore
+        };
+        GlobalData savedData = new GlobalData();
+        JsonConvert.PopulateObject(json, savedData, settings);
+        savedData.ScenarioLanguage = e.Value!.ToString()!;
+        string newJson = JsonConvert.SerializeObject(savedData, Formatting.Indented);
+        await Js.InvokeVoidAsync("localStorage.setItem", "continue", Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(newJson)));
+        Nav.NavigateTo(Nav.Uri, true);
+    }
+
+}

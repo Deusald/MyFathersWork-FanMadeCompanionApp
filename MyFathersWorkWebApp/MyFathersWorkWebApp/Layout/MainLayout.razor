@@ -1,0 +1,20 @@
+﻿@using MyFathersWorkWebApp.Shared
+@inherits LayoutComponentBase
+@inject HttpClient Http
+
+<CascadingValue Value="@_GlobalData">
+    @Body
+</CascadingValue>
+
+<CookieConsent />
+<div class="app-version">v0.1.0</div>
+
+@code
+{
+    private readonly GlobalData _GlobalData = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        (await Http.GetStringAsync("localization/UI_Localization.csv")).ProcessLocalizationFile(_GlobalData.UI_Localization);
+    }
+}

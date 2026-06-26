@@ -1,0 +1,12 @@
+Hi there!
+Text Animator is already integrated with:
+
+-"Dialogue System for Unity"
+-"Yarn Spinner"
+-The packages you find in this folder, like "PlayMaker".
+& More!
+
+Please read the documentation to discover all supported assets, how to integrate them etc.
+-In case the plugin that you're using is not already supported, you can read how to support it in the documentation.
+
+Have a lovely day!

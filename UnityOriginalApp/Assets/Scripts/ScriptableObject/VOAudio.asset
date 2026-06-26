@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c72bf445519ec4fb5a0280c4ce128a9d, type: 3}
+  m_Name: VOAudio
+  m_EditorClassIdentifier: 
+  MaleAudioDatas:
+  - PassageName: IntroMartial-Monarchists
+    clip: {fileID: 8300000, guid: 6b07110ff39c945b2b3d0089f3614930, type: 3}
+  - PassageName: IntroMartial-Separatists
+    clip: {fileID: 8300000, guid: a30331f60dbf4474b94ad66cf68784c5, type: 3}
+  - PassageName: IsolationIntro
+    clip: {fileID: 8300000, guid: b7039dfbef9054dfdba27c059f7b603e, type: 3}
+  - PassageName: LiberalIntro
+    clip: {fileID: 8300000, guid: 9f64e47bc6ccb43bca07cc210a68e87b, type: 3}
+  - PassageName: MonarchReignIntro
+    clip: {fileID: 8300000, guid: 432399ae1cb764cc1b33478b8775112d, type: 3}
+  - PassageName: NoUniversityIntro
+    clip: {fileID: 8300000, guid: d687351ec49ea4e518b028451eb77267, type: 3}
+  - PassageName: WarningIntro
+    clip: {fileID: 8300000, guid: 42d9405e6b4b145e9af1d0e83694f1a6, type: 3}
+  - PassageName: ParadoxIntro
+    clip: {fileID: 8300000, guid: 42d9405e6b4b145e9af1d0e83694f1a6, type: 3}
+  - PassageName: PeaceIntro
+    clip: {fileID: 8300000, guid: d72559aaf957b4fadb4f6c15e08856d6, type: 3}
+  - PassageName: PrivatizedIntro
+    clip: {fileID: 8300000, guid: 394d3bcf171694cd3a1dddff78500c08, type: 3}
+  - PassageName: ProsperityHunterIntro
+    clip: {fileID: 8300000, guid: 1d1f2f34b9fd84667b1eaef840051a59, type: 3}
+  - PassageName: ProsperityWolvesIntro
+    clip: {fileID: 8300000, guid: dbe218c06af804de6bdcf731d8ff451a, type: 3}
+  - PassageName: WarningEvent
+    clip: {fileID: 8300000, guid: b190cd446586140f8824aea66182f2ca, type: 3}
+  - PassageName: Scenario5Start
+    clip: {fileID: 8300000, guid: 840c565039ede4d13931d255612f965e, type: 3}
+  - PassageName: TensionIntro
+    clip: {fileID: 8300000, guid: 26077a97f401542f79dcf082ded4fade, type: 3}
+  - PassageName: TimeTravelintro1
+    clip: {fileID: 8300000, guid: 724c83313ac71485eb4b38293c3067d8, type: 3}
+  - PassageName: TimeTravelIntro2
+    clip: {fileID: 8300000, guid: 8b0535a06e70f49358e39c4a34e2f924, type: 3}
+  - PassageName: TTIntro3
+    clip: {fileID: 8300000, guid: 8f2834e1f603c4bf3af2a337df0d2d65, type: 3}
+  - PassageName: UniversityIntro
+    clip: {fileID: 8300000, guid: 4cc8bfd01511743fc91b9bddf9bbd1d1, type: 3}
+  - PassageName: CreatureDemands
+    clip: {fileID: 8300000, guid: 0557809a633284f88a8d0cfbb7d6c11a, type: 3}
+  - PassageName: DevastationIntro
+    clip: {fileID: 8300000, guid: 84d919c405ba340ac84b445373c62f4d, type: 3}
+  - PassageName: FearoftheUnknownStart
+    clip: {fileID: 8300000, guid: 1d55d817da5d94be2bf5ef0512e068cc, type: 3}
+  - PassageName: ForeignIntro
+    clip: {fileID: 8300000, guid: 552bf55a399dd46b99d1f295ff499722, type: 3}
+  - PassageName: GloomyHunterIntro
+    clip: {fileID: 8300000, guid: 113874a190a29498eb6615badf90859f, type: 3}
+  - PassageName: GloomyWolvesIntro
+    clip: {fileID: 8300000, guid: 2eb0c1a5146d44c519c6cbd11e4dc068, type: 3}
+  - PassageName: Hospitalintro
+    clip: {fileID: 8300000, guid: 681c0777912004f45a1c5aa044d2636a, type: 3}
+  - PassageName: ATimeofWarIntro
+    clip: {fileID: 8300000, guid: 4fad3f70deea24cac9eb72543efe9150, type: 3}
+  - PassageName: CreatureIntro
+    clip: {fileID: 8300000, guid: 59b0d8da9d74d462f9c206fd675b4476, type: 3}
+  FemaleAudioDatas:
+  - PassageName: ATimeofWarIntro
+    clip: {fileID: 8300000, guid: 004afc26ab96a45e6b45aa71f0ebdf8f, type: 3}
+  - PassageName: CreatureDemands
+    clip: {fileID: 8300000, guid: a2041ed76d2a3459c86f751a9a4d1e56, type: 3}
+  - PassageName: CreatureIntro
+    clip: {fileID: 8300000, guid: ac3560d504c28431c800719b79c9bb80, type: 3}
+  - PassageName: DevastationIntro
+    clip: {fileID: 8300000, guid: 73c1ef522471b401b828f2f352ee9ab0, type: 3}
+  - PassageName: FearoftheUnknownStart
+    clip: {fileID: 8300000, guid: 0120e735ad0d342aa9db57febcd97c17, type: 3}
+  - PassageName: ForeignIntro
+    clip: {fileID: 8300000, guid: 5e22c0552f58f4f9d894089aa46c1498, type: 3}
+  - PassageName: ProsperityHunterIntro
+    clip: {fileID: 8300000, guid: 2f0a180f69312482985ec0a3a09a720b, type: 3}
+  - PassageName: Hospitalintro
+    clip: {fileID: 8300000, guid: 68001cfad449d49f49f20e00edb4af59, type: 3}
+  - PassageName: IntroMartial-Monarchists
+    clip: {fileID: 8300000, guid: 6688ea980a5cb4a42b8f6142cbfc3911, type: 3}
+  - PassageName: IntroMartial-Separatists
+    clip: {fileID: 8300000, guid: bc027265e408f4aad9b25aac3d7675b3, type: 3}
+  - PassageName: IsolationIntro
+    clip: {fileID: 8300000, guid: 5e157da7405a84dc2b23d141103b1193, type: 3}
+  - PassageName: LiberalIntro
+    clip: {fileID: 8300000, guid: 3eeb0c5cd684b4d1aa07977c84b3c370, type: 3}
+  - PassageName: MonarchReignIntro
+    clip: {fileID: 8300000, guid: 5be6688097ff943588970327a15feda1, type: 3}
+  - PassageName: NoUniversityIntro
+    clip: {fileID: 8300000, guid: 1a8d8970c763d488d8e20ce708b580e6, type: 3}
+  - PassageName: PeaceIntro
+    clip: {fileID: 8300000, guid: 8cd6d62e4c6f44b5094fe8e45ecbf0a6, type: 3}
+  - PassageName: PrivatizedIntro
+    clip: {fileID: 8300000, guid: fe2ac536d0aa3447ebfe26b1bb12e9cd, type: 3}
+  - PassageName: ProsperityWolvesIntro
+    clip: {fileID: 8300000, guid: 43bd97a541c7f471e8ebb19908b378cb, type: 3}
+  - PassageName: Scenario5Start
+    clip: {fileID: 8300000, guid: e58825149ec614c7496db5e0486b821a, type: 3}
+  - PassageName: TensionIntro
+    clip: {fileID: 8300000, guid: 034becd7653fd4c919dcd6042939a06c, type: 3}
+  - PassageName: TimeTravelintro1
+    clip: {fileID: 8300000, guid: 5ea5370690f5041068f651e287c407d1, type: 3}
+  - PassageName: TimeTravelIntro2
+    clip: {fileID: 8300000, guid: 540175bfb986f4f3b82060ca55a18eab, type: 3}
+  - PassageName: TTIntro3
+    clip: {fileID: 8300000, guid: 20b49e004a14b465b9fac27572e6b5ef, type: 3}
+  - PassageName: UniversityIntro
+    clip: {fileID: 8300000, guid: 4687d173a4f6d43faa6d24d626c9cd0c, type: 3}
+  - PassageName: WarningEvent
+    clip: {fileID: 8300000, guid: 4c224e54b7ffd479b901b55a0b758f79, type: 3}
+  - PassageName: WarningIntro
+    clip: {fileID: 8300000, guid: f77e3d6faab9b4e019fd4e01344e4b93, type: 3}
+  - PassageName: ParadoxIntro
+    clip: {fileID: 8300000, guid: f77e3d6faab9b4e019fd4e01344e4b93, type: 3}
+  - PassageName: GloomyHunterIntro
+    clip: {fileID: 8300000, guid: c23ece11a3869481c889e0e94b5518e7, type: 3}
+  - PassageName: GloomyWolvesIntro
+    clip: {fileID: 8300000, guid: 0311b4ad612d44b57b1182356b89866c, type: 3}

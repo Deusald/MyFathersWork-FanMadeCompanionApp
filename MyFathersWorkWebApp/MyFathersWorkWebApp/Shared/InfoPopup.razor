@@ -1,0 +1,37 @@
+﻿<div class="popup-overlay">
+    <div class="popup-box">
+        <div class="popup-content">
+            @if (!string.IsNullOrEmpty(GameplayPopUp.ImageSrc))
+            {
+                <div class="popup-image-wrapper">
+                    <img class="popup-image" src="@FullImagePath" alt="@GameplayPopUp.Title"/>
+                </div>
+            }
+
+            <div class="popup-text">
+                <h2>@GameplayPopUp.Title.InsertImages().AsMarkup()</h2>
+                <p>@GameplayPopUp.Description.InsertImages().AsMarkup()</p>
+            </div>
+        </div>
+
+        <button class="popup-button" @onclick="OnAcceptClicked">
+            @GameplayPopUp.ButtonText
+        </button>
+    </div>
+</div>
+
+@code
+{
+    [Parameter] public GameplayPopup GameplayPopUp { get; set; } = null!;
+    [Parameter] public GlobalData    GlobalData    { get; set; } = null!;
+    [Parameter] public Action        Refresh       { get; set; } = null!;
+
+    private string FullImagePath => $"./images/setup/{GameplayPopUp.ImageSrc}.png";
+
+    private void OnAcceptClicked()
+    {
+        GlobalData.ActivePopup = null;
+        GameplayPopUp.OnClose(GlobalData);
+        Refresh();
+    }
+}

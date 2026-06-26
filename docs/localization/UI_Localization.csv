@@ -1,0 +1,91 @@
+﻿Tag;English;Polish
+//====== Main Menu ======;;
+MainMenu_NewGame;New Game;Nowa Gra
+MainMenu_LoadGame;Load Game;Wczytaj Grę
+MainMenu_Continue;Continue;Kontynuuj
+MainMenu_Language;Language;Język
+MainMenu_Back;Back;Wróć
+MainMenu_PasteSaveDataHere;Paste saved game data here...;Wklej dane zapisanej gry tutaj...
+MainMenu_FanMade;This is a fan-made project and is not affiliated with Renegade Game Studios or Hasbro.;Jest to projekt fanowski i nie jest on powiązany z Renegade Game Studios ani Hasbro.
+//====== Languages ======;;
+English;English;Angielski
+Polish;Polish;Polski
+//====== Players Select Screen ======;;
+PlayersSelect_Title;Players;Gracze
+PlayersSelect_SubTitle;How many individuals will be sharing this experience today?;Ile osób będzie dziś dzielić to doświadczenie?
+PlayersSelect_Two;2 Players;2 Graczy
+PlayersSelect_Three;3 Players;3 Graczy
+PlayersSelect_Four;4 Players;4 Graczy
+//====== Players Initial Screen ======;;
+PlayersInitial_Content;As siblings of an influential family of Eastern European descent, the <b>{{0=|two|three|four}}</b> of us have received a not-insignificant portion of our family's estate.<br /><br /> Before we begin, let us make this historical fiction more engaging by providing our names.;Jako rodzeństwo wpływowej rodziny pochodzenia wschodnioeuropejskiego, nasza <b>{{0=|dwójka|trójka|czwórka}}</b> otrzymała niemałą część rodzinnego majątku.<br /><br /> Zanim zaczniemy, uczyńmy tę historyczną fikcję bardziej wciągającą, podając nasze imiona.
+//====== Players Name Entry Screen ======;;
+PlayersNameEntry_Title;Carefully pass the storybook to Player {{0=|A|B|C|D}};Ostrożnie przekaż księgę graczowi {{0=|A|B|C|D}}
+PlayersNameEntry_SubTitle;Player {{0=|A|B|C|D}} – Please enter your given name:;Gracz {{0=|A|B|C|D}} - Podaj swoje imię:
+PlayersNameEntry_Placeholder;Enter name...;Wprowadź imię...
+PlayersNameEntry_PopUp;The name must be between 2 and 15 characters.;Imię musi zawierać od 2 do 15 znaków.
+PlayersNameEntry_PopUp2;Each player name must be unique.;Każde imię gracza musi być unikatowe.
+//====== Players Welcome Screen ======;;
+PlayersWelcome_First;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Our warmest regards.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Nasze najserdeczniejsze pozdrowienia.
+PlayersWelcome_Second;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Please enjoy your experience.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Życzymy miłych wrażeń.
+PlayersWelcome_Third;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />May your name live in infamy.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Niech twoje imię żyje w niesławie.
+PlayersWelcome_Fourth;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Be sure to leave your mark on the world.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Pamiętaj, aby zostawić swój ślad na świecie.
+//====== Village Screen ======;;
+Village_Title;The Village;Wioska
+Village_Subtitle;<p>Now that our given names have been established, we must also search our recollection for the name of the village which our vast estates overlook.<br />Considering the myriad of small towns in the Hungarian countryside, it would be unerringly forward to not allow the group a chance to collectively name the place they will now inhabit.</p><p>Please collectively enter the name of the town in which your inheritance resides.</p>;<p>Teraz, gdy ustaliliśmy już nasze imiona, musimy również przeszukać pamięć pod kątem nazwy wsi, na którą rozciągają się nasze rozległe majątki.<br />Biorąc pod uwagę niezliczoną ilość małych miasteczek na węgierskiej wsi, byłoby nieomylnie nieumyślne nie dać grupie szansy na wspólne nazwanie miejsca, w którym będą teraz mieszkać.</p><p>Prosimy o zbiorowe podanie nazwy miejscowości, w której znajduje się spadek, który odziedziczyliście.</p>
+Village_Placeholder;Enter village name...;Wprowadź nazwę wioski...
+Village_PopUp;The village name must be between 2 and 20 characters.;Nazwa wsi musi zawierać od 2 do 20 znaków.
+//====== Village Confirm Screen ======;;
+VillageConfirm_Content;<p>Thank you and please do excuse our forgetfulness.</p><p>Of course, <span class="village-name"><b>{{0=...|London|Dubai|Paris|...}}</b></span> is an appropriate and fitting moniker for a place to conduct important scientific research.In fact, history will remember this name, mark my words.</p>;<p>Dziękujemy i prosimy o wybaczenie naszej niepamięci.</p><p>Oczywiście, <span class="village-name"><b>{{0=...|London|Dubai|Paris|...}}</b></span> to odpowiednia i stosowna nazwa dla miejsca, w którym prowadzi się ważne badania naukowe. Historia zapamięta tę nazwę, zapamiętajcie moje słowa.</p>
+//====== Scenario Screen ======;;
+Scenario_Title;Scenario;Scenariusz
+Scenario_Subtitle;Choose a Scenario for {{0=...|2|3|4|...}} players:;Wybierz scenariusz dla {{0=...|2|3|4|...}} graczy:
+Scenario_TheCostOfDisease;The Cost of Disease;Koszt Choroby
+Scenario_TheCostOfDisease_Desc;SCENARIO NOT READY! DO NOT USE TO PLAY!<br /><br />The Yellow Fever had struck the village. Any visit to its somber limits forced the young heirs to keep a cloth handkerchief about their mouth and nostrils to protect themselves from the miasma. This seemed the perfect — if macabre — backdrop in which to advance their father’s dreadful business.;SCENARIUSZ NIE GOTOWY! NIE UŻYWAJ DO GRANIA!<br /><br />Żółta febra zaatakowała wioskę. Każda wizyta w jej ponurych granicach zmuszała młodych spadkobierców do trzymania chustki na ustach i nozdrzach, aby chronić się przed wyziewami. Wydawało się to idealnym — choć makabrycznym — tłem do rozwijania okropnych interesów ich ojca.
+Scenario_FearOfTheUnknown;Fear of the Unknown;Strach Przed Nieznanym
+Scenario_FearOfTheUnknown_Desc;SCENARIO NOT READY! DO NOT USE TO PLAY!<br /><br />The region was rife with superstitious traditions... traditions that did not mix well with the Church's rigid moral compass. Accusations of witchcraft and voodooism erupted with increasing fervor, and the paranoia stifled the heirs' ability to work without interruption.;SCENARIUSZ NIE GOTOWY! NIE UŻYWAJ DO GRANIA!<br /><br />Region był pełen przesądnych tradycji... tradycji, które nie pasowały do sztywnego moralnego kompasu Kościoła. Oskarżenia o czary i voodooizm wybuchały z coraz większym zapałem, a paranoja tłumiła zdolność spadkobierców do nieprzerwanej pracy.
+Scenario_ATimeOfWar;A Time of War;Czas Wojny
+Scenario_ATimeOfWar_Desc;SCENARIO NOT READY! DO NOT USE TO PLAY!<br /><br />The specter of war haunted the small village. The heirs felt trepidatious yet enthusiastic as they began to realize the potential boon that warfare could provide for their research. Perhaps contributing to the resolution of the conflict could aid them in furthering their scientific endeavors.;SCENARIUSZ NIE GOTOWY! NIE UŻYWAJ DO GRANIA!<br /><br />Widmo wojny nawiedzało małą wioskę. Spadkobiercy byli niespokojni, ale pełni entuzjazmu, gdy zaczęli zdawać sobie sprawę z potencjalnych korzyści, jakie wojna może zapewnić ich badaniom. Być może przyczynienie się do rozwiązania konfliktu mogłoby pomóc im w dalszym rozwijaniu ich naukowych wysiłków.
+//====== Scenario Language Screen ======;;
+ScenarioLanguage_Title;Scenario Language;Język scenariusza
+ScenarioLanguage_Subtitle;Please select the language in which the scenario will be presented.;Proszę wybrać język, w którym będzie prezentowany scenariusz.
+//====== Scenario Settings ======;;
+ScenarioLang_English_Source;English - Source;Angielski - Źródłowy
+ScenarioLang_English_Simple;English - Simple;Angielski - Prostrzy
+ScenarioLang_English_Short;English - Short;Angielski - Krótszy
+ScenarioLang_Italian_Source;Italian - Source;Włoski - Źródłowy
+//====== Gameplay ======;;
+Gameplay_Yes;Yes;Tak
+Gameplay_No;No;Nie
+Gameplay_GameSaved;Game has been saved;Gra Zapisana
+Gameplay_PauseMenu;Pause Menu;Menu Pauzy
+Gameplay_Resume;Resume;Powrót
+Gameplay_ReturnToMainMenu;Return to Main Menu;Powrót do Menu Głównego
+Gameplay_LocalSaveGame;Local Save Game;Zapisz grę lokalnie
+Gameplay_SaveGame;Save Game;Zapisz Grę
+Gameplay_Copy;Copy;Kopiuj
+Gameplay_DownloadFile;Download File;Pobierz Plik
+Gameplay_ClickHereToContinue;Click here to continue...;Kliknij tutaj aby kontynuować...
+Gameplay_ClickHereContinueNextRound;Click here to continue to the next round...;Kliknij tutaj aby kontynuować do następnej rundy...
+Gameplay_ClickHere;Click Here;Kliknij Tutaj
+Gameplay_ClickHereForReward;Click Here for a special Reward;Kliknij Tutaj aby otrzymać specjalną Nagrodę
+Gameplay_OnceYouAreReady;Once you are ready, click here to reveal your secret conversation.;Kiedy będziesz gotów, kliknij tutaj aby odkryć swoją tajną rozmowę.
+Gameplay_Setup;SETUP;PRZYGOTOWANIE
+Gameplay_SpecialSetup;SPECIAL SETUP;SPECJALNE PRZYGOTOWANIE
+Gameplay_Accept;Accept;Akceptuj
+Gameplay_Confirm;Confirm;Potwierdź
+Gameplay_Choose;CHOOSE:;WYBIERZ:
+Gameplay_HandStorybookTo;Carefully hand this storybook device to {{0=...|Oliver|James|Olivia|...}}. This text (and its choice if any) should be read aloud and made in full view of all players.;Ostrożnie przekaż to urządzenie osobie o imieniu {{0=...|Oliver|James|Olivia|...}}. Ten tekst (i wybór jeśli jakiś jest) powinien być przeczytany na głos, tak aby wszyscy gracze mogli go usłyszeć.
+Gameplay_DoNotOtherPlayersSee;Carefully hand this storybook device to {{0=...|Oliver|James|Olivia|...}} and do not allow any other players to see the screen.;Ostrożnie przekaż to urządzenie osobie o imieniu {{0=...|Oliver|James|Olivia|...}} i nie pozwól aby inni gracze zobaczyli zawartość następnego ekranu.
+Gameplay_EarlyYears;Early Years;Wczesne Lata
+Gameplay_MiddleYears;Middle Years;Środkowe Lata
+Gameplay_LateYears;Late Years;Późne Lata
+Gameplay_Generation_I;<b>GENERATION I:</b>;<b>POKOLENIE I:</b>
+Gameplay_Generation_II;<b>GENERATION II:</b>;<b>POKOLENIE II:</b>
+Gameplay_Generation_III;<b>GENERATION III:</b>;<b>POKOLENIE III:</b>
+Gameplay_EndOfRound_Title;End of the Round;Koniec Rundy
+Gameplay_EndOfRound_Content;The {{0=|Early Years|Middle Years|Late Years| }} of the {{1=|First Generation|Second Generation|Third Generation}} has ended.{{2=?|<br />Perform all End of Round actions.<br />Then, perform all Start of Round actions for the {{3=|Early Years|Middle Years|Late Years| }} before continuing.|<br />Perform all End of Round actions before continuing.}};{{0=|Wczesne Lata|Środkowe Lata|Późne Lata| }} {{1=|Pierwszego Pokolenia|Drugiego Pokolenia|Trzeciego Pokolenia}} zakończyły się.{{2=?|<br />Wykonaj wszystkie akcje Końca Rundy.<br />Następnie wykonaj wszystkie akcje Startu Rundy {{3=|Wczesnych Lat|Środkowych Lat|Późnych Lat| }} przed kontynuaowaniem.|<br />Wykonaj wszystkie akcjie Końca Rundy przed kontynuowaniem.}}
+Gameplay_ClickHereAfterBid;Click here after resolving the bid...;Kliknij tutaj po tym jak zakończycie licytację...
+Gameplay_EndOfGeneration_Title;End of Generation;Koniec Pokolenia
+Gameplay_ClickAtTheEndOfGeneration;Click here at the end of the Generation to continue...;Kliknij tutaj na końcu Pokolenia aby kontynuować...
+Gameplay_DrJr;Dr. {{0=...|Oliver|James|Olivia|...}} Jr.;Dr. {{0=...|Oliver|James|Olivia|...}} Jr.
+Gameplay_Dr;Dr. {{0=...|Oliver|James|Olivia|...}};Dr. {{0=...|Oliver|James|Olivia|...}}

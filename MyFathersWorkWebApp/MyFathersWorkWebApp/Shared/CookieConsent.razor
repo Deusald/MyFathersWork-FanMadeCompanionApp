@@ -1,0 +1,36 @@
+﻿@inject NavigationManager Navigation
+@inject IJSRuntime        Js
+
+@if (!_ConsentGiven)
+{
+    <div class="cookie-banner">
+        <p>
+            This website uses cookies only to store game state. By continuing, you agree to this use.
+        </p>
+        <div class="cookie-buttons">
+            <button @onclick="AcceptCookies">Accept</button>
+            <button @onclick="RejectCookies">Reject</button>
+        </div>
+    </div>
+}
+
+@code {
+    private bool _ConsentGiven;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string value = await Js.InvokeAsync<string>("localStorage.getItem", "cookieConsent");
+        _ConsentGiven = value == "true";
+    }
+
+    private async Task AcceptCookies()
+    {
+        await Js.InvokeVoidAsync("localStorage.setItem", "cookieConsent", "true");
+        _ConsentGiven = true;
+    }
+
+    private void RejectCookies()
+    {
+        Navigation.NavigateTo("https://www.google.com", true);
+    }
+}

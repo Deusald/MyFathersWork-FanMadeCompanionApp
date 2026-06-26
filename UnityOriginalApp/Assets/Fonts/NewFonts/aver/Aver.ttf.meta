@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 6ff13dcfaa3225244a1a2941bda0fb22
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Aver
+  fontNames:
+  - Aver
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5d0d4ec3c4e638643a9af89158b20f36, type: 3}
+  - {fileID: 12800000, guid: dd438a494656244428db3db7f5d29138, type: 3}
+  - {fileID: 12800000, guid: 3caf361a3768dbd46ba4a6da5d3637ee, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

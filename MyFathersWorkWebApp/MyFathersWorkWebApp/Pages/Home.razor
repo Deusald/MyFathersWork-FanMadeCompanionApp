@@ -1,0 +1,98 @@
+﻿@page "/"
+@using MyFathersWorkWebApp.Shared
+@inject NavigationManager Nav
+@inject IJSRuntime        Js
+@inject HttpClient        Http
+
+<PageTitle>Home @GlobalData.Language</PageTitle>
+
+<div class="menu-container">
+    <img src="./images/logo.png" class="logo" alt="Logo">
+
+    <div class="menu-buttons">
+        <button @onclick="OnNewGameClick">@GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_NewGame)</button>
+        <button @onclick="ShowLoadPopup">@GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_LoadGame)</button>
+        <button @onclick="Test">Test</button>
+
+        @if (IsContinueAvailable)
+        {
+            <button @onclick="OnContinue">@GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Continue)</button>
+        }
+
+        <div class="language-select">
+            <label for="language">@GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Language):</label>
+            <select id="language" value="@GlobalData.Language" @onchange="OnLanguageChanges">
+                @foreach (string lang in GlobalData.UI_Localization.Keys)
+                {
+                    <option value="@lang">@GlobalData.GetLocalizedUITag(lang)</option>
+                }
+            </select>
+        </div>
+    </div>
+</div>
+
+<LoadGamePopup Visible="@_ShowLoadGame" OnBack="HideLoadPopup" GlobalData="@GlobalData"/>
+
+<footer class="main-menu-footer">
+    <p class="disclaimer">
+        @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_FanMade)
+    </p>
+</footer>
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private bool IsContinueAvailable { get; set; }
+    
+    private bool _ShowLoadGame;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        IsContinueAvailable = await GlobalData.IsContinueAvailableAsync(Js);
+    }
+
+    private void ShowLoadPopup() => _ShowLoadGame = true;
+    private void HideLoadPopup() => _ShowLoadGame = false;
+
+    private async Task OnNewGameClick()
+    {
+        await Js.InvokeAsync<string>("localStorage.removeItem", "continue");
+        GlobalData.ScenarioId  = ScenarioId.None;
+        GlobalData.PlayersNum  = 0;
+        GlobalData.PlayerAName = string.Empty;
+        GlobalData.PlayerBName = string.Empty;
+        GlobalData.PlayerCName = string.Empty;
+        GlobalData.PlayerDName = string.Empty;
+        GlobalData.TownName    = string.Empty;
+        GlobalData.ResetUndo();
+        Nav.NavigateTo("PlayersSelect");
+    }
+
+    private async Task Test()
+    {
+        await Js.InvokeAsync<string>("localStorage.removeItem", "continue");
+        GlobalData.PlayersNum  = 2;
+        GlobalData.PlayerAName = "Player1";
+        GlobalData.PlayerBName = "Player2";
+        GlobalData.PlayerCName = "Player3";
+        GlobalData.PlayerDName = "Player4";
+        GlobalData.TownName    = "PlayersTown";
+        GlobalData.ScenarioId  = ScenarioId.CostOfDisease;
+        GlobalData.ResetUndo();
+        Nav.NavigateTo("PlayersScenarioLanguage");
+    }
+
+    private async void OnContinue()
+    {
+        await GlobalData.LoadGameAsync(string.Empty, Nav, Http, Js);
+        Nav.NavigateTo("Gameplay");
+    }
+
+    private void OnLanguageChanges(ChangeEventArgs e)
+    {
+        GlobalData.Language = e.Value!.ToString()!;
+        Nav.NavigateTo("");
+    }
+}

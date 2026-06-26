@@ -1,0 +1,34 @@
+﻿<div class="popup-overlay">
+    <div class="popup-box input-popup">
+        <div class="popup-content input-content">
+            <p>@GameplayPopUp.Message.InsertImages().AsMarkup()</p>
+
+            <input @bind="_Value" 
+                   @bind:event="oninput"
+                   type="text"
+                   class="input-field" 
+                   placeholder="@GameplayPopUp.Placeholder" />
+        </div>
+
+        <button class="popup-button" @onclick="OnAcceptClicked">
+            @GameplayPopUp.ButtonText
+        </button>
+    </div>
+</div>
+
+@code 
+{
+    [Parameter] public GameplayInputPopup GameplayPopUp { get; set; } = null!;
+    [Parameter] public GlobalData         GlobalData    { get; set; } = null!;
+    [Parameter] public Action             Refresh       { get; set; } = null!;
+    
+    private string _Value = string.Empty;
+    
+    private void OnAcceptClicked()
+    {
+        if (!GameplayPopUp.Validate(_Value)) return;
+        GlobalData.ActiveInputPopup = null;
+        GameplayPopUp.OnClose(_Value);
+        Refresh();
+    }
+}

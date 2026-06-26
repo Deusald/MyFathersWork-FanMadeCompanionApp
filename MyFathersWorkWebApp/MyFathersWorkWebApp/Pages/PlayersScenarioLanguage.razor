@@ -1,0 +1,75 @@
+﻿@page "/PlayersScenarioLanguage"
+@inject NavigationManager Nav
+@inject HttpClient        Http
+
+<div class="back-button" @onclick="GoBack">⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)</div>
+
+<div class="language-selection-container">
+    <h1>@GlobalData.GetLocalizedUITag(GlobalTags.ScenarioLanguage_Title)</h1>
+    <p>@GlobalData.GetLocalizedUITag(GlobalTags.ScenarioLanguage_Subtitle)</p>
+
+    <div class="language-options">
+        @foreach (KeyValuePair<string, string> pair in _LocalizationOptions)
+        {
+            <button class="language-button" @onclick="() => SelectLanguage(pair.Key)">
+                @pair.Value
+            </button>
+        }
+    </div>
+</div>
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private readonly Dictionary<string, Dictionary<string, string>> _ScenarioLocalizations         = new();
+    private readonly Dictionary<string, Dictionary<string, string>> _ScenarioGameplayLocalizations = new();
+
+    private readonly Dictionary<string, string> _LocalizationOptions = new();
+
+    private void GoBack() => Nav.NavigateTo("PlayersScenario");
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        await GlobalData.LoadScenarioLanguagesOptionsAsync(Nav, Http, _ScenarioLocalizations, _ScenarioGameplayLocalizations);
+
+        foreach (string localizationId in _ScenarioLocalizations.Keys)
+        {
+            _LocalizationOptions[localizationId] = GlobalData.GetLocalizedUITag("ScenarioLang_" + localizationId);
+        }
+    }
+
+    private void SelectLanguage(string key)
+    {
+        GlobalData.ScenarioLanguage               = key;
+        GlobalData.Years                          = Years.Early;
+        GlobalData.Generation                     = Generation.First;
+        GlobalData.Scenario_Localization          = _ScenarioLocalizations[key];
+        GlobalData.Scenario_Gameplay_Localization = _ScenarioGameplayLocalizations[_ScenarioLocalizations[key]["Gameplay_Lang"]];
+
+        GlobalData.ActiveWindow     = null;
+        GlobalData.ActiveHub        = null;
+        GlobalData.ActivePopup      = null;
+        GlobalData.ActiveInputPopup = null;
+        
+        GlobalData.TheCostOfDiseaseVars.Reset(GlobalData);
+
+        switch (GlobalData.ScenarioId)
+        {
+            case ScenarioId.CostOfDisease:
+            {
+                TheCostOfDisease.Init(GlobalData);
+                break;
+            }
+            default:
+            {
+                Nav.NavigateTo("");
+                break;
+            }
+        }
+
+        Nav.NavigateTo("Gameplay");
+    }
+}

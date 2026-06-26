@@ -1,0 +1,44 @@
+﻿@page "/PlayersSelect"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="player-select-container">
+    <h1>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersSelect_Title)</h1>
+    <p>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersSelect_SubTitle)</p>
+
+    <div class="player-options">
+        <div class="player-option" @onclick="() => SelectPlayers(2)">
+            <img src="./images/2Players.png" alt="2 Players"/>
+            <span>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersSelect_Two)</span>
+        </div>
+
+        <div class="player-option" @onclick="() => SelectPlayers(3)">
+            <img src="./images/3Players.png" alt="3 Players"/>
+            <span>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersSelect_Three)</span>
+        </div>
+
+        <div class="player-option" @onclick="() => SelectPlayers(4)">
+            <img src="./images/4Players.png" alt="4 Players"/>
+            <span>@GlobalData.GetLocalizedUITag(GlobalTags.PlayersSelect_Four)</span>
+        </div>
+    </div>
+</div>
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private void SelectPlayers(int playerCount)
+    {
+        GlobalData.PlayersNum = playerCount;
+        Nav.NavigateTo("PlayersInitial");
+    }
+
+    private void GoBack()
+    {
+        Nav.NavigateTo("");
+    }
+}

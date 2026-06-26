@@ -1,0 +1,59 @@
+﻿@page "/PlayersVillage"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="village-name-container">
+    <h1>@GlobalData.GetLocalizedUITag(GlobalTags.Village_Title)</h1>
+
+    <div class="description-box">
+        @GlobalData.GetLocalizedUITag(GlobalTags.Village_Subtitle).AsMarkup()
+    </div>
+
+    <input class="name-input" @bind="GlobalData.TownName"
+           placeholder="@GlobalData.GetLocalizedUITag(GlobalTags.Village_Placeholder)"/>
+
+    <button class="continue-button" @onclick="Continue">
+        @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Continue)
+    </button>
+</div>
+
+@if (_ShowPopup)
+{
+    <div class="popup-overlay">
+        <div class="popup-box">
+            <p>@GlobalData.GetLocalizedUITag(GlobalTags.Village_PopUp)</p>
+            <button @onclick="ClosePopup">OK</button>
+        </div>
+    </div>
+}
+
+@code
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+
+    private bool _ShowPopup;
+
+    private void GoBack()
+    {
+        Nav.NavigateTo($"PlayersWelcome/{GlobalData.PlayersNum - 1}");
+    }
+
+    private void Continue()
+    {
+        if (GlobalData.TownName.Length < 2 || GlobalData.TownName.Length > 20)
+        {
+            _ShowPopup = true;
+            return;
+        }
+        
+        Nav.NavigateTo("PlayersVillageConfirm");
+    }
+
+    private void ClosePopup()
+    {
+        _ShowPopup = false;
+    }
+}

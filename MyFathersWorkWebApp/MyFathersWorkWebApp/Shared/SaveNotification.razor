@@ -1,0 +1,11 @@
+﻿@if (Visible)
+{
+    <div class="save-notification">
+        @GlobalData!.GetLocalizedUITag(GlobalTags.Gameplay_GameSaved)
+    </div>
+}
+
+@code {
+    [Parameter] public bool        Visible    { get; set; }
+    [Parameter] public GlobalData? GlobalData { get; set; }
+}

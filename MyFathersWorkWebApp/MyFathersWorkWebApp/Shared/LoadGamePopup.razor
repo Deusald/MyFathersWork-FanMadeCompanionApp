@@ -1,0 +1,52 @@
+﻿@if (Visible)
+{
+    <div class="pause-menu-overlay">
+        <div class="pause-menu">
+            <h2>@GlobalData!.GetLocalizedUITag(GlobalTags.MainMenu_LoadGame)</h2>
+
+            <textarea @bind="_Base64Input" class="save-box" placeholder="@GlobalData!.GetLocalizedUITag(GlobalTags.MainMenu_PasteSaveDataHere)"></textarea>
+
+            <div class="save-buttons">
+                <InputFile OnChange="@LoadFile" />
+                <button class="pause-button" @onclick="LoadGame">@GlobalData!.GetLocalizedUITag(GlobalTags.MainMenu_LoadGame)</button>
+                <button class="pause-button" @onclick="OnBack">@GlobalData!.GetLocalizedUITag(GlobalTags.MainMenu_Back)</button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public bool        Visible    { get; set; }
+    [Parameter] public Action      OnBack     { get; set; } = null!;
+    [Parameter] public GlobalData? GlobalData { get; set; }
+
+    [Inject] private NavigationManager Nav  { get; set; } = null!;
+    [Inject] private HttpClient        Http { get; set; } = null!;
+    [Inject] private IJSRuntime        Js   { get; set; } = null!;
+
+    private string _Base64Input = "";
+    
+    private async Task LoadFile(InputFileChangeEventArgs e)
+    {
+        IBrowserFile file = e.File;
+        using var stream = file.OpenReadStream();
+        using var reader = new StreamReader(stream);
+        _Base64Input = (await reader.ReadToEndAsync()).Trim();
+    }
+
+    private async Task LoadGame()
+    {
+        if (string.IsNullOrWhiteSpace(_Base64Input)) return;
+        _Base64Input = _Base64Input.Trim();
+        if (!IsBase64String(_Base64Input)) return;
+        await GlobalData!.LoadGameAsync(_Base64Input, Nav, Http, Js);
+        Nav.NavigateTo("Gameplay");
+    }
+
+    private static bool IsBase64String(string base64)
+    {
+        Span<byte> buffer = new Span<byte>(new byte[base64.Length]);
+        return Convert.TryFromBase64String(base64, buffer, out int _);
+    }
+
+}

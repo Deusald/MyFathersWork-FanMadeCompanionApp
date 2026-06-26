@@ -1,0 +1,77 @@
+﻿.player-select-container {
+    text-align: center;
+    padding: 2rem;
+    color: #e0d3b8;
+}
+
+.player-select-container h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: gold;
+    text-shadow: 2px 2px 4px black;
+}
+
+.player-select-container p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.player-options {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.player-option {
+    background-color: #222;
+    border: 3px solid #5c4633;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    width: 150px;
+    text-align: center;
+}
+
+.player-option:hover {
+    background-color: #7a5a3c;
+    transform: scale(1.05);
+}
+
+.player-option img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+}
+
+.player-option span {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.back-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #5c4633;
+    color: #e0d3b8;
+    padding: 0.5rem 1rem;
+    border: 2px solid #2e1f14;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    transition: background-color 0.3s, transform 0.1s;
+    z-index: 10;
+}
+
+.back-button:hover {
+    background-color: #7a5a3c;
+    transform: scale(1.05);
+}
+
+.back-button:active {
+    transform: scale(0.95);
+}

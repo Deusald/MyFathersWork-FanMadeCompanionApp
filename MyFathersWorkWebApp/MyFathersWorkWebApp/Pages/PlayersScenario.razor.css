@@ -1,0 +1,90 @@
+﻿/* Back Button */
+.back-button {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: #5c4633;
+    color: #e0d3b8;
+    padding: 0.5rem 1rem;
+    border: 2px solid #2e1f14;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    transition: background-color 0.3s, transform 0.1s;
+    z-index: 10;
+}
+
+.back-button:hover {
+    background-color: #7a5a3c;
+    transform: scale(1.05);
+}
+
+.back-button:active {
+    transform: scale(0.95);
+}
+
+/* Main Container */
+.scenario-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    text-align: center;
+    color: #e0d3b8;
+}
+
+.scenario-selection-container h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #9ebed9;
+    text-shadow: 2px 2px 4px black;
+}
+
+.scenario-selection-container p {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+/* Scenario Cards */
+.scenario-options {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.scenario-card {
+    background-color: rgba(40, 40, 40, 0.9);
+    border: 3px solid #5c4633;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.7);
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+.scenario-card:hover {
+    background-color: #7a5a3c;
+    transform: scale(1.05);
+}
+
+.scenario-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+.scenario-card h2 {
+    color: gold;
+    margin-bottom: 0.5rem;
+}
+
+.scenario-card p {
+    font-size: 0.95rem;
+    color: #e0d3b8;
+    line-height: 1.4;
+}

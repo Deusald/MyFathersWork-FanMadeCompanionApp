@@ -1,0 +1,23 @@
+﻿.save-notification {
+    position: fixed;
+    top: 1.5rem;
+    right: 1.5rem;
+    background-color: #d4bfa5;
+    color: #2e1f14;
+    padding: 0.8rem 1.5rem;
+    border: 3px solid #2e1f14;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    z-index: 2000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    opacity: 0;
+    animation: fadeInOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+    0%   { opacity: 0; transform: translateY(-10px); }
+    10%  { opacity: 1; transform: translateY(0); }
+    90%  { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0; transform: translateY(-10px); }
+}

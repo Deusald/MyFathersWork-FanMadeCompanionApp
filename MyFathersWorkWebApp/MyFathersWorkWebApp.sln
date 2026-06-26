@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFathersWorkWebApp", "MyFathersWorkWebApp\MyFathersWorkWebApp.csproj", "{13DC111F-E166-4116-AAD1-8D5317BE6B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizationMerger", "LocalizationMerger\LocalizationMerger.csproj", "{8B97D414-6C6D-4B6D-A448-27E927F2FB75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13DC111F-E166-4116-AAD1-8D5317BE6B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13DC111F-E166-4116-AAD1-8D5317BE6B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13DC111F-E166-4116-AAD1-8D5317BE6B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13DC111F-E166-4116-AAD1-8D5317BE6B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B97D414-6C6D-4B6D-A448-27E927F2FB75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B97D414-6C6D-4B6D-A448-27E927F2FB75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B97D414-6C6D-4B6D-A448-27E927F2FB75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B97D414-6C6D-4B6D-A448-27E927F2FB75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

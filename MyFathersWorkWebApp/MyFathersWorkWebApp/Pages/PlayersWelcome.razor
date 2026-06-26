@@ -1,0 +1,54 @@
+﻿@page "/PlayersWelcome/{PlayerIndex:int}"
+@inject NavigationManager Nav
+
+<div class="back-button" @onclick="GoBack">
+    ⬅ @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Back)
+</div>
+
+<div class="player-welcome-container">
+    <div class="text-box">
+        <p>
+            @GetWelcomeText().AsMarkup()
+        </p>
+    </div>
+
+    <button class="continue-button" @onclick="Continue">
+        @GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_Continue)
+    </button>
+</div>
+
+@code 
+{
+    [CascadingParameter] private GlobalData GlobalData { get; set; } = null!;
+    
+    [Parameter]
+    public int PlayerIndex { get; set; }
+
+    private string GetWelcomeText()
+    {
+        string rawText = PlayerIndex switch
+        {
+            0     => GlobalData.GetLocalizedUITag(GlobalTags.PlayersWelcome_First),
+            1     => GlobalData.GetLocalizedUITag(GlobalTags.PlayersWelcome_Second),
+            2     => GlobalData.GetLocalizedUITag(GlobalTags.PlayersWelcome_Third),
+            3     => GlobalData.GetLocalizedUITag(GlobalTags.PlayersWelcome_Fourth),
+                _ => string.Empty
+        };
+
+        string name = GlobalData.GetPlayerNameByIndex(PlayerIndex);
+
+        if (rawText == string.Empty || name == string.Empty) Nav.NavigateTo("");
+
+        return rawText.FormatWithReplacement(0, name);
+    }
+    
+    private void Continue()
+    {
+        Nav.NavigateTo(PlayerIndex == GlobalData.PlayersNum - 1 ? "PlayersVillage" : $"PlayersNameEntry/{PlayerIndex + 1}");
+    }
+    
+    private void GoBack()
+    {
+        Nav.NavigateTo($"PlayersNameEntry/{PlayerIndex}");
+    }
+}

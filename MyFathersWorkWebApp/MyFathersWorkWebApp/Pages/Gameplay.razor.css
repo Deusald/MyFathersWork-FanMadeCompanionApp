@@ -1,0 +1,262 @@
+﻿/* Header Buttons */
+.header-buttons {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    gap: 1rem;
+    z-index: 1001;
+}
+
+.back-button, .pause-button {
+    background-color: #5c4633;
+    color: #e0d3b8;
+    padding: 0.5rem 1rem;
+    border: 2px solid #2e1f14;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.back-button:hover, .pause-button:hover {
+    background-color: #7a5a3c;
+    transform: scale(1.05);
+}
+
+.back-button:active, .pause-button:active {
+    transform: scale(0.95);
+}
+
+.back-button:disabled {
+    background-color: #888;
+    color: #ccc;
+    cursor: not-allowed;
+    border-color: #444;
+    opacity: 0.6;
+}
+
+/* Main Gameplay Container */
+.gameplay-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    min-height: 100vh;
+    text-align: left;
+    color: #e0d3b8;
+}
+
+/* Title */
+.gameplay-container h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: #9ebed9;
+    text-shadow: 2px 2px 4px black;
+}
+
+.gameplay-container h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #e0d3b8;
+}
+
+/* Parchment Box */
+.parchment-box {
+    background-color: #d4bfa5;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    border: 3px solid #2e1f14;
+    font-family: 'Georgia', serif;
+    color: #2a1a10;
+}
+
+.parchment-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.scenario-image {
+    width: 180px;
+    margin-top: 1rem;
+}
+
+/* Main Panel */
+.main-panel {
+    background-color: rgba(40, 40, 40, 0.9);
+    border: 3px solid #5c4633;
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.7);
+    margin-bottom: 2rem;
+}
+
+.main-panel h3 {
+    color: gold;
+    margin-bottom: 0.5rem;
+}
+
+.main-panel p {
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+/* Section Panels */
+.section-panel {
+    background-color: rgba(30, 30, 30, 0.9);
+    border: 2px solid #5c4633;
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    width: 80%;
+    max-width: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.section-panel h4 {
+    color: #f2b96d;
+    margin-bottom: 0.3rem;
+}
+
+.section-panel p {
+    font-size: 1rem;
+}
+
+/* Link Styling */
+a {
+    color: #9ebed9;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #7a5a3c;
+}
+
+/* Icon inline (like 🔥) */
+.icon {
+    font-weight: bold;
+    color: darkred;
+}
+
+/* Continue Button */
+.continue-button {
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #5c4633;
+    color: #e0d3b8;
+    border: 3px solid #2e1f14;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    transition: transform 0.1s, background-color 0.3s;
+}
+
+.continue-button:hover {
+    background-color: #7a5a3c;
+    transform: scale(1.05);
+}
+
+.continue-button:active {
+    transform: scale(0.95);
+}
+
+/* 🔗 Link Styles */
+a {
+    color: #3a1e12;
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #7a5a3c;
+}
+
+/* Round Tracker */
+.round-tracker {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 8rem;
+    margin-bottom: 1rem;
+}
+
+.round-step {
+    width: 52px;
+    height: 52px;
+    background-color: #444;
+    border: 2px solid #5c4633;
+    color: #e0d3b8;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 0 6px rgba(0,0,0,0.6);
+    transition: transform 0.2s, background-color 0.3s;
+    flex-direction: column;
+    text-align: center;
+}
+
+.round-step:hover {
+    transform: scale(1.08);
+}
+
+/* ✅ Color by generation */
+.round-step.generation1 {
+    background-color: #3a5c3a;
+}
+
+.round-step.generation2 {
+    background-color: #a88832;
+}
+
+.round-step.generation3 {
+    background-color: #802d2d;
+}
+
+/* ✅ Grey for future */
+.round-step.future {
+    background-color: #555;
+    opacity: 0.7;
+}
+
+/* ✅ Highlight current round */
+.round-step.current {
+    outline: 3px solid #e0d3b8;
+    box-shadow: 0 0 10px rgba(255,255,255,0.8);
+    opacity: 1;
+}
+
+/* Optional - Text Adjustments */
+.round-step span {
+    line-height: 1;
+}
+
+.gameplay-link {
+    color: #4ea9ff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.gameplay-link:hover {
+    color: #82caff;
+}
+
+.gameplay-link:active {
+    color: #2986cc;
+}
