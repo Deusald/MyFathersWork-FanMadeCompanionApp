@@ -1,0 +1,11 @@
+{
+  "Id": "7b2a3af0-6a7b-4ce8-ba00-e29bde4415f4",
+  "Name": "NumOfPlayers",
+  "Description": "Number of players participating in the game",
+  "PossibleValues": [
+    "2",
+    "3",
+    "4"
+  ],
+  "ConditionKeyId": "e9b56b0b-4f7b-4c76-ad29-885e641c1082"
+}

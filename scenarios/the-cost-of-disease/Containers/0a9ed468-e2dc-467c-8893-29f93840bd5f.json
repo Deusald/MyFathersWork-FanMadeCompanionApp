@@ -1,0 +1,34 @@
+{
+  "Id": "0a9ed468-e2dc-467c-8893-29f93840bd5f",
+  "Name": "Gen 3 Prosperity",
+  "Description": "",
+  "ParentContainer": "a193b97c-a960-4213-867d-5ebccfd81eef",
+  "X": 794.0,
+  "Y": 75.0,
+  "EntryPoints": [
+    {
+      "Id": "d7ab380b-ce23-41b4-9de1-de8a69ecd72f",
+      "Name": "In",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  ],
+  "ExitPoints": [
+    {
+      "Id": "8221a266-81b9-4004-a299-5aa6bef59564",
+      "Name": "Out",
+      "X": 631.0,
+      "Y": -14.0
+    }
+  ],
+  "Containers": [],
+  "Logic": [],
+  "Portals": [],
+  "Connections": [
+    {
+      "Id": "c873af3f-9343-4029-a792-8f89bc12dfdd",
+      "FromPoint": "d7ab380b-ce23-41b4-9de1-de8a69ecd72f",
+      "ToPoint": "8221a266-81b9-4004-a299-5aa6bef59564"
+    }
+  ]
+}

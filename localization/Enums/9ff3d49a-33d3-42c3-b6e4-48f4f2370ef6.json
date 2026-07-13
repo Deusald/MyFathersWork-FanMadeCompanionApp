@@ -1,0 +1,19 @@
+{
+  "Id": "9ff3d49a-33d3-42c3-b6e4-48f4f2370ef6",
+  "Name": "NumOfPlayers",
+  "Description": "Number of Players",
+  "Entries": [
+    {
+      "IntValue": 2,
+      "StringValue": "Two"
+    },
+    {
+      "IntValue": 3,
+      "StringValue": "Three"
+    },
+    {
+      "IntValue": 4,
+      "StringValue": "Four"
+    }
+  ]
+}

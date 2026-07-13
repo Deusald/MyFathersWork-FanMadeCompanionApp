@@ -1,0 +1,92 @@
+{
+  "Id": "a193b97c-a960-4213-867d-5ebccfd81eef",
+  "Name": "Root",
+  "Description": "",
+  "ParentContainer": "00000000-0000-0000-0000-000000000000",
+  "X": 0.0,
+  "Y": 0.0,
+  "EntryPoints": [
+    {
+      "Id": "c95419c4-b2d8-4d38-91b1-3e86cd168470",
+      "Name": "Start",
+      "X": -186.0,
+      "Y": 146.0
+    }
+  ],
+  "ExitPoints": [
+    {
+      "Id": "23ea5f66-c6e1-4f52-b02f-9e35c5bb77c8",
+      "Name": "End",
+      "X": 1188.0,
+      "Y": 127.669
+    }
+  ],
+  "Containers": [
+    "01e425ca-6cb8-40e2-af7d-a2daead04ef4",
+    "e1dbdfe5-62c5-482e-b750-9b56ca5263af",
+    "979b795d-68fb-4534-be4d-0c4e78fb7397",
+    "2f123ed2-b435-428e-82af-c7364198ea78",
+    "0a9ed468-e2dc-467c-8893-29f93840bd5f",
+    "04010529-60f8-4cb7-a046-e0e3f99e430c",
+    "3f51d79b-d6ed-475e-ac71-7fb35732ea55"
+  ],
+  "Logic": [],
+  "Portals": [],
+  "Connections": [
+    {
+      "Id": "901c4831-2ebe-49a6-8bc5-710d7b3b6916",
+      "FromPoint": "c95419c4-b2d8-4d38-91b1-3e86cd168470",
+      "ToPoint": "c290ae3b-841e-4ad2-aca7-e8c3cf324560"
+    },
+    {
+      "Id": "a714eaba-4e58-4af3-bac7-f6adfc5460b4",
+      "FromPoint": "02be2d6b-b429-4e36-99b7-d386f945a8fa",
+      "ToPoint": "0b67a2ad-b98a-4c5c-ab9a-2ada9dd7f308"
+    },
+    {
+      "Id": "8609846e-7101-42d9-bc1a-7c14ea5209cf",
+      "FromPoint": "62aeb5fd-e044-4080-8d6f-3983491037b0",
+      "ToPoint": "6ac2b09b-4c66-4ea4-baca-7adf222edfe8"
+    },
+    {
+      "Id": "421752c9-08ac-476b-935a-89d14dc138f4",
+      "FromPoint": "24ca09d0-cde2-4021-9e6a-51ea771848d3",
+      "ToPoint": "ea7925b4-3396-4304-8af3-719b5fc77a59"
+    },
+    {
+      "Id": "46fff5b2-86fa-4712-8aea-a83ec7536d12",
+      "FromPoint": "f0ef5b15-4eed-4f67-a44f-440cbf3f8897",
+      "ToPoint": "23ea5f66-c6e1-4f52-b02f-9e35c5bb77c8"
+    },
+    {
+      "Id": "2e8db80a-7053-46c2-8daa-10bd3fe8ff43",
+      "FromPoint": "8cd5c969-1ed6-4e91-8505-9d152f3a0589",
+      "ToPoint": "d7ab380b-ce23-41b4-9de1-de8a69ecd72f"
+    },
+    {
+      "Id": "6eb8505d-afd3-4a04-bcf5-4fc197826062",
+      "FromPoint": "8221a266-81b9-4004-a299-5aa6bef59564",
+      "ToPoint": "23ea5f66-c6e1-4f52-b02f-9e35c5bb77c8"
+    },
+    {
+      "Id": "78ecfcfd-552a-490f-864b-5417c0398129",
+      "FromPoint": "bd1aa6d0-5449-4b98-9bd9-de3d691b81d1",
+      "ToPoint": "5987c527-a436-437d-9c26-3600eace3b01"
+    },
+    {
+      "Id": "200593dc-5e8f-46ce-9989-7b6425190550",
+      "FromPoint": "82206946-5cc5-4dea-9ef0-805aacbc85bf",
+      "ToPoint": "23ea5f66-c6e1-4f52-b02f-9e35c5bb77c8"
+    },
+    {
+      "Id": "74b17517-547c-40d0-8247-76a231ac2cac",
+      "FromPoint": "d85cee3b-9de6-4eca-9872-4b45372fd987",
+      "ToPoint": "375a556b-45b9-42a4-8c75-c025b935ea76"
+    },
+    {
+      "Id": "cccbf1ee-b03f-453d-ae0c-d7daaf706c5c",
+      "FromPoint": "90b079e7-2732-4154-a372-f87975fd4b7c",
+      "ToPoint": "23ea5f66-c6e1-4f52-b02f-9e35c5bb77c8"
+    }
+  ]
+}

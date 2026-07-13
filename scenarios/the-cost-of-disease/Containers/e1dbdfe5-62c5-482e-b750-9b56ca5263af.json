@@ -1,0 +1,40 @@
+{
+  "Id": "e1dbdfe5-62c5-482e-b750-9b56ca5263af",
+  "Name": "Gen 2 Devastation",
+  "Description": "",
+  "ParentContainer": "a193b97c-a960-4213-867d-5ebccfd81eef",
+  "X": 466.0,
+  "Y": 36.0,
+  "EntryPoints": [
+    {
+      "Id": "0b67a2ad-b98a-4c5c-ab9a-2ada9dd7f308",
+      "Name": "In",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  ],
+  "ExitPoints": [
+    {
+      "Id": "24ca09d0-cde2-4021-9e6a-51ea771848d3",
+      "Name": "Gen 3 Gloomy Gothic",
+      "X": 633.5560000000002,
+      "Y": -30.613000000000163
+    },
+    {
+      "Id": "8cd5c969-1ed6-4e91-8505-9d152f3a0589",
+      "Name": "Gen 3 Prosperity",
+      "X": 634.6759999999999,
+      "Y": 194.02800000000013
+    }
+  ],
+  "Containers": [],
+  "Logic": [],
+  "Portals": [],
+  "Connections": [
+    {
+      "Id": "565b8bd3-4995-45ca-8024-7a0333618e50",
+      "FromPoint": "0b67a2ad-b98a-4c5c-ab9a-2ada9dd7f308",
+      "ToPoint": "24ca09d0-cde2-4021-9e6a-51ea771848d3"
+    }
+  ]
+}

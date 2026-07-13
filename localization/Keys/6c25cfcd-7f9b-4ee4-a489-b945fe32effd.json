@@ -1,0 +1,25 @@
+{
+  "Id": "6c25cfcd-7f9b-4ee4-a489-b945fe32effd",
+  "CategoryId": "67dc0718-8088-44bd-bee8-999de3757c8b",
+  "KeyName": "title",
+  "Description": "",
+  "CreatedAt": "2026-07-12T21:38:08.8399596Z",
+  "UpdatedAt": "2026-07-12T21:44:44.6644147Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-cod"
+  ],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "2552d0c8faa4b0d3d89daeb3da76b80460f9a75614f13d4f71441e682650e29c",
+      "Text": "Preparations",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-12T21:44:44.6642528Z",
+      "Suggestions": []
+    }
+  ]
+}

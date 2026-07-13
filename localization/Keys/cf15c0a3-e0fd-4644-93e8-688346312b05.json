@@ -1,0 +1,33 @@
+{
+  "Id": "cf15c0a3-e0fd-4644-93e8-688346312b05",
+  "CategoryId": "67dc0718-8088-44bd-bee8-999de3757c8b",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-12T21:38:27.4474485Z",
+  "UpdatedAt": "2026-07-13T09:25:36.3864233Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-cod"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "320ed772-5c10-4d5d-b20e-9cd4608cf93e",
+      "Name": "NumOfPlayers",
+      "Type": "EnumInt",
+      "EnumId": "9ff3d49a-33d3-42c3-b6e4-48f4f2370ef6",
+      "DefaultPreviewValue": "3"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "2eb7b7afe69b2ba10b5a327efb8d3c3020d118e2a3c8778656fb6f0b1116b506",
+      "Text": "Complete the standard setup for {NumOfPlayers:choose(2|3|4):two|three|four} players as shown in the rulebook. <i>Note that the <icon=AngryMob> track and starting player will be set by the Storybook in the coming pages.</i>\n<sprite=ScenarioBox3D>Then, retrieve <b>The Cost of Disease</b> Scenario box, which will contain all components needed for this story. As the Storybook progresses, it will ask you to put items into play from this box. Be sure to keep it nearby.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T09:25:36.3863576Z",
+      "Suggestions": []
+    }
+  ]
+}

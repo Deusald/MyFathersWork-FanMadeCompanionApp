@@ -1,0 +1,23 @@
+{
+  "Id": "0fa6f218-004d-4ffb-b009-630bbb97325e",
+  "CategoryId": "ccf46880-1788-40f2-81f7-656415afa931",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-13T10:43:42.4358003Z",
+  "UpdatedAt": "2026-07-13T10:44:52.071619Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "9afd2b30c33a296c29bba119729edc6dd5d619ce861121e815eb0e2c7f89b717",
+      "Text": "Herein contains a historical account of a peculiar lineage. One that spans multiple generations and by all accounts will continue to fascinate historians for many years to come.\n\nI have endeavored to provide as complete a scholarly history as one could provide given the conflicting accounts and whims of hearsay. While many of the details, haunting to the imagination as they may be, stretch the very limits of our human understanding, it is my hope that this text and the accompanying research materials procured will provide evidence as to their truth. The harrowing and potentially supernatural series of events has the capacity to shake the very foundations of the scientific world as we perceive it.\n\nWith deference to the fellowship that commissioned this explicit work, though I have never met with these generous benefactors, I humbly submit this biographical account in its entirety and swear by the veracity of the contents within.\n\nIn good health,\nDr. Ensign Benwallis",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T10:44:52.0714489Z",
+      "Suggestions": []
+    }
+  ]
+}

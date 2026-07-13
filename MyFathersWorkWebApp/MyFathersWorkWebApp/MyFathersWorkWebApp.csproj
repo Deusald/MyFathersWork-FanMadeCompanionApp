@@ -412,11 +412,4 @@
       </Content>
     </ItemGroup>
 
-    <ItemGroup>
-      <Compile Include="Shared\Scenarios\TheCostOfDisease\00_TheCostOfDisease_Setup.txt" />
-      <Compile Include="Shared\Scenarios\TheCostOfDisease\01_TheCostOfDisease_Gen1_Fever.txt" />
-      <Compile Include="Shared\Scenarios\TheCostOfDisease\02_TheCostOfDisease_Gen2_Devastation.txt" />
-      <Compile Include="Shared\Scenarios\TheCostOfDisease\03_TheCostOfDisease_Gen2_Hospital.txt" />
-    </ItemGroup>
-
 </Project>

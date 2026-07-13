@@ -1,0 +1,17 @@
+{
+  "Id": "4997d4d6-c75b-4880-b0bf-c6680c36e27d",
+  "Name": "My Father's Work",
+  "Slug": "my-fathers-work",
+  "Description": "Localization for My Father's Work board game digital app and scenarios published by Renegade Game Studios - https://renegadegamestudios.com/",
+  "ApiUrl": "",
+  "UncommittedMode": false,
+  "MainLanguageId": "en-US",
+  "SyncId": "1aecb59c-dc38-44d6-87de-e8bcf446d9ea",
+  "UpdatedAt": "2026-07-13T10:44:53.930878Z",
+  "FormatVersion": 1,
+  "Languages": [
+    "en-US"
+  ],
+  "IsOnline": false,
+  "UsesUncommittedChanges": false
+}

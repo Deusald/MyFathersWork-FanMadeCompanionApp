@@ -1,0 +1,23 @@
+{
+  "Id": "6fd7843e-1fe1-4620-8be9-1cc77179991c",
+  "CategoryId": "ccf46880-1788-40f2-81f7-656415afa931",
+  "KeyName": "title",
+  "Description": "",
+  "CreatedAt": "2026-07-13T10:43:28.4218889Z",
+  "UpdatedAt": "2026-07-13T10:43:50.3225277Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "dc1b60634d320f73917657c469a04aac1b6522b0ec30685a843742b737043764",
+      "Text": "A Foreword",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T10:43:50.3224032Z",
+      "Suggestions": []
+    }
+  ]
+}
