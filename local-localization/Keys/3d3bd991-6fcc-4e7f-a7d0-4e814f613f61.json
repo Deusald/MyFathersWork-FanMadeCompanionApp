@@ -1,0 +1,33 @@
+{
+  "Id": "3d3bd991-6fcc-4e7f-a7d0-4e814f613f61",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-13T15:13:10.1504409Z",
+  "UpdatedAt": "2026-07-13T15:13:12.9455626Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "5cd1b622-90e0-4289-9f84-43a6b8883acc",
+      "Name": "NumOfPlayers",
+      "Type": "EnumInt",
+      "EnumId": "9ff3d49a-33d3-42c3-b6e4-48f4f2370ef6",
+      "DefaultPreviewValue": "3"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "a36c7e517887f632a00d91bd6c44ee303a03e9f37c0f4c54c2629efa0ce129fd",
+      "Text": "As siblings of an influential family of Eastern European descent, the <b>{{0=|two|three|four}}</b> of us have received a not-insignificant portion of our family's estate.<br /><br /> Before we begin, let us make this historical fiction more engaging by providing our names.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T15:13:12.9454761Z",
+      "Suggestions": []
+    }
+  ]
+}

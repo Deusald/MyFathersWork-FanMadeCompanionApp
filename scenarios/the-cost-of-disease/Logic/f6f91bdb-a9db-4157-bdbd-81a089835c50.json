@@ -1,0 +1,51 @@
+{
+  "Id": "f6f91bdb-a9db-4157-bdbd-81a089835c50",
+  "Name": "Players Welcome",
+  "Description": "",
+  "ParentContainer": "84dc3596-0842-41ea-a444-a15ce6322139",
+  "X": 44.0,
+  "Y": 27.0,
+  "GamebookInstructions": false,
+  "EntryPoint": {
+    "Id": "d61d113f-d8e7-4dee-86f1-149a45a76d53",
+    "Name": "In",
+    "X": 60.0,
+    "Y": 200.0
+  },
+  "ExitPoints": [
+    {
+      "Id": "bf287595-7833-4c34-8d7a-eaaa81d57708",
+      "Name": "Out",
+      "X": 660.0,
+      "Y": 120.0
+    }
+  ],
+  "TitleIn": {
+    "Id": "f62ce398-9712-4be3-898e-ed8bbbd892f3",
+    "Name": "Title",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "SubtitleIn": {
+    "Id": "b9b9fd81-6e1d-4949-a7ff-e7670ed010f7",
+    "Name": "Subtitle",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "IconIn": {
+    "Id": "ce8e1abe-bd41-44fb-9716-6c744c8c26ce",
+    "Name": "Icon",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "LocalizationNodes": [],
+  "IconNodes": [],
+  "LightDarkSwitchNodes": [],
+  "SmartFormatNodes": [],
+  "ExternalVariableNodes": [],
+  "FlowTextNodes": [],
+  "RegisterVariableNodes": [],
+  "SetVariableNodes": [],
+  "UnregisterVariableNodes": [],
+  "ContentConnections": []
+}

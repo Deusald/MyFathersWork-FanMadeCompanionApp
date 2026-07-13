@@ -410,6 +410,9 @@
       <Content Update="wwwroot\localization\TheCostOfDisease_Localization-copy.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <Content Update="wwwroot\localization\UI_Localization-copy.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
     </ItemGroup>
 
 </Project>

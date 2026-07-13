@@ -1,0 +1,25 @@
+{
+  "Id": "ad3a5c36-8b1d-442c-8abb-bfccf06c16be",
+  "CategoryId": "0188e08a-8e5a-4ff7-9516-2024af36e9c2",
+  "KeyName": "title",
+  "Description": "",
+  "CreatedAt": "2026-07-13T15:09:09.6680338Z",
+  "UpdatedAt": "2026-07-13T15:09:14.0774616Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "84e12ac655dd8d75dd440c2895926813e0a4420e136dc6e0708e365c0d09cb3a",
+      "Text": "Players",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T15:09:14.0766866Z",
+      "Suggestions": []
+    }
+  ]
+}
