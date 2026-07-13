@@ -1,0 +1,162 @@
+﻿//====== Setup ======;
+Dubious_0_Content;Retrieve the Dubious Bartering cards from the scenario box. Shuffle them and <b>give each player a Dubious Bartering card</b> and return any remaining to the box. This card is placed face-up near their Estate and is activated each time the listed action is taken.
+SpecialGen1_Content;<b>Retrieve the <icon=StorybookToken> tokens.</b><br /><br />Place one token on <b>space 3</b> of the <icon=Insanity_Icon> Track.<br /><br />Place one token on <b>space 4</b> of the <icon=Creepy_Icon> Track.<br /><br /><i>When a player's piece reaches one of these tokens, they will click on the appropriate link and receive a special message for reaching this achievement.</i>
+FirstTimeSuspicion_Content;Place the Suspicion marker on space <b>{{0=...|6|7|8|...}}</b> and the <icon=AngryMob_Icon> token one space to the left.<br /><br /><b>Suspicion Marker</b><br />The Suspicion Marker represents the furthest right that the <icon=AngryMob_Icon> can move during a Generation. This marker stays in the same location throughout the current Generation and the <icon=AngryMob_Icon> token can never be moved <b>onto or past</b> this marker by any actions or abilities during gameplay.
+FirstPlayer_Content;Turn to <b>The Cost of Disease</b> section of the Village Chronicle. Then, turn to <b>page 1</b> <i>(this is noted by the matching The Cost of Disease symbol:</i> <icon=S1_ScenarioIcon>). <br />Retrieve the <icon=S1_HeartToken> tokens from the Scenario box and keep them in a supply near the board.<br />Give the <b>Start Player</b> marker to <b>{{0=...|Oliver|James|Olivia|...}}.</b>
+//====== Gen1 - Fever ======;
+// ---Hub---;
+Fever_Hospital_Content1;Each time a player visits the church, they may donate funds and assistance towards building a new Hospital by paying money to the supply. Depending on the amount spent ($0, $1, or $2), the player will receive 1, 2, or 3 <icon=S1_HeartToken> and lose 1, 2, or 3 <icon=Creepy_Icon>. <i>You do not pay extra ($) for placing a piece if another player has already placed at the church.</i><br /><br />At the end of the Generation, the player with the most <icon=S1_HeartToken> tokens will gain <b>5VP.</b> <i>If there is a tie, all tied players gain 5VP each.</i>
+Fever_Bank_Content;A new Bank has been built in town. For each visit to the Bank, <b>gain $2.</b>
+Fever_Library_Content;A new Library has been built in town. For each visit to the Library, <b>gain one Knowledge of your choice </b><i>(not Occult).</i> You will also gain 1 <icon=Creepy_Icon>.
+Fever_Creepy_Content;If a player reaches the <b>4th</b> space on the <icon=Creepy_Icon> Track, 
+Fever_Sane_Content;If a player reaches the <b>3rd</b> space on the <icon=Insanity_Icon> Track, 
+// ---Gen1CreepyTrack---;
+Gen1CreepyTrack_Content1;Please click on the name of the scientist that reached <b>space 4</b> on the <icon=Creepy_Icon> track:
+Gen1CreepyTrackRes_1_Content1;<link=0>Accept the offer.</link> (To gain $2.)<br /><br /><link=1>Refuse the offer.</link> (To avoid a debt in the future.)
+Gen1CreepyTrackRes_2_Content1;<link=0>Accept.</link> (To take a Perform Experiment Action.)<br /><br /><link=1>Refuse.</link> (If you cannot or choose not to take the action.)
+Gen1CreepyYes_A0_Content;Gain $2. Then, return the <icon=Storybook> token to the supply.
+Gen1CreepyYes_B0_Content;You may immediately take a <b>Perform an Experiment</b> action. Then, return the <icon=Storybook> token to the supply.
+Gen1CreepyNo_0_Content;{{0=?|Lose <b>1 </b><icon=Creepy_Icon>. }}Return the <icon=Storybook> token to the supply.
+// ---Gen1SanityTrack---;
+Gen1SanityTrack_Content1;Please click on the name of the scientist that reached <b>space 3</b> on the <icon=Insanity_Icon> track:
+Gen1SanityTrackRes_0_Content1;<link=0>Accept the offer and pay $1.</link> (Calm your sanity and gain 1 Knowledge.)<br /><br /><link=1>Refuse.</link> (Avoid the penalties of laziness.)
+Gen1SanityYes_0_Content;<b>Pay $1.</b> <b>Gain 1 Knowledge of your choice.</b><br /><br />Then, you may discard a <b>Compulsion</b> from your hand. If you do, <b>gain 1 Knowledge</b> of your choice.<br /><br />Then, return the <icon=Storybook> token to the supply.
+Gen1SanityNo_0_Content;{{0=?|Gain <b>$1</b>. Gain <b>1 </b><icon=Creepy_Icon>. }} Return the <icon=Storybook> token to the supply.
+// ---FeverServe1---;
+FeverServe1_0_Content;Each player <b>pays $1 and gains a SERVANT from LOST</b> and places it in their Quarters.
+// ---S5Special---;
+S5Special1_Content1;<b>gain 3VP</b> and then make the decision as to whether to build a <b>Bank</b> <i>(to obtain additional income)</i>, or to build a <b>Library</b> <i>(to obtain additional knowledge)</i>.
+S5Special1A_Content;<b>SPECIAL EVENT</b><br />All players take all their money into their hands. They then secretly choose any amount to place into their right hand to bid on becoming Mayor.<br /><br />Once all players are ready, reveal the amount of money bid simultaneously. The player that bid the most wins the election. <i>(If there is a tie, the player who went last in turn order the previous round wins the bid.)</i><br /><br />Only the player that wins the election must pay their bid to supply. All others return their money to their Estates.
+S5Special1B_Content1;<b>The player that bid the most wins the election. <i>(If there is a tie, the player who went last in turn order the previous round wins the bid.)</i></b><br /><br />Which player became the elected Mayor?
+S5SpecialSetup1_Content;{{0=...|Oliver|James|Olivia|...}} receives <b>3VP</b> immediately. Then, they receive the <b>Commemorative Mayoral Coin</b> from the box. And finally, they will choose if they would like to build a Bank or a Library.
+S5SpecialSetup1B_Content;<sprite=Bank1><br /><b>BANK</b><br />For each visit to the Bank, <b>gain $2.</b> The Mayor player will also <b>immediately gain 1VP</b> for building the Bank.<br /><br /><sprite=Library1><br /><b>LIBRARY</b><br />For each visit to the Library, <b>gain one Knowledge of your choice</b> <i>(not Occult).</i><br /><br /><b>Which building would the new Mayor like to Build?</b>
+S5SpecialSetup1B_Content1;<link=0>Bank.</link><br /><br /><link=1>Library.</link>
+// ---FeverServe2---;
+FeverServe2_0_Content;Each player <b>gains a SERVANT from LOST</b> and places it in their Quarters. <i>If you cannot gain a Servant, gain $1 instead.</i>
+FeverServe2_1_Content; Turn to page <b>{{0=?|2|3}}</b> of the Village Chronicle. {{1=?|{{2=...|Oliver|James|Olivia|...}} gains 1VP.}}
+// ---FeverHeart---;
+FeverHeart_Content;Count up all the <icon=S1_HeartToken> tokens collected by ALL players. Please enter the total number here:
+FeverHeart_0_Content;Now count up the <icon=S1_HeartToken> tokens collected by each indivdual player. The player(s) with the most <icon=S1_HeartToken> tokens gains <b>5VP</b>. <i>(All tied players gain this bonus.)</i>
+FeverHeart2_Content;The player with the most <icon=S1_HeartToken> tokens will keep <b>1 <icon=S1_HeartToken></b> in their Quarters and return all other tokens to the box. All other players return <b>all</b> of their <icon=S1_HeartToken> tokens to the box. <i>If there is a tie, the player <b>later in turn order</b> this round receives the <icon=S1_HeartToken> token.</i>
+FeverHeart2_0_Content;The player with the <icon=S1_HeartToken> Token is:
+FeverHeart2_1_Content;Remove all player pieces from the board and Perform the End of a Generation. Return all <b>Dubious Bartering</b> cards to the box. Return any remaining <icon=StorybookToken> tokens to the supply.
+//====== Gen2 - Hospital ======;
+// ---HospitalIntro---;
+EradicateDisease_0_Content;Place the <b>Yellow Fever Inoculation</b> Experiment near the game board. When taking a Perform Experiment action, any player may choose to complete this Experiment as if it were in their hand. <i>There is no additional Generation Bonus for completing this Experiment.</i>
+ChooseScience_Content1;<b>Choose which of the Sciences our family will focus upon this Generation:</b><br /><br /><link=0>Chemistry</link></br /><br /><br /><link=1>Engineering</link></br /><br /><br /><link=2>Biology</link>
+ThirtyFiveVp_Content;<b>Carefully hand the Storybook to the player with the least VP.</b> <i>If there is a tie, hand the Storybook to the player later in turn order last round.</i>
+ThirtyFiveVp_0_Content1;<b>The first player that reaches the 35VP mark:</b><br /><br /><link=0>Has a Nasty Rumor spread about them.</link> <i>(They gain 2 <icon=Creepy_Icon> and 1 <icon=Insanity_Icon>.)</i></br /><br /><link=1>Has an unfortunate accident.</link> <i>(They immediately lose 4VP and an Estate Upgrade of their choice.)</i>
+Gen1InsanityYes2_1_Content;Gain a Maladjustment card and place it into play immediately for this Generation.
+Gen1InsanityYes2_2_Content;Lose 3VP.
+PreHospital_Content; Turn to page <b>{{0=?|4|5}}</b> of the Village Chronicle. Place the Suspicion marker on space <b>{{1=...|6|7|8|...}}</b> and the <icon=AngryMob_Icon> token {{2=?|<b>two</b> spaces to the left (due to some seedy dealings).|one space to the left.}}<br /><br />Then, place a <icon=Storybook> token on <b>space 35</b> of the VP track.{{3=?| Then, since this is a 3 player game, pass the starting player marker clockwise 1 additional time.}}
+// ---Hub---;
+Hospital_Board_Content1; All players MUST personally visit the Hospital at least one time during this Generation by placing their Self on the Hospital space in town.<br /><br />The <b>first time</b> you visit the Hospital with your Self, 
+Hospital_Board_Content2;<br /><br /><i>(If, for any reason, you have not visited the Hospital by the end of this Generation, lose 6VP and an Estate Upgrade of your choice, if possible.)</i>
+Hospital_Hospital_Content;For an explanation of the Hospital action space, 
+Hospital_Cure_Content;Whenever a player completes the <b>Yellow Fever Inoculation </b>
+Hospital_Panacea_Content;Whenever a player completes the <b>Panacea</b> 
+Hospital_ImmortalitySecret_Content;If any player reaches the third level of research on the Journal Track with their Storybook token, 
+Hospital_ScientificAdvances_Content;If a player completes a total of 3 B or C-Level {{0=| |Chemistry|Engineering|Biology}} Experiments this Generation, 
+Hospital_VictoryAhead_Content;If a player reaches or passes the Storybook token on space 35 of the Victory Point Track, 
+Hospital_Symposium_Content;At the end of the second round, a Symposium in the field of {{0=| |Chemistry|Engineering|Biology}} will be held to 
+Hospital_Symposium_Content2;Success will be determined by our combined dedication to completing {{0=| |Chemistry|Engineering|Biology}} Experiments.
+// ---Hospital Visit Check---;
+HospitalVisitCheck_Content1;<br /><br />Click on the name of the player <b>visiting the Hospital</b> today:<br /><br />
+HospitalVisitReject_0_Content;Gain 1 <icon=Creepy_Icon>.
+Gen1InsanityNoExtraAction_0_Content;You may immediately return your <b>Self</b> to your Quarters and take another action.
+// ---Hospital Define---;
+HospitalDefine_Content;<sprite=Hospital1><br /><br />Look through the Experiment deck of your choice to find an Experiment of your choice and draw it into your hand. <i>(Once complete, shuffle the deck.)</i><br /><br />You have until the beginning of your next turn to complete this action <i>(allow other players to begin their turn while you choose).</i><br /><br />NOTE: You may take the Hospital action with any legal token, but you must only click on the Storybook prompt the <b>first time</b> you visit the Hospital with your Self.
+// ---Yellow Fever Cure---;
+YellowFeverCureSignin_Content1;<b>Which individual completed the Yellow Fever Inoculation Experiment?</b><br /><br />
+MethodUnicure_0_Content1;<b>Make a Choice to Publish or Patent</b><br /><br />To <b>publish</b> the cure in a medical journal and <b>gain {{0=...|2|3|4|...}} VP</b>, 
+MethodUnicure_0_Content2;<br /><br />To <b>patent</b> the cure and sell the process to world governments and <b>gain ${{0=...|2|3|4|...}}</b>, 
+Unicure1_0_Content;<b>Gain {{0=...|2|3|4|...}}VP.</b><br />Then, move the <icon=AngryMob_Icon> marker <b>2 spaces</b> to the right.
+Unicure2_0_Content;<b>Gain ${{0=...|2|3|4|...}}.</b><br />Then, move the <icon=AngryMob_Icon> marker <b>1 space</b> to the <b>left.</b>
+// ---Panacea---;
+PanaceaIntro_0_Content;Retrieve the <b>Panacea: Cure for all Ailments</b> Experiment from the Scenario box and put it into play in view of all players. When taking a Perform Experiment action, any player may choose to complete this Experiment as if it were in their hand. <i>There is no additional Generation Bonus for completing this Experiment.</i>
+Panacea_Content1;<b>Which individual completed the Panacea Experiment?</b><br />
+Panacea1_0_Content;<b>Gain {{0=...|2|3|4|...}}VP.</b> Also, Gain <b>1</b> <icon=Creepy_Icon>.
+PanaceaTooOld_0_Content;<b>Move forward 1 space on the <icon=Insanity_Icon> Track.</b>
+PanaceaUnleash_0_Content;<b>The player who completed the Panacea Experiment moves forward one space on the <icon=Insanity_Icon> Track.</b><br /><br /><b>All other players must immediately return one Servant piece to the game box. This piece cannot be hired again.</b>
+// ---Trigger 3 Experiments---;
+Trigger3Experiments_Content;Please click on the name of the scientist that completed a total of <b>3 B or C {{0=| |Chemistry|Engineering|Biology}} Experiments</b>:
+ThreeExperimentsRes_0_Content;<b>Retrieve the {{0=| |Chemistry|Engineering|Biology}} Master's Study Vanity Estate Upgrade from the scenario box and add it to your Estate.</b> <i>You must still pay any required costs if you place it a new plot.</i>
+// ---Trigger 35 Points---;
+Trigger35Points_Content;<b>Carefully hand this storybook device to the player that just reached 35VP. This is read within view of all players.</b><br /><br />
+Trigger35Points_A_0_Content;Immediately <b>gain 2 <icon=Creepy_Icon></b> and <b>gain 1 <icon=Insanity_Icon></b>.
+Trigger35Points_B_0_Content;Immediately <b>lose 4VP</b> and <b>discard an Estate Upgrade of your choice</b>.
+// ---Immortality---;
+Immortality_0_Content;Give each player a <b><icon=Storybook> token</b>.<br /><br />Each player chooses an incomplete track of their choice in their Journal and places their <icon=Storybook> token on the third level of that track.
+Gen1CreepyRefuseBonus_1_Content;You may choose to immediately retrieve and build the <b>Reading Room</b> Estate Upgrade at no cost. <i>However, you must still pay any costs related to expanding into a new estate plot.</i><br /><br />The <b>Reading Room</b> acts the same as any other action space in your Estate: On your turn, you may place a Servant or Spouse onto this tile to <b>lose 2 <icon=Insanity_Icon></b>.
+Gen1CreepyRefuseBonus_2_Content;You may choose to immediately retrieve and build the <b>Shrine</b> Estate Upgrade at no cost. <i>However, you must still pay any costs related to expanding into a new estate plot.</i><br /><br />The <b>Shrine</b> acts the same as any other action space in your Estate: On your turn, you may place a Servant or Spouse onto this tile to <b>lose 2 <icon=Creepy_Icon></b>.
+Gen1CreepyAgreedReturn_2_Content;Discard a <b>completed Experiment (of B-Level or higher)</b> OR <b>discard an Estate Upgrade Tile</b> (not a Storage Shed).
+Gen1CreepyAgreedReturn_3_Content;Pay <b>$2 to the supply</b> OR <b>discard an Estate Upgrade Tile</b> (not a Storage Shed).
+InfinityClick1_Content1;<b>Which player has completed the third level of their Journal's Research Track?</b><br /><br />
+InfinityClick2_0_Content;{{0=?|Retrieve the <b>Immortality cards</b> from the scenario box. Shuffle them face down and place them nearby.<br /><br />}}Draw 2 Immortality cards. Look at both of them and choose one as your secret to Eternal Life. Discard the other.</b> Then, discard the <icon=Storybook> token to the supply.
+ImmortalityMwUpdate_Content1;Does any player have the <b>Immortality</b> Masterwork Experiment?<br /><br />
+ImmortalityMwUpdate2_0_Content;Retrieve the <b>Immortality</b> Masterwork Update card from the Scenario box and give it to the player working towards this Masterwork.
+// ---Symposium Event---;
+SymposiumEvent3_Content1;<b>Add up the total number of {{0=| |Chemistry|Engineering|Biology}} Experiments completed by ALL players.</b><br /><br />If the total is less than <b>{{1=...|2|3|4|...}}</b>, 
+SymposiumEvent3_Content2;<br /><br />If the total is equal to or greater than <b>{{0=...|2|3|4|...}}</b>, 
+SymposiumEvent3_Content3;<br /><br />However, if the total is equal to or greater than <b>{{0=...|2|3|4|...}}</b>, 
+PreHospital3_Content;Turn to page <b>{{0=?|6|7}}</b> of the Village Chronicle.
+// ---Hospital End of Generation---;
+HospitalNegative_0_Content;Dr. {{0=...|Oliver|James|Olivia|...}} Jr. must immediately lose 6VP and discard an Estate Upgrade of their choice.<br /><br />
+NoHospitalCons_Content;<b>END OF GENERATION SETUP</b><br />Remove all player pieces from the board and perform the End of a Generation. Any <icon=StorybookToken> tokens remaining on a player's Journal Track are returned to the supply.<br /><br />
+NoHospitalCons_0_Content;<b>Dr. {{0=...|Oliver|James|Olivia|...}} III</b><br />Move forward <b>1 level on the Journal Track of your choice</b>.<br /><br />
+RippedMasterwork_0_Content;All players return their <b>Masterwork Experiments</b> to the box.<br /><br />{{0=?|The player with the Immortality Masterwork Upgrade discards it to the scenario box. They will no longer be penalized for not completing their Masterwork.}}
+//====== Gen2 - Devastation ======;
+// ---Devastation Intro---;
+DiseaseConsequence_0_Content;Retrieve the Hereditary Disease cards from the Scenario box. Shuffle them and <b>deal one Disease card face-up</b> to each player near their Masterwork. Return the remaining Hereditary Disease cards to the box.
+LetterCode_0_Content;Retrieve the <b>Letter</b> cards from the Scenario box. Keep them seal side up and consult the number on the back of each letter:<br />
+LetterCode_0_Content1;<b>{{0=...|Oliver|James|Olivia|...}} collects letter number {{1=...|2|3|4|...}}.</b><br />
+LetterCode_0_Content2;Once all players have received their correspondence, they may read the reverse side secretly.
+Gen1InsanityYes_1_Content;Gain a Maladjustment card and place it into play immediately for this Generation.
+Gen1InsanityYes_2_Content;Lose 3VP.
+PreDevastation_Content;Turn to page <b>{{0=?|12|13}}</b> of the Village Chronicle. Place the Suspicion marker on space <b>{{1=...|2|3|4|...}}</b> and the <icon=AngryMob_Icon> token {{2=?|<b>two</b> spaces to the left (due to some seedy dealings).|one space to the left.}} Pass the Start Player token to the player with the <icon=S1_HeartToken>.
+// ---Hub---;
+Devastation_Envelopes_Content;When a player reveals their Sealed Envelope card, complete the location's action and then 
+Devastation_HereditaryDisease_Content;A "Hereditary Disease" Experiment card can be completed by taking the Perform Experiment action as normal. Completing this Experiment will allow you to <b>ignore all ill effects</b> from Disease between rounds.<br /><br />When a player completes their Hereditary Disease Experiment, 
+Devastation_StableHand_Content;When a player visits the Stables, they may 
+Devastation_StableHand_ClickHere;click here to speak with the Stable Hand.
+Devastation_StableHand_Content1;<i>If you have joined a faction, this action will have no effect.</i>
+Devastation_Suspicion_Content;When a player visits one of the three Suspicious locations, they may investigate the location by secretly picking it up and looking at its reverse side. Then, click on the appropriate location below to choose whether to reveal or conceal the secrets underneath.<br /><br />
+Devastation_Suspicion_ClickHere;Investigate {{0=| |Hardware Store|Wire Service|Book Store|Warehouse|Pet Store}}
+Devastation_Suspicion_Content1;<br /><br /><i>You may visit the same Building multiple times.</i> At the end of the Generation, if a Building has been revealed more times than concealed, the work will be <b>Exposed</b> for the world to see.
+// ---Envelopes---;
+Envelopes_Content;<b>Carefully pick up the Storybook and do not allow any other players to see the screen.</b>
+EnvPasscode_Placeholder;password
+EnvPasscode_Content;Enter the secret password on your envelope.
+FailedMeeting_0_Content;<b>You gain 1 <icon=Creepy_Icon>.</b>
+// ---Hereditary Disease---;
+HereditaryDiseaseComplete_0_Content;After gaining your VP reward for completing this Experiment, flip this card face-down. While this card is face-down, you cannot be affected by Hereditary Disease Events.<br /><br /><i>At the end of the Generation, this card will be discarded.</i>
+// ---Changes---;
+Changes_0_Content;All players discard their Letter cards to the box.
+Diseases1A_0_Content;All players that have not completed the <b>Hereditary Disease Experiment</b> must <b>discard a Knowledge cube to the supply</b> or <b>lose 2VP</b>.
+Diseases1B_0_Content;The Hereditary disease has no effect.
+PreDevastation2_Content;Turn to page <b>14</b> of the Village Chronicle. Retrieve the <b>Suspicious Building</b> tiles, leaving them building side up.<br /><br />Place a storybook token on the <b>Stables</b>.<br /><br />Place the Building marked <b>{{0=| |Hardware Store|Wire Service|Book Store|Warehouse|Pet Store}}</b> on the A Building location.<br />Place the Building marked <b>{{1=| |Hardware Store|Wire Service|Book Store|Warehouse|Pet Store}}</b> on the B Building location.<br />Place the Building marked <b>{{2=| |Hardware Store|Wire Service|Book Store|Warehouse|Pet Store}}</b> on the C Building location.<br /><br />Return the remaining tiles to the scenario box.
+// ---Gen 1 Insanity No Action---;
+Gen1InsanityNoAction_1_Content;Return the piece you placed on this location to your Quarters. You may immediately take another turn.<br /><br />Also, <b>gain 1VP</b>.
+// ---Gen1 Creepy Refusal Build---;
+Gen1CreepyRefusalBuildA_0_Content;You may choose to immediately retrieve and build the <b>Reading Room</b> Estate Upgrade at no cost. <i>However, you must still pay any costs related to expanding into a new Estate plot.</i><br /><br />The <b>Reading Room</b> acts the same as any other action space in your Estate: On your turn, you may place a Servant or Spouse on this tile to <b>lose 2 <icon=Insanity_Icon></b>.
+Gen1CreepyRefusalBuildB_0_Content;You may choose to immediately retrieve and build the <b>Shrine</b> Estate Upgrade at no cost. <i>However, you must still pay any costs related to expanding into a new Estate plot.</i><br /><br />The <b>Shrine</b> acts the same as any other action space in your Estate: On your turn, you may place a Servant or Spouse on this tile to <b>lose 2 <icon=Creepy_Icon></b>.
+// ---Building Signin---;
+BuildingSignin0_Content1;<br /><b>Please choose which player is making this investigation:</b><br />
+// ---Dev Event Cure---;
+DevEventCure_0_Content;Each player, in turn order, may choose to discard a completed B-Level Experiment <i>(to the bottom of the deck)</i> to place their <b>Hereditary Disease Experiment</b> into their <b>Stored Experiments</b>. <i>They will no longer be affected by Disease events.</i><br /><br />Any player that has already completed their <b>Hereditary Disease Experiment</b> cannot choose this action.<br /><br />Continue once all players have made their decision.
+Diseases2A_0_Content;All players that have not completed their <b>Hereditary Disease Experiment</b> must <b>discard an Estate Upgrade tile</b> to the box or <b>lose 3VP</b>.
+Diseases2B_0_Content;All players that have not completed their <b>Hereditary Disease Experiment</b> must <b>lose 2VP</b>.
+// ---Gen 1 Creepy Conceal Expose---;
+Gen1CreepyConcealExpose_1A_Content;Discard a <b>completed Experiment (of B-Level or higher)</b> OR <b>discard an Estate Upgrade Tile</b> (not a Storage Shed).<br /><br />Also, <b>Lose 1VP.</b>
+Gen1CreepyConcealExpose_1B_Content;Pay $2 to the supply OR <b>discard an Estate Upgrade Tile</b> (not a Storage Shed).<br /><br />Also, <b>Gain 1 <icon=Insanity_Icon></b>.
+/// ---Buildings End---;
+BuildingsEnd_Content2;Place the {{0=| |Hardware Store|Wire Service|Book Store|Warehouse|Pet Store}} tile to the side of the play area within reach.<br />
+BuildingsEnd_Content3;{{0=...|Oliver|James|Olivia|...}} gains 3VP for Exposing the threat.<br />
+MostInvestigated_Content1;<b>{{0=...|Oliver|James|Olivia|...}} immediately gains 4VP.</b>
+DiseaseEnd_0_Content;Retrieve the <b>Stasis Chamber Estate Upgrade tiles</b> from the Scenario box. Any player with a completed, face-down, <b>Hereditary Disease Experiment</b> has the option of building the Stasis Chamber in their Estate. Players with the Hereditary Disease Experiment <b>stored</b> cannot accept this bonus. <i>You must still pay $ if you would like to build this tile in a new plot, or you can replace an existing Estate tile.</i><br /><br />Then, discard any remaining Stasis Chamber Estate Upgrades.
+DiseaseEffectA_0_Content;Any player who did not complete or store their Hereditary Disease Experiment draws a <b>Maladjustment</b> card for the next Generation. Then, return that Experiment to the scenario box.
+DiseaseEffectB_0_Content;All players who did not complete or store their <b>Hereditary Disease Experiment</b> discard them to the scenario box.
+DevastationFate1_Content;END OF GENERATION SETUP Remove all player pieces from the board and Perform the End of a Generation. Return any remaining <icon=StorybookToken> tokens to the supply.<br /><br />
+HelpingEvil_0_Content;Retrieve the <b>{{0=| |Fraternity of Hunters|Order of St. Hubertus}}</b> tokens. Retrieve the <b>Master's Study</b> Vanity Estate Upgrades.<br /><br />
+HelpingEvil_0_Content1;{{0=...|Oliver|James|Olivia|...}} III gains <b>4VP</b> and gains a {{1=| |Fraternity of Hunters|Order of St. Hubertus}} token.<br /><br />
+HelpingEvil2_Content;Then, starting with the player with the <b>most Victory Points</b> and continuing in descending order of points, each player with a {{0=| |Fraternity of Hunters|Order of St. Hubertus}} token chooses a <b>Master's Study</b> to build on their Estate. No additional cost is paid for a new plot to place this tile. <i>(Ties are broken by the player that went later in turn order in the previous round.) Return all unclaimed tiles to the box.</i>
