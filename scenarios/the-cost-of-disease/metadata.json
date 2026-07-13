@@ -3,9 +3,14 @@
   "Name": "My Father's Work: The Cost of Disease",
   "Slug": "my-fathers-work-the-cost-of-disease",
   "Description": "Scenario The Cost of Disease from board game My Father's Work published by Renegade Game Studios - https://renegadegamestudios.com/",
-  "UpdatedAt": "2026-07-13T20:34:40.0487909Z",
+  "UpdatedAt": "2026-07-13T23:35:37.7565908Z",
   "RootStoryContainerNodeId": "a193b97c-a960-4213-867d-5ebccfd81eef",
   "FormatVersion": 5,
-  "UnregisterAtEnd": [],
+  "UnregisterAtEnd": [
+    "f97d2965-deb1-4eba-8156-e884093a3c78",
+    "4d0ca3bc-7d90-417b-81e4-414ea29a7fcd",
+    "b7e32ecc-262b-4bfe-b097-1b6d340af528",
+    "494e506c-92eb-495b-b8e8-3ae87da74145"
+  ],
   "LocalizationProjectPath": "..\\..\\local-localization"
 }

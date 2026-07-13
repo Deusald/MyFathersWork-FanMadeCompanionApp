@@ -1,0 +1,95 @@
+{
+  "Id": "f36f7586-68f9-4f4e-a770-4c42de11fe69",
+  "Name": "Gamebook Player/Village Names",
+  "Description": "",
+  "ParentContainer": "84dc3596-0842-41ea-a444-a15ce6322139",
+  "X": 428.0,
+  "Y": 149.0,
+  "GamebookInstructions": false,
+  "ExitMode": "SeparatePaths",
+  "SelectionFlowOut": {
+    "Id": "b6851a82-2895-49f5-9af7-051ece78c450",
+    "Name": "Out",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "SelectionVarOut": {
+    "Id": "b5810a05-fe79-4e94-8761-523e0517c931",
+    "Name": "Selection",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "AcceptExitVariable": false,
+  "ExitVariableIn": {
+    "Id": "0095cf88-aa16-4095-8d4d-a8eaecf2622c",
+    "Name": "Selection",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PrevExitVariable": {
+    "Id": "33d53c30-4f17-47c5-bee4-17a7fac99398",
+    "X": 60.0,
+    "Y": 360.0,
+    "VariableName": "Selection",
+    "RemapEnabled": false,
+    "Remaps": [],
+    "OutPoint": {
+      "Id": "4e983983-cf45-4d16-a745-b78b9a43f741",
+      "Name": "Value",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
+  "EntryPoint": {
+    "Id": "09170265-cca9-4cd2-b1b2-d1519cbd8f48",
+    "Name": "In",
+    "X": 60.0,
+    "Y": 200.0
+  },
+  "ExitPoints": [
+    {
+      "Id": "7b516aa6-d51c-4345-996b-6315c8515b40",
+      "Name": "Out",
+      "X": 660.0,
+      "Y": 120.0
+    }
+  ],
+  "TitleIn": {
+    "Id": "401bc565-216e-4e9f-9a7c-3cecccc2993e",
+    "Name": "Title",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "SubtitleIn": {
+    "Id": "c7548360-ef31-4547-b43b-19550cf983a0",
+    "Name": "Subtitle",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "IconIn": {
+    "Id": "96fef207-a00b-42a9-9562-3660fa5bd9b9",
+    "Name": "Icon",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "LocalizationNodes": [],
+  "IconNodes": [],
+  "LightDarkSwitchNodes": [],
+  "SmartFormatNodes": [],
+  "ExternalVariableNodes": [],
+  "FlowTextNodes": [],
+  "RegisterVariableNodes": [],
+  "SetVariableNodes": [],
+  "UnregisterVariableNodes": [],
+  "SetExternalVariableNodes": [],
+  "ChoiceNodes": [],
+  "AppGamebookTextSplitterNodes": [],
+  "AppGamebookFlowSplitterNodes": [],
+  "ContentConnections": [
+    {
+      "Id": "81dd25ef-9870-417f-8a70-5dc143840425",
+      "FromPoint": "09170265-cca9-4cd2-b1b2-d1519cbd8f48",
+      "ToPoint": "7b516aa6-d51c-4345-996b-6315c8515b40"
+    }
+  ]
+}

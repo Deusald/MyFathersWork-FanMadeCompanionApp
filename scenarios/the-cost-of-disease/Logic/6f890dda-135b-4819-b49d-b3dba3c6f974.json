@@ -3,9 +3,43 @@
   "Name": "Number of Players",
   "Description": "",
   "ParentContainer": "84dc3596-0842-41ea-a444-a15ce6322139",
-  "X": -337.70999999999935,
-  "Y": -40.42,
+  "X": -242.70999999999935,
+  "Y": -7.420000000000002,
   "GamebookInstructions": false,
+  "ExitMode": "SingleSelection",
+  "SelectionFlowOut": {
+    "Id": "e7a05564-b966-41f3-b2d1-e0fda6f8210f",
+    "Name": "Out",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "SelectionVarOut": {
+    "Id": "19accdcd-b767-400f-aec9-a2b8045ccb42",
+    "Name": "Selection",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "AcceptExitVariable": false,
+  "ExitVariableIn": {
+    "Id": "b60e7105-5187-418d-92d9-9cd8043303a1",
+    "Name": "Selection",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PrevExitVariable": {
+    "Id": "9a20d8d3-c3fd-401e-9f24-e201b60da171",
+    "X": 0.0,
+    "Y": 0.0,
+    "VariableName": "Selection",
+    "RemapEnabled": false,
+    "Remaps": [],
+    "OutPoint": {
+      "Id": "fb8e2403-2c52-4482-9fef-980061620801",
+      "Name": "Value",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
   "EntryPoint": {
     "Id": "7d68f995-291f-412b-8ef4-28e3937c07c9",
     "Name": "In",

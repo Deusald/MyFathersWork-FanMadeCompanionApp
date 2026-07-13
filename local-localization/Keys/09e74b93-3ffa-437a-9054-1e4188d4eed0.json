@@ -1,0 +1,40 @@
+{
+  "Id": "09e74b93-3ffa-437a-9054-1e4188d4eed0",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "content1",
+  "Description": "",
+  "CreatedAt": "2026-07-13T23:17:22.9903565Z",
+  "UpdatedAt": "2026-07-13T23:20:31.1297809Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "c7448638-9c34-40f1-be61-88be909e5288",
+      "Name": "PlayerNum",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "0"
+    },
+    {
+      "Id": "fe804c6a-848d-47ad-af51-2070d8ee1d0c",
+      "Name": "slot",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "SA"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "b29d100d1e5b53d876b5e4a9f27c1c6a78a7598bce30e2e98c40bef7944c0a67",
+      "Text": "Please write {PlayerNum:choose(0|1|2|3):first|second|third|fourth} player name in slot {slot}",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T23:20:31.129543Z",
+      "Suggestions": []
+    }
+  ]
+}

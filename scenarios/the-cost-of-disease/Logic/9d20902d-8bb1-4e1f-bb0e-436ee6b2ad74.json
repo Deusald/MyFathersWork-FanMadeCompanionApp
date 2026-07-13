@@ -3,9 +3,43 @@
   "Name": "Immortality",
   "Description": "",
   "ParentContainer": "53f055b0-379e-4e11-ba92-a0b811c61fa4",
-  "X": 391.33599999999956,
-  "Y": -26.497999999999898,
+  "X": 159.33599999999956,
+  "Y": -42.4979999999999,
   "GamebookInstructions": false,
+  "ExitMode": "SeparatePaths",
+  "SelectionFlowOut": {
+    "Id": "afd93f57-8e11-4231-a3d3-e0d5f29eff8a",
+    "Name": "Out",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "SelectionVarOut": {
+    "Id": "b00258bf-2e63-44cd-b303-781a3c43d3f6",
+    "Name": "Selection",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "AcceptExitVariable": false,
+  "ExitVariableIn": {
+    "Id": "6294f166-7b5e-4e89-ba56-3bd949e9a01f",
+    "Name": "Selection",
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "PrevExitVariable": {
+    "Id": "f2f7a474-1247-45f4-b366-05a164cb15d8",
+    "X": 0.0,
+    "Y": 0.0,
+    "VariableName": "Selection",
+    "RemapEnabled": false,
+    "Remaps": [],
+    "OutPoint": {
+      "Id": "b28155a5-07fc-404f-bf7f-d2329f0901d3",
+      "Name": "Value",
+      "X": 0.0,
+      "Y": 0.0
+    }
+  },
   "EntryPoint": {
     "Id": "87118a31-059f-4fe7-9a4e-ba92d3192714",
     "Name": "In",
@@ -96,6 +130,10 @@
   "RegisterVariableNodes": [],
   "SetVariableNodes": [],
   "UnregisterVariableNodes": [],
+  "SetExternalVariableNodes": [],
+  "ChoiceNodes": [],
+  "AppGamebookTextSplitterNodes": [],
+  "AppGamebookFlowSplitterNodes": [],
   "ContentConnections": [
     {
       "Id": "9cf887c8-9696-498b-851f-a6edf30af685",

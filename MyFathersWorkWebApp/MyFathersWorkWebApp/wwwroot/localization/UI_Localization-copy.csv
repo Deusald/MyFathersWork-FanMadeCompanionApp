@@ -10,8 +10,6 @@ MainMenu_FanMade;This is a fan-made project and is not affiliated with Renegade 
 //====== Languages ======;;
 English;English;Angielski
 Polish;Polish;Polski
-//====== Players Initial Screen ======;;
-PlayersInitial_Content;As siblings of an influential family of Eastern European descent, the <b>{{0=|two|three|four}}</b> of us have received a not-insignificant portion of our family's estate.<br /><br /> Before we begin, let us make this historical fiction more engaging by providing our names.;Jako rodzeństwo wpływowej rodziny pochodzenia wschodnioeuropejskiego, nasza <b>{{0=|dwójka|trójka|czwórka}}</b> otrzymała niemałą część rodzinnego majątku.<br /><br /> Zanim zaczniemy, uczyńmy tę historyczną fikcję bardziej wciągającą, podając nasze imiona.
 //====== Players Name Entry Screen ======;;
 PlayersNameEntry_Title;Carefully pass the storybook to Player {{0=|A|B|C|D}};Ostrożnie przekaż księgę graczowi {{0=|A|B|C|D}}
 PlayersNameEntry_SubTitle;Player {{0=|A|B|C|D}} – Please enter your given name:;Gracz {{0=|A|B|C|D}} - Podaj swoje imię:

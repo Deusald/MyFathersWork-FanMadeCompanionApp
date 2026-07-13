@@ -24,8 +24,7 @@
   "Containers": [],
   "Logic": [
     "6cfa28ec-dc97-44be-86df-fde1f3621c52",
-    "9d20902d-8bb1-4e1f-bb0e-436ee6b2ad74",
-    "0077436c-1e45-4baf-a530-ef807ceda3ab"
+    "9d20902d-8bb1-4e1f-bb0e-436ee6b2ad74"
   ],
   "Portals": [],
   "Connections": [
@@ -40,13 +39,8 @@
       "ToPoint": "3931acc9-6d03-438a-8f65-a2b5af5557c5"
     },
     {
-      "Id": "e1328fd4-6b03-4d4a-8a77-dde9d19c9bdc",
+      "Id": "e9d20fcb-f5da-4610-a8ff-01cb92a0a5bd",
       "FromPoint": "bf19b265-eb56-43f8-899f-cd4aea8deb5b",
-      "ToPoint": "dba76d3d-e332-432c-b576-ffcb21f904e4"
-    },
-    {
-      "Id": "4e4a0acc-679c-49ad-9d80-95bebb948a71",
-      "FromPoint": "ee09b24d-d48b-4a9d-b631-c1eff4ff5528",
       "ToPoint": "87118a31-059f-4fe7-9a4e-ba92d3192714"
     }
   ]
