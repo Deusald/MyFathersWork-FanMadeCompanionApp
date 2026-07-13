@@ -4,7 +4,7 @@
   "KeyName": "content",
   "Description": "",
   "CreatedAt": "2026-07-13T15:13:10.1504409Z",
-  "UpdatedAt": "2026-07-13T15:13:12.9455626Z",
+  "UpdatedAt": "2026-07-13T15:55:18.997896Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
@@ -22,11 +22,11 @@
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "a36c7e517887f632a00d91bd6c44ee303a03e9f37c0f4c54c2629efa0ce129fd",
-      "Text": "As siblings of an influential family of Eastern European descent, the <b>{{0=|two|three|four}}</b> of us have received a not-insignificant portion of our family's estate.<br /><br /> Before we begin, let us make this historical fiction more engaging by providing our names.",
+      "BaseTextHash": "b8ae6cafc9e3fab708b29785d36c98e72b5526bb4dbf4c69db3b6a966f60dc56",
+      "Text": "As siblings of an influential family of Eastern European descent, the <b>{NumOfPlayers:choose(2|3|4):two|three|four}</b> of us have received a not-insignificant portion of our family's estate.<br /><br />Before we begin, let us make this historical fiction more engaging by providing our names.",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-13T15:13:12.9454761Z",
+      "UpdatedAt": "2026-07-13T15:55:18.9976784Z",
       "Suggestions": []
     }
   ]

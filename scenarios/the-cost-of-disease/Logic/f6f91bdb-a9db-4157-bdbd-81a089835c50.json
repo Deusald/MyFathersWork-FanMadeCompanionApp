@@ -3,21 +3,21 @@
   "Name": "Players Welcome",
   "Description": "",
   "ParentContainer": "84dc3596-0842-41ea-a444-a15ce6322139",
-  "X": 44.0,
-  "Y": 27.0,
+  "X": 322.0,
+  "Y": 42.0,
   "GamebookInstructions": false,
   "EntryPoint": {
     "Id": "d61d113f-d8e7-4dee-86f1-149a45a76d53",
     "Name": "In",
-    "X": 60.0,
-    "Y": 200.0
+    "X": -13.0,
+    "Y": 91.0
   },
   "ExitPoints": [
     {
       "Id": "bf287595-7833-4c34-8d7a-eaaa81d57708",
       "Name": "Out",
-      "X": 660.0,
-      "Y": 120.0
+      "X": 700.0,
+      "Y": 99.0
     }
   ],
   "TitleIn": {
@@ -38,14 +38,135 @@
     "X": 0.0,
     "Y": 0.0
   },
-  "LocalizationNodes": [],
+  "LocalizationNodes": [
+    {
+      "Id": "30810b98-7bcb-4bab-a8a6-a818a6c38112",
+      "X": -313.0,
+      "Y": 6.0,
+      "SelectedKeyId": "46ea040e-c7f4-48e1-b338-121cedcbcf05",
+      "OutPoint": {
+        "Id": "89560de5-47c6-472c-873a-be8878d4f60e",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "8d8da3df-9b84-49bf-9f1b-886d5e02162e",
+      "X": -329.0,
+      "Y": 269.0,
+      "SelectedKeyId": "3d3bd991-6fcc-4e7f-a7d0-4e814f613f61",
+      "OutPoint": {
+        "Id": "aac6947b-a732-46af-9805-74b7ec3fe1ba",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  ],
   "IconNodes": [],
   "LightDarkSwitchNodes": [],
-  "SmartFormatNodes": [],
-  "ExternalVariableNodes": [],
-  "FlowTextNodes": [],
+  "SmartFormatNodes": [
+    {
+      "Id": "46c223cf-d406-46d0-aa4f-55531faaa33a",
+      "X": 48.0,
+      "Y": 301.0,
+      "LocalizationIn": {
+        "Id": "48043b94-23a2-4da4-8554-9e3da0b047f0",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "VariablesIn": {
+        "Id": "8c50fa72-9fcb-4c76-84ae-e338d7654c0a",
+        "Name": "Variables",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "OutPoint": {
+        "Id": "0fdd11cb-cf72-4749-83ac-c338b2528ee2",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  ],
+  "ExternalVariableNodes": [
+    {
+      "Id": "03bdc9a5-2bd3-4511-ab0e-8da8d6e04250",
+      "X": -315.0,
+      "Y": 428.0,
+      "SelectedVariableId": "7b2a3af0-6a7b-4ce8-ba00-e29bde4415f4",
+      "OutPoint": {
+        "Id": "9bdbfe1a-0e17-42d6-8c35-7854dcdbca4f",
+        "Name": "Value",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  ],
+  "FlowTextNodes": [
+    {
+      "Id": "8b513e76-c66a-43f6-82ad-492c2311771b",
+      "X": 378.0,
+      "Y": 169.0,
+      "FlowIn": {
+        "Id": "0256a102-3074-484a-8ec5-9269946c9ec0",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "TextIn": {
+        "Id": "48cac19d-f8c7-4994-ab06-8eaa63733847",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "FlowOut": {
+        "Id": "06066ca8-996d-45c4-a4bf-7f75d29bc4e8",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  ],
   "RegisterVariableNodes": [],
   "SetVariableNodes": [],
   "UnregisterVariableNodes": [],
-  "ContentConnections": []
+  "SetExternalVariableNodes": [],
+  "ChoiceNodes": [],
+  "AppGamebookTextSplitterNodes": [],
+  "AppGamebookFlowSplitterNodes": [],
+  "ContentConnections": [
+    {
+      "Id": "b28555ca-00eb-414a-bae0-7fad19553499",
+      "FromPoint": "89560de5-47c6-472c-873a-be8878d4f60e",
+      "ToPoint": "f62ce398-9712-4be3-898e-ed8bbbd892f3"
+    },
+    {
+      "Id": "846e2de8-8051-4faa-b738-2046151d54da",
+      "FromPoint": "d61d113f-d8e7-4dee-86f1-149a45a76d53",
+      "ToPoint": "0256a102-3074-484a-8ec5-9269946c9ec0"
+    },
+    {
+      "Id": "8b85a33c-6fc6-4bc7-abd3-c88a43369372",
+      "FromPoint": "06066ca8-996d-45c4-a4bf-7f75d29bc4e8",
+      "ToPoint": "bf287595-7833-4c34-8d7a-eaaa81d57708"
+    },
+    {
+      "Id": "d47afae3-1cb9-4172-95ae-de36cbe5885e",
+      "FromPoint": "0fdd11cb-cf72-4749-83ac-c338b2528ee2",
+      "ToPoint": "48cac19d-f8c7-4994-ab06-8eaa63733847"
+    },
+    {
+      "Id": "0450cfe7-cdeb-4037-9e62-1f1ac49d6bf4",
+      "FromPoint": "aac6947b-a732-46af-9805-74b7ec3fe1ba",
+      "ToPoint": "48043b94-23a2-4da4-8554-9e3da0b047f0"
+    },
+    {
+      "Id": "562b63f5-3394-444b-9cc6-38a52cb49d4c",
+      "FromPoint": "9bdbfe1a-0e17-42d6-8c35-7854dcdbca4f",
+      "ToPoint": "8c50fa72-9fcb-4c76-84ae-e338d7654c0a"
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "Id": "46ea040e-c7f4-48e1-b338-121cedcbcf05",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "title",
+  "Description": "",
+  "CreatedAt": "2026-07-13T15:55:38.5258765Z",
+  "UpdatedAt": "2026-07-13T15:55:48.8841396Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "89e39be510afb9d9e0dc9535ea5d4a59c5e06a990df098d03a7864ef41bdf85c",
+      "Text": "The Siblings",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-13T15:55:48.8840824Z",
+      "Suggestions": []
+    }
+  ]
+}

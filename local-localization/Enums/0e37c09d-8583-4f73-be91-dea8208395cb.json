@@ -1,0 +1,15 @@
+{
+  "Id": "0e37c09d-8583-4f73-be91-dea8208395cb",
+  "Name": "AppGamebook",
+  "Description": "Built-in: the medium being rendered — \"App\" in the app, \"Gamebook\" in the printed book. Read-only; its value follows the preview mode.",
+  "Entries": [
+    {
+      "IntValue": 0,
+      "StringValue": "App"
+    },
+    {
+      "IntValue": 1,
+      "StringValue": "Gamebook"
+    }
+  ]
+}

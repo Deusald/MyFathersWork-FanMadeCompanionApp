@@ -4,21 +4,29 @@
   "KeyName": "option_c",
   "Description": "",
   "CreatedAt": "2026-07-13T15:11:19.5345322Z",
-  "UpdatedAt": "2026-07-13T15:11:47.6687124Z",
+  "UpdatedAt": "2026-07-13T20:00:23.6220147Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
   ],
   "Flags": [],
-  "Variables": [],
+  "Variables": [
+    {
+      "Id": "9f43b9c1-288e-4607-a605-1643f114b7f5",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    }
+  ],
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "6d599fe739721b3ce95f004e006aca81b302dadd2de868486189274beaaac3e8",
-      "Text": "Four Players",
+      "BaseTextHash": "5c9724469b316eefbc28d1a0aa13f9e72c59e6f9fea40d42f1be03e13a94b0f9",
+      "Text": "{AppGamebook:choose(App|Gamebook):Four Players|For Four Players}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-13T15:11:47.6685281Z",
+      "UpdatedAt": "2026-07-13T20:00:23.621917Z",
       "Suggestions": []
     }
   ]

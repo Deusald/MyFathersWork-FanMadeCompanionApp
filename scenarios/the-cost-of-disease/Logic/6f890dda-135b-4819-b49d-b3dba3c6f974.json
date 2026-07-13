@@ -3,8 +3,8 @@
   "Name": "Number of Players",
   "Description": "",
   "ParentContainer": "84dc3596-0842-41ea-a444-a15ce6322139",
-  "X": -302.70999999999935,
-  "Y": 0.5799999999999998,
+  "X": -337.70999999999935,
+  "Y": -40.42,
   "GamebookInstructions": false,
   "EntryPoint": {
     "Id": "7d68f995-291f-412b-8ef4-28e3937c07c9",
@@ -16,20 +16,20 @@
     {
       "Id": "7fc52f31-7eb4-4117-b3d9-06291fc0d17d",
       "Name": "Two",
-      "X": 930.0800000000013,
-      "Y": 27.350000000000012
+      "X": 1293.6850000000004,
+      "Y": 352.8442999999987
     },
     {
       "Id": "20b4161f-0551-4aa4-a4d2-9c23b984aad6",
       "Name": "Three",
-      "X": 920.6099999999999,
-      "Y": 207.04
+      "X": 1292.9549999999995,
+      "Y": 606.5621000000006
     },
     {
       "Id": "0dbea3ed-2300-4497-b655-6de876b0e27f",
       "Name": "Four",
-      "X": 914.5600000000006,
-      "Y": 403.3599999999999
+      "X": 1302.6996000000008,
+      "Y": 813.6532999999988
     }
   ],
   "TitleIn": {
@@ -74,12 +74,155 @@
         "X": 0.0,
         "Y": 0.0
       }
+    },
+    {
+      "Id": "6bb8a3c5-59ed-45f8-9c5f-6348065d3983",
+      "X": 6.600000000000019,
+      "Y": 524.6999999999987,
+      "SelectedKeyId": "a4eb2bef-6614-4e5a-a76f-1bfad8d7df1d",
+      "OutPoint": {
+        "Id": "913cc876-a1be-4f52-9de8-103a8a56854b",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "be0d72db-8d20-47ad-909e-356f2981c018",
+      "X": -1.9910000000000114,
+      "Y": 851.1429999999984,
+      "SelectedKeyId": "a7995d04-74fd-40dc-8443-4413c8d83ebb",
+      "OutPoint": {
+        "Id": "3c232727-95da-4e7d-9517-3bb6ee609fdc",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "6b9d8c38-a395-468c-b27a-13a83dcb493e",
+      "X": -2.708944180085382E-14,
+      "Y": 1195.8036749999992,
+      "SelectedKeyId": "bb509790-907e-4aa0-9e2b-81f59ec0b4a1",
+      "OutPoint": {
+        "Id": "44830096-6f2e-488c-b3f8-1125ee6116b4",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
     }
   ],
   "IconNodes": [],
   "LightDarkSwitchNodes": [],
-  "SmartFormatNodes": [],
-  "ExternalVariableNodes": [],
+  "SmartFormatNodes": [
+    {
+      "Id": "c8247358-c956-4e7d-9bf2-c0202b412c04",
+      "X": 365.3,
+      "Y": 500.40000000000003,
+      "LocalizationIn": {
+        "Id": "38404560-a144-46c3-becb-1a10be773240",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "VariablesIn": {
+        "Id": "ca05d1ed-a9d2-4145-a801-4e2ac80a0ca8",
+        "Name": "Variables",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "OutPoint": {
+        "Id": "9c150873-b40e-4e46-b0eb-24fcec9fb446",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "dad7625b-e1d4-448d-a29b-78928c55b787",
+      "X": 362.6596590000002,
+      "Y": 782.5687799999995,
+      "LocalizationIn": {
+        "Id": "8ec8e7f6-0ef5-4bad-8ca8-b793374c49bd",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "VariablesIn": {
+        "Id": "efbf6ed1-b903-4efb-a84d-2c5301835bb3",
+        "Name": "Variables",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "OutPoint": {
+        "Id": "61bd90c0-df9c-4ac4-b2e3-f0819dcdad56",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "92b51481-3be5-4277-bad6-ee345ba09880",
+      "X": 371.34406490488993,
+      "Y": 993.1584178490671,
+      "LocalizationIn": {
+        "Id": "208a8143-5999-4bae-8964-53c3c47c86db",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "VariablesIn": {
+        "Id": "8485ca1f-6b30-4acb-85ca-2a2ae14ada8a",
+        "Name": "Variables",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "OutPoint": {
+        "Id": "b1a5be7b-b9ab-4bb1-8ea0-eb2cf6cc9a0b",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  ],
+  "ExternalVariableNodes": [
+    {
+      "Id": "36828da1-1762-43e4-ad07-1c5c2492e58f",
+      "X": 6.599999999999985,
+      "Y": 679.799999999999,
+      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
+      "OutPoint": {
+        "Id": "d3424a57-c4ab-4be6-a39c-bfa8ea141401",
+        "Name": "Value",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "dd9b64b4-f99e-42a7-b3c0-42dc5e82f9f4",
+      "X": -2.5754849999999827,
+      "Y": 1019.7363329999989,
+      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
+      "OutPoint": {
+        "Id": "db2f181d-33a6-42bd-80ab-54856c512d89",
+        "Name": "Value",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    },
+    {
+      "Id": "77f92717-85bd-419c-9d57-63bce3ba8b13",
+      "X": -10.248699999999976,
+      "Y": 1367.4694,
+      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
+      "OutPoint": {
+        "Id": "8cb39c63-9382-4d64-849b-97ab1eee1879",
+        "Name": "Value",
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  ],
   "FlowTextNodes": [
     {
       "Id": "bbf91b03-8c15-4fc3-8adc-48aee816ae6f",
@@ -108,6 +251,72 @@
   "RegisterVariableNodes": [],
   "SetVariableNodes": [],
   "UnregisterVariableNodes": [],
+  "SetExternalVariableNodes": [],
+  "ChoiceNodes": [
+    {
+      "Id": "6f26c257-3ced-4cc9-8a2f-569b9cb5c64e",
+      "X": 862.9279000000001,
+      "Y": 564.6970999999986,
+      "FlowIn": {
+        "Id": "ab0cab3b-3576-4f9a-a73e-8d29c75c49d2",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Options": [
+        {
+          "Id": "09061f88-a29f-4245-8a16-393f50491f2c",
+          "Name": "two",
+          "TextIn": {
+            "Id": "cf48a83f-0896-424d-a9c1-a5d82410d510",
+            "Name": "Text",
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "FlowOut": {
+            "Id": "e1e3d457-6412-45bc-8a7b-888713953bca",
+            "Name": "Flow",
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        {
+          "Id": "f2a68ca6-3031-4ce5-855d-9f499f2f3db4",
+          "Name": "three",
+          "TextIn": {
+            "Id": "0db9ae16-d72b-4659-b7c7-6f167457eae6",
+            "Name": "Text",
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "FlowOut": {
+            "Id": "13e29e51-383d-4192-aaec-f878f606eb94",
+            "Name": "Flow",
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        {
+          "Id": "ad0d8bb5-6d67-4cef-a8f3-7065a9b2478a",
+          "Name": "four",
+          "TextIn": {
+            "Id": "f74ffbc2-a69a-499b-90ad-8102c1685d30",
+            "Name": "Text",
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "FlowOut": {
+            "Id": "21885615-8e26-44bd-a1e2-b6041959ba52",
+            "Name": "Flow",
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      ]
+    }
+  ],
+  "AppGamebookTextSplitterNodes": [],
+  "AppGamebookFlowSplitterNodes": [],
   "ContentConnections": [
     {
       "Id": "e675c4a8-7242-4642-a887-48d3e896d0ce",
@@ -123,6 +332,71 @@
       "Id": "39c6e724-d61f-412a-8dfc-106569294093",
       "FromPoint": "d675413a-943a-4f3b-bfe8-7d85e5f4987a",
       "ToPoint": "86d63031-570b-498e-b4e1-5d782f575eea"
+    },
+    {
+      "Id": "5d2c26f5-a92a-40aa-b962-800cd044cb2d",
+      "FromPoint": "1bf840d9-f3d5-4a82-9447-77c5f87a4b31",
+      "ToPoint": "ab0cab3b-3576-4f9a-a73e-8d29c75c49d2"
+    },
+    {
+      "Id": "df3c75be-39c9-478b-96f2-00ac5d02e71a",
+      "FromPoint": "e1e3d457-6412-45bc-8a7b-888713953bca",
+      "ToPoint": "7fc52f31-7eb4-4117-b3d9-06291fc0d17d"
+    },
+    {
+      "Id": "dd2353d1-6630-4e38-ae27-b25dc8896e03",
+      "FromPoint": "13e29e51-383d-4192-aaec-f878f606eb94",
+      "ToPoint": "20b4161f-0551-4aa4-a4d2-9c23b984aad6"
+    },
+    {
+      "Id": "6e56fee8-7b31-4178-a73d-78f207d4bdf5",
+      "FromPoint": "21885615-8e26-44bd-a1e2-b6041959ba52",
+      "ToPoint": "0dbea3ed-2300-4497-b655-6de876b0e27f"
+    },
+    {
+      "Id": "ed5134ab-fe4b-445d-b858-b813f46a6863",
+      "FromPoint": "9c150873-b40e-4e46-b0eb-24fcec9fb446",
+      "ToPoint": "cf48a83f-0896-424d-a9c1-a5d82410d510"
+    },
+    {
+      "Id": "49187f83-4dd4-485f-9cd4-b02cf358d2c6",
+      "FromPoint": "913cc876-a1be-4f52-9de8-103a8a56854b",
+      "ToPoint": "38404560-a144-46c3-becb-1a10be773240"
+    },
+    {
+      "Id": "1a6fd0a7-5b04-45b0-af38-aecf0120ed41",
+      "FromPoint": "61bd90c0-df9c-4ac4-b2e3-f0819dcdad56",
+      "ToPoint": "0db9ae16-d72b-4659-b7c7-6f167457eae6"
+    },
+    {
+      "Id": "b5cc6432-ab93-4cbc-9901-44925cae5cc9",
+      "FromPoint": "3c232727-95da-4e7d-9517-3bb6ee609fdc",
+      "ToPoint": "8ec8e7f6-0ef5-4bad-8ca8-b793374c49bd"
+    },
+    {
+      "Id": "d602ed8b-341a-4220-b623-b38e6265e69d",
+      "FromPoint": "d3424a57-c4ab-4be6-a39c-bfa8ea141401",
+      "ToPoint": "ca05d1ed-a9d2-4145-a801-4e2ac80a0ca8"
+    },
+    {
+      "Id": "4ce90094-3716-484e-9ea5-fcd056c50073",
+      "FromPoint": "db2f181d-33a6-42bd-80ab-54856c512d89",
+      "ToPoint": "efbf6ed1-b903-4efb-a84d-2c5301835bb3"
+    },
+    {
+      "Id": "6c00d40b-fcfa-45fb-bbbf-50db67c9b59b",
+      "FromPoint": "44830096-6f2e-488c-b3f8-1125ee6116b4",
+      "ToPoint": "208a8143-5999-4bae-8964-53c3c47c86db"
+    },
+    {
+      "Id": "72eb59de-81c9-48f6-b01e-9a5740c00b52",
+      "FromPoint": "8cb39c63-9382-4d64-849b-97ab1eee1879",
+      "ToPoint": "8485ca1f-6b30-4acb-85ca-2a2ae14ada8a"
+    },
+    {
+      "Id": "ff628f3a-9e09-4728-919b-8d4261a3666b",
+      "FromPoint": "b1a5be7b-b9ab-4bb1-8ea0-eb2cf6cc9a0b",
+      "ToPoint": "f74ffbc2-a69a-499b-90ad-8102c1685d30"
     }
   ]
 }

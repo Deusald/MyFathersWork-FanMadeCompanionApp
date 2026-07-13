@@ -4,21 +4,29 @@
   "KeyName": "option_b",
   "Description": "",
   "CreatedAt": "2026-07-13T15:10:39.7165764Z",
-  "UpdatedAt": "2026-07-13T15:11:38.9067468Z",
+  "UpdatedAt": "2026-07-13T20:00:11.108004Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
   ],
   "Flags": [],
-  "Variables": [],
+  "Variables": [
+    {
+      "Id": "00a5cba7-6833-49cf-a7f5-9d478173117c",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    }
+  ],
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "2200b072645c1c8326a0ac1897965289bea17819f0e2d3a7927ea657e2d72e46",
-      "Text": "Three Players",
+      "BaseTextHash": "92b417905d171b2dac1c140073622019ce4d73e53f82cf91c80cb833adcd3c15",
+      "Text": "{AppGamebook:choose(App|Gamebook):Three Players|For Three Players}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-13T15:10:45.2022167Z",
+      "UpdatedAt": "2026-07-13T20:00:11.1078848Z",
       "Suggestions": []
     }
   ]

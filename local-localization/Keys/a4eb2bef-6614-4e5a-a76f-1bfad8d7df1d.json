@@ -4,21 +4,29 @@
   "KeyName": "option_a",
   "Description": "",
   "CreatedAt": "2026-07-13T15:10:22.2078277Z",
-  "UpdatedAt": "2026-07-13T15:11:36.4375022Z",
+  "UpdatedAt": "2026-07-13T19:59:51.0910789Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
   ],
   "Flags": [],
-  "Variables": [],
+  "Variables": [
+    {
+      "Id": "6d881b2d-9e27-4cb3-8a9d-7a33141bf5e8",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    }
+  ],
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "e707ec8dfd2b040d22e91e91b90334430f9403f39e2dc96f362d74badd9a67e4",
-      "Text": "Two Players",
+      "BaseTextHash": "56882983c7712910bce3a3d2c4be09507f554338bce175ff1d339caf9e8bdfe5",
+      "Text": "{AppGamebook:choose(App|Gamebook):Two Players|For Two Players}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-13T15:10:30.9741268Z",
+      "UpdatedAt": "2026-07-13T19:59:51.0909281Z",
       "Suggestions": []
     }
   ]
