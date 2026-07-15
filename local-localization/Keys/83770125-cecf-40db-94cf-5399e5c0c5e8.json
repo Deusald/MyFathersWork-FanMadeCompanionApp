@@ -1,0 +1,35 @@
+{
+  "Id": "83770125-cecf-40db-94cf-5399e5c0c5e8",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "welcome_four",
+  "Description": "",
+  "CreatedAt": "2026-07-15T18:47:27.0702161Z",
+  "UpdatedAt": "2026-07-15T18:49:04.8636609Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "f07d06f9-d254-4a4e-95d6-bd5383591d2f",
+      "Name": "PlayerName",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "Adam"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "9b41cf56778d897c742bb69ce31bc63767c4707b23bc5470e3b1506c5c0c176c",
+      "Text": "Welcome to <b>My Father's Work</b>,\n\n<b>{PlayerName}</b>\n\nBe sure to leave your mark on the world.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-15T18:49:04.863541Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

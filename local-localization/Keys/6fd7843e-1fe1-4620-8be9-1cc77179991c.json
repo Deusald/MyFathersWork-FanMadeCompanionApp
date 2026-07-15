@@ -6,7 +6,9 @@
   "CreatedAt": "2026-07-13T10:43:28.4218889Z",
   "UpdatedAt": "2026-07-13T10:43:50.3225277Z",
   "MaxLength": 0,
-  "Tags": [],
+  "Tags": [
+    "scenario-cod"
+  ],
   "Flags": [],
   "Variables": [],
   "Translations": [

@@ -1,0 +1,35 @@
+{
+  "Id": "997f8084-9207-4632-a09e-d0f40b86534b",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "welcome_one",
+  "Description": "",
+  "CreatedAt": "2026-07-15T18:32:01.093407Z",
+  "UpdatedAt": "2026-07-15T18:47:12.9736332Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "ab3618d9-03b8-43f6-ab0b-72bb05633dc9",
+      "Name": "PlayerName",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "Adam"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "2739124f8e15bc228f0b47a4a770ebb65f809d5f1a99a7d09f7f0dd9cccc1382",
+      "Text": "Welcome to <b>My Father's Work</b>,\n\n<b>{PlayerName}</b>\n\nOur warmest regards.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-15T18:33:00.8006255Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

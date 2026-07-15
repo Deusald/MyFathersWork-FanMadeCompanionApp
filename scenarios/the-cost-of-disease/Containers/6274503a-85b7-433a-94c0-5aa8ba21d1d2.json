@@ -1,0 +1,48 @@
+{
+  "Id": "6274503a-85b7-433a-94c0-5aa8ba21d1d2",
+  "Name": "Setup",
+  "Description": "",
+  "ParentContainer": "a193b97c-a960-4213-867d-5ebccfd81eef",
+  "X": 156.0,
+  "Y": 119.0,
+  "EntryPoints": [
+    {
+      "Id": "318774dd-4d92-4b3c-a28e-9cd85eca5c5f",
+      "Name": "In",
+      "X": -68.0,
+      "Y": -4.0
+    }
+  ],
+  "ExitPoints": [
+    {
+      "Id": "3967f243-e346-43ad-9d6b-33199b7f4b74",
+      "Name": "Continue",
+      "X": 1047.0,
+      "Y": -11.0
+    }
+  ],
+  "Containers": [],
+  "Logic": [
+    "56fb2569-3a55-4fb0-a232-2f82fbaac667",
+    "77a02833-c592-4ec1-9b7f-3c02dd96a53d"
+  ],
+  "Portals": [],
+  "Comments": [],
+  "Connections": [
+    {
+      "Id": "33c88062-6794-4ad5-931d-e13b266dae59",
+      "FromPoint": "318774dd-4d92-4b3c-a28e-9cd85eca5c5f",
+      "ToPoint": "a52bfedc-4cbc-4e9a-9dc5-e2791fdffd99"
+    },
+    {
+      "Id": "f88f1fe3-c86c-49f6-b9b1-8b8425b30626",
+      "FromPoint": "5c97e6c1-bf77-4b38-bf52-3437071d13a6",
+      "ToPoint": "ff2ef9c7-43f7-49cd-a2c9-36fea94ad496"
+    },
+    {
+      "Id": "9698aad4-3f73-4fe9-9a86-ed6f19cb2a1a",
+      "FromPoint": "5f2a062e-f892-4a56-8c53-a8b006a2e030",
+      "ToPoint": "3967f243-e346-43ad-9d6b-33199b7f4b74"
+    }
+  ]
+}

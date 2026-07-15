@@ -10,17 +10,6 @@ MainMenu_FanMade;This is a fan-made project and is not affiliated with Renegade 
 //====== Languages ======;;
 English;English;Angielski
 Polish;Polish;Polski
-//====== Players Name Entry Screen ======;;
-PlayersNameEntry_Title;Carefully pass the storybook to Player {{0=|A|B|C|D}};Ostrożnie przekaż księgę graczowi {{0=|A|B|C|D}}
-PlayersNameEntry_SubTitle;Player {{0=|A|B|C|D}} – Please enter your given name:;Gracz {{0=|A|B|C|D}} - Podaj swoje imię:
-PlayersNameEntry_Placeholder;Enter name...;Wprowadź imię...
-PlayersNameEntry_PopUp;The name must be between 2 and 15 characters.;Imię musi zawierać od 2 do 15 znaków.
-PlayersNameEntry_PopUp2;Each player name must be unique.;Każde imię gracza musi być unikatowe.
-//====== Players Welcome Screen ======;;
-PlayersWelcome_First;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Our warmest regards.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Nasze najserdeczniejsze pozdrowienia.
-PlayersWelcome_Second;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Please enjoy your experience.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Życzymy miłych wrażeń.
-PlayersWelcome_Third;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />May your name live in infamy.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Niech twoje imię żyje w niesławie.
-PlayersWelcome_Fourth;Welcome to <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Be sure to leave your mark on the world.;Witamy w <strong>My Father's Work</strong>,<br /><br /><span class="player-name">{{0=...|Oliver|James|Olivia|...}}</span><br /><br />Pamiętaj, aby zostawić swój ślad na świecie.
 //====== Village Screen ======;;
 Village_Title;The Village;Wioska
 Village_Subtitle;<p>Now that our given names have been established, we must also search our recollection for the name of the village which our vast estates overlook.<br />Considering the myriad of small towns in the Hungarian countryside, it would be unerringly forward to not allow the group a chance to collectively name the place they will now inhabit.</p><p>Please collectively enter the name of the town in which your inheritance resides.</p>;<p>Teraz, gdy ustaliliśmy już nasze imiona, musimy również przeszukać pamięć pod kątem nazwy wsi, na którą rozciągają się nasze rozległe majątki.<br />Biorąc pod uwagę niezliczoną ilość małych miasteczek na węgierskiej wsi, byłoby nieomylnie nieumyślne nie dać grupie szansy na wspólne nazwanie miejsca, w którym będą teraz mieszkać.</p><p>Prosimy o zbiorowe podanie nazwy miejscowości, w której znajduje się spadek, który odziedziczyliście.</p>

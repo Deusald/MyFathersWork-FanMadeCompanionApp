@@ -1,10 +1,10 @@
 {
   "Id": "3d3bd991-6fcc-4e7f-a7d0-4e814f613f61",
   "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
-  "KeyName": "content0",
+  "KeyName": "content",
   "Description": "",
   "CreatedAt": "2026-07-13T15:13:10.1504409Z",
-  "UpdatedAt": "2026-07-13T23:17:15.2071669Z",
+  "UpdatedAt": "2026-07-15T16:00:33.7908828Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
@@ -27,7 +27,9 @@
       "Status": "Approved",
       "SourceChanged": false,
       "UpdatedAt": "2026-07-13T15:55:18.9976784Z",
-      "Suggestions": []
+      "Suggestions": [],
+      "Comments": []
     }
-  ]
+  ],
+  "Comments": []
 }

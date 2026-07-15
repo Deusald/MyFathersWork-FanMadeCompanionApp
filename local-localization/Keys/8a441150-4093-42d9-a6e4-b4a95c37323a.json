@@ -1,0 +1,27 @@
+{
+  "Id": "8a441150-4093-42d9-a6e4-b4a95c37323a",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "name_requirement_length",
+  "Description": "",
+  "CreatedAt": "2026-07-15T18:27:06.9945658Z",
+  "UpdatedAt": "2026-07-15T18:27:48.4947946Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "61655439ae76b182e0b037314237626af6706396d083994f13a68785c12eb8b1",
+      "Text": "The name must be between 1 and 30 characters.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-15T18:27:48.4945173Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

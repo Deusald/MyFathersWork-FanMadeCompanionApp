@@ -1,10 +1,10 @@
 {
   "Id": "bb509790-907e-4aa0-9e2b-81f59ec0b4a1",
-  "CategoryId": "0188e08a-8e5a-4ff7-9516-2024af36e9c2",
-  "KeyName": "option_c",
+  "CategoryId": "6472e7ab-90b3-4c24-8fc0-3d643b01a0aa",
+  "KeyName": "four_players",
   "Description": "",
   "CreatedAt": "2026-07-13T15:11:19.5345322Z",
-  "UpdatedAt": "2026-07-13T20:00:23.6220147Z",
+  "UpdatedAt": "2026-07-15T14:02:47.5371771Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
@@ -27,7 +27,9 @@
       "Status": "Approved",
       "SourceChanged": false,
       "UpdatedAt": "2026-07-13T20:00:23.621917Z",
-      "Suggestions": []
+      "Suggestions": [],
+      "Comments": []
     }
-  ]
+  ],
+  "Comments": []
 }

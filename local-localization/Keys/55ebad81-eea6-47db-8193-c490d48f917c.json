@@ -1,0 +1,35 @@
+{
+  "Id": "55ebad81-eea6-47db-8193-c490d48f917c",
+  "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
+  "KeyName": "pass_to_player",
+  "Description": "",
+  "CreatedAt": "2026-07-15T16:01:01.6113179Z",
+  "UpdatedAt": "2026-07-15T16:02:18.4641951Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "df50fdaa-5233-4145-aed8-62e9ead0b6da",
+      "Name": "PlayerNum",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "1"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "fbdad9764fa272ba31873bdea4d425e7295677234d33f9c11e22dbbf87421cf4",
+      "Text": "Carefully pass the storybook to Player {PlayerNum:choose(1|2|3|4):A|B|C|D}",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-15T16:02:18.4640723Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}
