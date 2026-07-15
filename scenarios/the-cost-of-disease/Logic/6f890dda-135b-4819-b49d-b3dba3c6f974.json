@@ -3,8 +3,8 @@
   "Name": "Number of Players",
   "Description": "",
   "ParentContainer": "84dc3596-0842-41ea-a444-a15ce6322139",
-  "X": -242.70999999999935,
-  "Y": -7.420000000000002,
+  "X": -243.91999999999936,
+  "Y": -15.44434590909091,
   "GamebookInstructions": false,
   "ExitMode": "SingleSelection",
   "SelectionFlowOut": {
@@ -62,8 +62,8 @@
     {
       "Id": "0dbea3ed-2300-4497-b655-6de876b0e27f",
       "Name": "Four",
-      "X": 1302.6996000000008,
-      "Y": 813.6532999999988
+      "X": 1292.6996000000008,
+      "Y": 803.6532999999988
     }
   ],
   "TitleIn": {
@@ -111,8 +111,8 @@
     },
     {
       "Id": "6bb8a3c5-59ed-45f8-9c5f-6348065d3983",
-      "X": 6.600000000000019,
-      "Y": 524.6999999999987,
+      "X": 10.600000000000023,
+      "Y": 499.6999999999987,
       "SelectedKeyId": "a4eb2bef-6614-4e5a-a76f-1bfad8d7df1d",
       "OutPoint": {
         "Id": "913cc876-a1be-4f52-9de8-103a8a56854b",
@@ -257,6 +257,8 @@
       }
     }
   ],
+  "GetVariableNodes": [],
+  "LocalVariableNodes": [],
   "FlowTextNodes": [
     {
       "Id": "bbf91b03-8c15-4fc3-8adc-48aee816ae6f",
@@ -349,8 +351,10 @@
       ]
     }
   ],
+  "ConditionNodes": [],
   "AppGamebookTextSplitterNodes": [],
   "AppGamebookFlowSplitterNodes": [],
+  "CommentNodes": [],
   "ContentConnections": [
     {
       "Id": "e675c4a8-7242-4642-a887-48d3e896d0ce",

@@ -3,8 +3,8 @@
   "Name": "PreScenario",
   "Description": "",
   "ParentContainer": "a193b97c-a960-4213-867d-5ebccfd81eef",
-  "X": -197.0,
-  "Y": 146.0,
+  "X": -197.94999999999982,
+  "Y": 165.61999999999992,
   "EntryPoints": [
     {
       "Id": "b4af0afc-251c-4cb5-ae34-8a40dfe9b276",
@@ -28,6 +28,7 @@
     "f36f7586-68f9-4f4e-a770-4c42de11fe69"
   ],
   "Portals": [],
+  "Comments": [],
   "Connections": [
     {
       "Id": "1ca5d4bf-ff09-4d7b-9fd5-2c50879dfcaf",

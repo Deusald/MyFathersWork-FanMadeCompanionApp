@@ -3,8 +3,8 @@
   "Name": "Gen 1 Fever",
   "Description": "",
   "ParentContainer": "a193b97c-a960-4213-867d-5ebccfd81eef",
-  "X": 124.0,
-  "Y": 140.0,
+  "X": 126.42000000000002,
+  "Y": 159.35999999999993,
   "EntryPoints": [
     {
       "Id": "c290ae3b-841e-4ad2-aca7-e8c3cf324560",
@@ -32,6 +32,7 @@
   ],
   "Logic": [],
   "Portals": [],
+  "Comments": [],
   "Connections": [
     {
       "Id": "83fc525d-a4bb-4d38-9ded-c35a401a2915",
@@ -39,7 +40,7 @@
       "ToPoint": "353755ad-d8f3-4d9d-839f-16d015d1927f"
     },
     {
-      "Id": "395d70f5-a6a7-48e3-9fe7-f7282d1d663c",
+      "Id": "e19a0cc6-81e1-4421-85c0-fee86ffbdd0a",
       "FromPoint": "3931acc9-6d03-438a-8f65-a2b5af5557c5",
       "ToPoint": "62aeb5fd-e044-4080-8d6f-3983491037b0"
     }

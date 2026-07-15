@@ -4,7 +4,7 @@
   "KeyName": "content1",
   "Description": "",
   "CreatedAt": "2026-07-13T23:17:22.9903565Z",
-  "UpdatedAt": "2026-07-13T23:20:31.1297809Z",
+  "UpdatedAt": "2026-07-14T16:48:31.4588113Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
@@ -16,7 +16,7 @@
       "Name": "PlayerNum",
       "Type": "Int",
       "EnumId": null,
-      "DefaultPreviewValue": "0"
+      "DefaultPreviewValue": "1"
     },
     {
       "Id": "fe804c6a-848d-47ad-af51-2070d8ee1d0c",
@@ -29,12 +29,14 @@
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "b29d100d1e5b53d876b5e4a9f27c1c6a78a7598bce30e2e98c40bef7944c0a67",
-      "Text": "Please write {PlayerNum:choose(0|1|2|3):first|second|third|fourth} player name in slot {slot}",
+      "BaseTextHash": "b020458455de0569d744cb90faaa927f6ba91d18c3525560d0f547c8de79782d",
+      "Text": "Please write {PlayerNum:choose(1|2|3|4):first|second|third|fourth} player name in slot {slot}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-13T23:20:31.129543Z",
-      "Suggestions": []
+      "UpdatedAt": "2026-07-14T16:48:31.458418Z",
+      "Suggestions": [],
+      "Comments": []
     }
-  ]
+  ],
+  "Comments": []
 }

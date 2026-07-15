@@ -3,8 +3,8 @@
   "Name": "Setup",
   "Description": "",
   "ParentContainer": "01e425ca-6cb8-40e2-af7d-a2daead04ef4",
-  "X": 86.51500000000007,
-  "Y": 47.91600000000004,
+  "X": 85.51500000000007,
+  "Y": 46.91600000000004,
   "EntryPoints": [
     {
       "Id": "353755ad-d8f3-4d9d-839f-16d015d1927f",
@@ -27,6 +27,7 @@
     "9d20902d-8bb1-4e1f-bb0e-436ee6b2ad74"
   ],
   "Portals": [],
+  "Comments": [],
   "Connections": [
     {
       "Id": "92616372-3af0-4f6d-a4ba-11863e891d32",

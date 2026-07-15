@@ -9,8 +9,8 @@
     {
       "Id": "c95419c4-b2d8-4d38-91b1-3e86cd168470",
       "Name": "Start",
-      "X": -520.0,
-      "Y": 163.0
+      "X": -522.42,
+      "Y": 177.52
     }
   ],
   "ExitPoints": [
@@ -33,6 +33,7 @@
   ],
   "Logic": [],
   "Portals": [],
+  "Comments": [],
   "Connections": [
     {
       "Id": "a714eaba-4e58-4af3-bac7-f6adfc5460b4",

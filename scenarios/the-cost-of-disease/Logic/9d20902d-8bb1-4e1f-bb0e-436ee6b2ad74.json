@@ -3,8 +3,8 @@
   "Name": "Immortality",
   "Description": "",
   "ParentContainer": "53f055b0-379e-4e11-ba92-a0b811c61fa4",
-  "X": 159.33599999999956,
-  "Y": -42.4979999999999,
+  "X": 142.33599999999956,
+  "Y": -37.497999999999905,
   "GamebookInstructions": false,
   "ExitMode": "SeparatePaths",
   "SelectionFlowOut": {
@@ -102,6 +102,8 @@
   "LightDarkSwitchNodes": [],
   "SmartFormatNodes": [],
   "ExternalVariableNodes": [],
+  "GetVariableNodes": [],
+  "LocalVariableNodes": [],
   "FlowTextNodes": [
     {
       "Id": "b62e4440-754e-48cc-8070-cd522170fb4c",
@@ -132,8 +134,10 @@
   "UnregisterVariableNodes": [],
   "SetExternalVariableNodes": [],
   "ChoiceNodes": [],
+  "ConditionNodes": [],
   "AppGamebookTextSplitterNodes": [],
   "AppGamebookFlowSplitterNodes": [],
+  "CommentNodes": [],
   "ContentConnections": [
     {
       "Id": "9cf887c8-9696-498b-851f-a6edf30af685",
