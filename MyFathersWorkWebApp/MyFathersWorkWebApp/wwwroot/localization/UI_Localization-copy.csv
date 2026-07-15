@@ -10,15 +10,7 @@ MainMenu_FanMade;This is a fan-made project and is not affiliated with Renegade 
 //====== Languages ======;;
 English;English;Angielski
 Polish;Polish;Polski
-//====== Village Screen ======;;
-Village_Title;The Village;Wioska
-Village_Subtitle;<p>Now that our given names have been established, we must also search our recollection for the name of the village which our vast estates overlook.<br />Considering the myriad of small towns in the Hungarian countryside, it would be unerringly forward to not allow the group a chance to collectively name the place they will now inhabit.</p><p>Please collectively enter the name of the town in which your inheritance resides.</p>;<p>Teraz, gdy ustaliliśmy już nasze imiona, musimy również przeszukać pamięć pod kątem nazwy wsi, na którą rozciągają się nasze rozległe majątki.<br />Biorąc pod uwagę niezliczoną ilość małych miasteczek na węgierskiej wsi, byłoby nieomylnie nieumyślne nie dać grupie szansy na wspólne nazwanie miejsca, w którym będą teraz mieszkać.</p><p>Prosimy o zbiorowe podanie nazwy miejscowości, w której znajduje się spadek, który odziedziczyliście.</p>
-Village_Placeholder;Enter village name...;Wprowadź nazwę wioski...
-Village_PopUp;The village name must be between 2 and 20 characters.;Nazwa wsi musi zawierać od 2 do 20 znaków.
-//====== Village Confirm Screen ======;;
-VillageConfirm_Content;<p>Thank you and please do excuse our forgetfulness.</p><p>Of course, <span class="village-name"><b>{{0=...|London|Dubai|Paris|...}}</b></span> is an appropriate and fitting moniker for a place to conduct important scientific research.In fact, history will remember this name, mark my words.</p>;<p>Dziękujemy i prosimy o wybaczenie naszej niepamięci.</p><p>Oczywiście, <span class="village-name"><b>{{0=...|London|Dubai|Paris|...}}</b></span> to odpowiednia i stosowna nazwa dla miejsca, w którym prowadzi się ważne badania naukowe. Historia zapamięta tę nazwę, zapamiętajcie moje słowa.</p>
 //====== Scenario Screen ======;;
-Scenario_Title;Scenario;Scenariusz
 Scenario_Subtitle;Choose a Scenario for {{0=...|2|3|4|...}} players:;Wybierz scenariusz dla {{0=...|2|3|4|...}} graczy:
 Scenario_TheCostOfDisease;The Cost of Disease;Koszt Choroby
 Scenario_TheCostOfDisease_Desc;SCENARIO NOT READY! DO NOT USE TO PLAY!<br /><br />The Yellow Fever had struck the village. Any visit to its somber limits forced the young heirs to keep a cloth handkerchief about their mouth and nostrils to protect themselves from the miasma. This seemed the perfect — if macabre — backdrop in which to advance their father’s dreadful business.;SCENARIUSZ NIE GOTOWY! NIE UŻYWAJ DO GRANIA!<br /><br />Żółta febra zaatakowała wioskę. Każda wizyta w jej ponurych granicach zmuszała młodych spadkobierców do trzymania chustki na ustach i nozdrzach, aby chronić się przed wyziewami. Wydawało się to idealnym — choć makabrycznym — tłem do rozwijania okropnych interesów ich ojca.

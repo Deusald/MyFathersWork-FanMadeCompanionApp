@@ -1,0 +1,27 @@
+{
+  "Id": "091273d2-086f-4c98-8bf3-d68ed3dc2690",
+  "CategoryId": "2dbaba42-7378-4c8f-a495-9145af953f38",
+  "KeyName": "requirement_length",
+  "Description": "",
+  "CreatedAt": "2026-07-15T20:17:27.7290702Z",
+  "UpdatedAt": "2026-07-15T20:17:43.5248101Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "1527d61130adec49101810f4f555b25ba1bee4b91f1d485a1b53ff7a99c1a755",
+      "Text": "The village name must be between 1 and 30 characters.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-15T20:17:43.5246063Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

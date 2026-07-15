@@ -17,14 +17,16 @@
     {
       "Id": "3967f243-e346-43ad-9d6b-33199b7f4b74",
       "Name": "Continue",
-      "X": 1047.0,
-      "Y": -11.0
+      "X": 1397.2727272727298,
+      "Y": -0.9090909090909047
     }
   ],
   "Containers": [],
   "Logic": [
     "56fb2569-3a55-4fb0-a232-2f82fbaac667",
-    "77a02833-c592-4ec1-9b7f-3c02dd96a53d"
+    "77a02833-c592-4ec1-9b7f-3c02dd96a53d",
+    "fcce673c-c841-4c70-85f4-cc2b65e03dbc",
+    "62eda62a-4192-44c4-9dd7-0d3d9eb0fe67"
   ],
   "Portals": [],
   "Comments": [],
@@ -40,8 +42,18 @@
       "ToPoint": "ff2ef9c7-43f7-49cd-a2c9-36fea94ad496"
     },
     {
-      "Id": "9698aad4-3f73-4fe9-9a86-ed6f19cb2a1a",
+      "Id": "259b7143-1d80-4a91-bca6-1d4c5902bae6",
       "FromPoint": "5f2a062e-f892-4a56-8c53-a8b006a2e030",
+      "ToPoint": "abcfee43-38ff-4427-9067-86a7dda509c4"
+    },
+    {
+      "Id": "feda5a37-15a5-4996-9536-99b6d8cd3b6f",
+      "FromPoint": "faa61a4c-6cbd-41a6-b8f8-74bae653dac6",
+      "ToPoint": "630630d5-a0fe-4fb1-b78b-8b7757fe3bd6"
+    },
+    {
+      "Id": "8c0bc154-949a-482b-a9e7-4d74f814a7e8",
+      "FromPoint": "e7c4af75-16e1-439b-8ba9-5eff2161258d",
       "ToPoint": "3967f243-e346-43ad-9d6b-33199b7f4b74"
     }
   ]

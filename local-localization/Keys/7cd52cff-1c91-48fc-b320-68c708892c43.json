@@ -1,0 +1,42 @@
+{
+  "Id": "7cd52cff-1c91-48fc-b320-68c708892c43",
+  "CategoryId": "2dbaba42-7378-4c8f-a495-9145af953f38",
+  "KeyName": "content1",
+  "Description": "",
+  "CreatedAt": "2026-07-15T20:16:35.7253258Z",
+  "UpdatedAt": "2026-07-15T21:55:50.0560398Z",
+  "MaxLength": 0,
+  "Tags": [
+    "scenario-common"
+  ],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "3ef0848c-aaa7-4419-916c-469db72226b8",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    },
+    {
+      "Id": "3b0a26ee-de94-4318-923b-9a816c424df1",
+      "Name": "slot",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "TE"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "beefcc0a1b8ada74554f32fcf5e10754e85f646e96a1e89cf8973c42561acb5f",
+      "Text": "{AppGamebook:choose(App|Gamebook):Please collectively enter the name of the town in which your inheritance resides.|Please collectively write the name of the town in which your inheritance resides under slot {VillageNameSlot}.} ",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-15T21:55:50.0558798Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

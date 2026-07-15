@@ -4,7 +4,7 @@
   "Description": "Player select number of player that will be playing the game",
   "ParentContainer": "6274503a-85b7-433a-94c0-5aa8ba21d1d2",
   "X": 231.0,
-  "Y": -19.0,
+  "Y": -20.0,
   "GamebookInstructions": false,
   "ExitMode": "SinglePath",
   "Choices": [
@@ -327,7 +327,8 @@
         "Y": 0.0
       },
       "RenderInApp": true,
-      "RenderInGamebook": true
+      "RenderInGamebook": true,
+      "FrameStyle": "Normal"
     }
   ],
   "SplitForAppNodes": [],
@@ -336,6 +337,7 @@
   "UnregisterVariableNodes": [],
   "SetExternalVariableNodes": [],
   "LogicPortalNodes": [],
+  "ConditionFlowNodes": [],
   "CommentNodes": [],
   "ContentConnections": [
     {
