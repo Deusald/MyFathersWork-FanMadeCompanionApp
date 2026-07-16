@@ -1,0 +1,25 @@
+{
+  "Id": "673c528c-cff8-46ad-b667-d44166dafdaf",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "early_years",
+  "Description": "",
+  "CreatedAt": "2026-07-17T20:25:47.8481764Z",
+  "UpdatedAt": "2026-07-17T20:26:00.7445379Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "cd53d500bb39b69e4876e8ac443bc5006d5d2dae9a399eb7700e9a7e16108922",
+      "Text": "Early Years",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:26:00.7443843Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

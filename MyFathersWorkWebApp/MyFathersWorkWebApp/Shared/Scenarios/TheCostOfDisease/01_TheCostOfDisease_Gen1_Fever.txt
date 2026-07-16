@@ -4,19 +4,6 @@ public static partial class TheCostOfDisease
 {
     public static void Fever(GlobalData globalData)
     {
-        // Round 1 -> Fever1
-        // Round 2 -> Fever2
-        // Round 3 -> Fever3
-        globalData.TheCostOfDiseaseVars.HubId = CostOfDiseaseHubId.Fever;
-        globalData.ActiveHub                  = new GameplayHub(globalData);
-        globalData.ActiveHub.SetDefaultTitle();
-        globalData.ActiveHub.SetSubtitle(Years.Early);
-
-        const string       hospitalSection = "Hospital";
-        GameplayHubSection hospital        = globalData.ActiveHub.AddSection(hospitalSection, true);
-        hospital.AddDefaultContent(hospitalSection);
-        hospital.AddNextContent(1, hospitalSection);
-
         const string       bankSection = "Bank";
         GameplayHubSection bank        = globalData.ActiveHub.AddSection(bankSection);
         bank.ReplaceShouldShow(() => globalData.TheCostOfDiseaseVars.Building == BankOrLibrary.Bank);

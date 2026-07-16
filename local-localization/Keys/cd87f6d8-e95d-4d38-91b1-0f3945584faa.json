@@ -1,0 +1,25 @@
+{
+  "Id": "cd87f6d8-e95d-4d38-91b1-0f3945584faa",
+  "CategoryId": "e88c2ae3-e181-4b8a-b865-7fad051eb369",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-17T14:56:54.553631Z",
+  "UpdatedAt": "2026-07-17T14:57:31.9057805Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "c797b76d591fee451cd11424d6dbb57c5571f4a4336fd371375335c094769f15",
+      "Text": "Within days of their settling in to their spouse's liking, the local diocese sent a messenger to speak with each of the heirs about their father's charitability towards the diseased — or lack thereof. The bishop entreated them to donate precious time and money to help aid the sick at the church.\n\nHaving an extensive background in biological studies at the university, the youths proudly offered their scientific services in subduing the epidemic. The bishop was unenthusiastic about the response and pressed them to change their mind — to no avail.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T14:57:31.9056459Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

@@ -1,10 +1,10 @@
 {
   "Id": "83770125-cecf-40db-94cf-5399e5c0c5e8",
   "CategoryId": "5e053127-c1fa-40ca-982d-00424ac86caa",
-  "KeyName": "welcome_four",
+  "KeyName": "welcome",
   "Description": "",
   "CreatedAt": "2026-07-15T18:47:27.0702161Z",
-  "UpdatedAt": "2026-07-15T18:49:04.8636609Z",
+  "UpdatedAt": "2026-07-17T14:05:38.1451646Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
@@ -17,16 +17,23 @@
       "Type": "String",
       "EnumId": null,
       "DefaultPreviewValue": "Adam"
+    },
+    {
+      "Id": "6fe8084f-edb3-44eb-b8d1-4c6c3c165c17",
+      "Name": "PlayerNum",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "1"
     }
   ],
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "9b41cf56778d897c742bb69ce31bc63767c4707b23bc5470e3b1506c5c0c176c",
-      "Text": "Welcome to <b>My Father's Work</b>,\n\n<b>{PlayerName}</b>\n\nBe sure to leave your mark on the world.",
+      "BaseTextHash": "17925613b72205f9734d8d909233f5931a27557b14b4eb80338342008eab1c71",
+      "Text": "Welcome to <b>My Father's Work</b>,\n\n<b>{PlayerName}</b>\n\n{PlayerNum:choose(1|2|3|4):Our warmest regards.|Please enjoy your experience.|May your name live in infamy.|Be sure to leave your mark on the world.}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-15T18:49:04.863541Z",
+      "UpdatedAt": "2026-07-17T14:05:38.1448855Z",
       "Suggestions": [],
       "Comments": []
     }

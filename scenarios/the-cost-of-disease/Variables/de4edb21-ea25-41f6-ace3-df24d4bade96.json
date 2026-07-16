@@ -1,0 +1,9 @@
+{
+  "Id": "de4edb21-ea25-41f6-ace3-df24d4bade96",
+  "Name": "Gen1_Fever_CreepySpace",
+  "Description": "",
+  "PossibleValues": [
+    "4"
+  ],
+  "IsConstant": true
+}

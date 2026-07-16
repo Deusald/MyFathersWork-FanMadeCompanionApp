@@ -1,0 +1,200 @@
+{
+  "Id": "2dd887bd-6265-4739-9635-f098e56955ef",
+  "Name": "Immortality",
+  "Description": "",
+  "ParentContainer": "f6ed3207-f3d1-48b6-ada3-464290bace74",
+  "X": 536.0,
+  "Y": 21.0,
+  "GamebookInstructions": false,
+  "ExitMode": "ManyPaths",
+  "Choices": [
+    {
+      "Id": "13d12b91-dcdd-4e46-b9cf-75aeea92f9d9",
+      "Name": "Continue",
+      "TextIn": {
+        "Id": "2d64756d-1d69-452a-8333-3792de61483f",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": null,
+      "OuterFlowOut": {
+        "Id": "bc0e4c04-0b88-47f6-96e1-11aed8efd272",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": []
+    }
+  ],
+  "DeclaredVariables": [],
+  "ExpectedVariables": [],
+  "VFlowOut": {
+    "Id": "9d788d34-4155-40a1-89df-6a4c420bbc78",
+    "Name": "Continue",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "AcceptVariables": false,
+  "VariablesIn": {
+    "Id": "b9137552-12a7-4dd3-9997-f1658de690b6",
+    "Name": "Variables",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "PrevExitVariable": {
+    "Id": "7d85d761-3d69-4886-9a54-a4f8be61b90f",
+    "X": 60.0,
+    "Y": 360.0
+  },
+  "EntryPoint": {
+    "Id": "32a2e4d2-d611-48e1-98b5-55278090af19",
+    "Name": "In",
+    "X": 117.0,
+    "Y": 188.0,
+    "FlowKind": "Flow"
+  },
+  "TitleIn": {
+    "Id": "9be898e2-badd-4a8d-9a66-66d09362a82e",
+    "Name": "Title",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "SubtitleIn": {
+    "Id": "5ced611a-1b49-403f-9a3b-1106f59aaa26",
+    "Name": "Subtitle",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "IconIn": {
+    "Id": "8e924b05-813f-4f1e-8fe9-7364c095a440",
+    "Name": "Icon",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "ExitLFlowIn": {
+    "Id": "8c38f310-4ee4-43e2-9f25-c8639aa99cdb",
+    "Name": "Flow",
+    "X": 823.0,
+    "Y": 226.0,
+    "FlowKind": "Flow"
+  },
+  "ExitVariablesIn": {
+    "Id": "4869842f-be03-46a3-ab33-6472067d3697",
+    "Name": "Variables",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "ExitAutoTextIn": {
+    "Id": "a1682ebc-7f71-4ccb-9485-3f1de42acefa",
+    "Name": "Text",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "LocalizationNodes": [
+    {
+      "Id": "8268f869-1a7e-4a01-a18b-df1447f499ce",
+      "X": -173.0,
+      "Y": 69.0,
+      "SelectedKeyId": "6fd7843e-1fe1-4620-8be9-1cc77179991c",
+      "OutPoint": {
+        "Id": "266d3d90-fba3-42c2-9e2f-222a966ded8e",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      }
+    },
+    {
+      "Id": "a8b23e12-9fab-4717-a77d-d8fd3a4f7d0c",
+      "X": 120.0,
+      "Y": 391.0,
+      "SelectedKeyId": "0fa6f218-004d-4ffb-b009-630bbb97325e",
+      "OutPoint": {
+        "Id": "bb1bcc00-2485-4997-85b0-392e67175a6d",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      }
+    }
+  ],
+  "IconNodes": [],
+  "LightDarkSwitchNodes": [],
+  "SmartFormatNodes": [],
+  "ExternalVariableNodes": [],
+  "GetVariableNodes": [],
+  "ConstantVariableNodes": [],
+  "FlowTextNodes": [
+    {
+      "Id": "639e5ca2-64e9-437b-8abe-b62a5b2d9e5c",
+      "X": 460.0,
+      "Y": 271.0,
+      "FlowIn": {
+        "Id": "eb00bb6b-5a69-47e0-b797-69b22ec07757",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "TextIn": {
+        "Id": "4d27b8af-1fb7-44f6-beda-273754ec49af",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "FlowOut": {
+        "Id": "038f0359-5973-4e37-b5f2-5a4e3f1271c1",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "RenderInApp": true,
+      "RenderInGamebook": true,
+      "FrameStyle": "Normal"
+    }
+  ],
+  "SplitForAppNodes": [],
+  "RegisterVariableNodes": [],
+  "SetVariableNodes": [],
+  "UnregisterVariableNodes": [],
+  "SetExternalVariableNodes": [],
+  "LogicPortalNodes": [],
+  "ConditionFlowNodes": [],
+  "CommentNodes": [],
+  "FunctionInstanceNodes": [],
+  "ContentConnections": [
+    {
+      "Id": "3416f708-ee32-43ea-a26c-4fec84d60cbd",
+      "FromPoint": "266d3d90-fba3-42c2-9e2f-222a966ded8e",
+      "ToPoint": "9be898e2-badd-4a8d-9a66-66d09362a82e"
+    },
+    {
+      "Id": "843e7885-cacc-4d27-b7ba-920d3d16e1c4",
+      "FromPoint": "32a2e4d2-d611-48e1-98b5-55278090af19",
+      "ToPoint": "eb00bb6b-5a69-47e0-b797-69b22ec07757"
+    },
+    {
+      "Id": "ec392352-60c2-44e5-96db-075621c5ed62",
+      "FromPoint": "038f0359-5973-4e37-b5f2-5a4e3f1271c1",
+      "ToPoint": "8c38f310-4ee4-43e2-9f25-c8639aa99cdb"
+    },
+    {
+      "Id": "5f608ad0-22e8-4791-8f97-fde685879854",
+      "FromPoint": "bb1bcc00-2485-4997-85b0-392e67175a6d",
+      "ToPoint": "4d27b8af-1fb7-44f6-beda-273754ec49af"
+    }
+  ]
+}

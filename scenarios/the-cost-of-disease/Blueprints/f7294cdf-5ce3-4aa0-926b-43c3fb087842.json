@@ -1,0 +1,25 @@
+{
+  "Id": "f7294cdf-5ce3-4aa0-926b-43c3fb087842",
+  "Name": "ChoosePlayers",
+  "Description": "",
+  "Kind": "Function",
+  "DefinitionNodeId": "3e56f2f5-75d2-4a1e-baea-176c0c94dfe8",
+  "Inputs": [],
+  "Outputs": [
+    {
+      "Id": "4f0925c6-5b64-4181-9dfe-bb27dce4e067",
+      "Name": "PlayerTwo",
+      "Type": "Text"
+    },
+    {
+      "Id": "76a2eb4c-92dd-40a1-a520-b6df3312f043",
+      "Name": "PlayerThree",
+      "Type": "Text"
+    },
+    {
+      "Id": "babbc918-45a3-408c-9765-c47bb7abc1b2",
+      "Name": "PlayerFour",
+      "Type": "Text"
+    }
+  ]
+}

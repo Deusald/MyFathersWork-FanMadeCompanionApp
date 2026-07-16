@@ -1,0 +1,25 @@
+{
+  "Id": "c812af2c-65fa-4863-8990-fc531c523c0b",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "special_setup",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:44:06.9267985Z",
+  "UpdatedAt": "2026-07-17T15:44:12.9959976Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "adea9210540680b6bbd37f4e4cfc8efe9b2d0a3c727234e646fc681b613dea1f",
+      "Text": "Special Setup",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:44:12.9958875Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,25 @@
+{
+  "Id": "08dade75-6ece-4b40-b154-e967ab3f2055",
+  "CategoryId": "1d24b0df-9f02-4231-8710-ffe0c9588899",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:21:57.4765216Z",
+  "UpdatedAt": "2026-07-17T15:22:48.2420091Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "30d98daf66bc0f8f8e700de0cead4c4e31f021dc1f4f4a1cdbb3fd7887acebc8",
+      "Text": "The siblings' arrival to claim their considerable inheritance was met with the indifference of a murky countryside, gray and overcast. The sky was heavy with moisture, but could not crack into a tempest, as if heralding the unfortunate circumstances to which they would soon find themselves.\n\nUpon reaching the village, a foul stench tinged the air as teams of horses pulled the charcoal wagons like a silent funeral procession through the muddy streets. Emaciated peasants shielded their faces from the ashen gloom, seemingly unbothered by the display, and went about their somber activities uninterrupted. Several canvas-bound carts lined the edges of the main road, the dismal, gray skin of a human foot sometimes dangling freely from a rip in the fabric.\n\nThe Yellow Fever had struck the village, and for several weeks any visit to its somber limits forced the young heirs to keep a cloth handkerchief about their mouth and nostrils to protect from the miasma. While they were remiss to admit it, this seemed the perfect macabre backdrop in which to advance their father's dreadful business.\n\nWhile the prevailing mood in the village was one of morose caution, the young entrepreneurs saw potential in these darkened streets. A particularly ambitious individual could lift this gray village into a thriving city. Perhaps even an aristocrat with coin to spare could make a persuasive argument as to its direction.\n\nAs the kindred surveyed the dreary countryside from behind the iron gates of their estate, they watched the billowing mists move slowly across the valley. The townsfolk stirred as a disquieting laugh echoed down from the hillside. They were excited to begin their father's work in earnest!",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:22:48.2419165Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

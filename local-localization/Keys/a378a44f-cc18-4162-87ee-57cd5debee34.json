@@ -1,0 +1,33 @@
+{
+  "Id": "a378a44f-cc18-4162-87ee-57cd5debee34",
+  "CategoryId": "fb7d618c-607c-4693-9c35-3f0b4905a459",
+  "KeyName": "content0_App",
+  "Description": "",
+  "CreatedAt": "2026-07-17T17:40:52.7098268Z",
+  "UpdatedAt": "2026-07-17T17:42:50.5255424Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "a0ba41b2-1ec2-4647-b7b2-cb3eea6ab848",
+      "Name": "RandomResult",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "8"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "55ecb779132ab7a420ee161481b3b588629ace6341d9973eaf4f3bdce23e535b",
+      "Text": "Place the Suspicion marker on space <b>{RandomResult}</b> and the <icon=AngryMobIcon> token one space to the left.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T17:42:50.5254349Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

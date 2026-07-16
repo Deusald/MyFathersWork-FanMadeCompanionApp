@@ -3,7 +3,7 @@
   "Name": "My Father's Work: The Cost of Disease",
   "Slug": "my-fathers-work-the-cost-of-disease",
   "Description": "Scenario The Cost of Disease from board game My Father's Work published by Renegade Game Studios - https://renegadegamestudios.com/",
-  "UpdatedAt": "2026-07-15T21:54:44.708449Z",
+  "UpdatedAt": "2026-07-17T21:31:34.8991533Z",
   "RootStoryContainerNodeId": "a193b97c-a960-4213-867d-5ebccfd81eef",
   "FormatVersion": 5,
   "UnregisterAtEnd": [
@@ -11,11 +11,16 @@
     "4d0ca3bc-7d90-417b-81e4-414ea29a7fcd",
     "b7e32ecc-262b-4bfe-b097-1b6d340af528",
     "494e506c-92eb-495b-b8e8-3ae87da74145",
-    "84069087-f784-4f75-8fd7-35719d478cfd",
-    "26ade609-59ab-4c96-b17c-7ee07277ecd6",
-    "93f9735d-c4a7-45c5-a7a0-321b27d93d94",
-    "30d2589c-ac1f-41c6-9f8d-628dbc2dc4b5",
-    "c2eef1f9-ee36-4988-91f8-9c720a7addb8"
+    "32f25d2d-a9e4-18bc-8981-71ce76f50a39",
+    "578fe956-8a62-4872-5c79-4977fbde946c",
+    "1aecfad4-2d51-4b92-1aac-ffb715f705f5",
+    "4188fb4e-98ef-7d4e-90d0-d02e3a17dbac",
+    "fae433cc-95fe-a5e9-aef1-acb789fd8ffa",
+    "2dd26eaf-54df-4e2d-9f22-bb741de2b702",
+    "2aee8526-4b49-4b8d-aa59-ef0ccd213878",
+    "34aa26b5-7097-4917-b83e-7e0750bfd98f",
+    "52753330-14dc-4875-8aa4-0bd937638084",
+    "6f83c128-aa7a-4524-9a0d-dbc17014d69f"
   ],
   "LocalizationProjectPath": "..\\..\\local-localization"
 }

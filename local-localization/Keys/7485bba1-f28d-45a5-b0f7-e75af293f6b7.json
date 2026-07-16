@@ -1,0 +1,40 @@
+{
+  "Id": "7485bba1-f28d-45a5-b0f7-e75af293f6b7",
+  "CategoryId": "86c0a35c-ba60-4d5a-a065-886a8142907b",
+  "KeyName": "content1_Gamebook",
+  "Description": "",
+  "CreatedAt": "2026-07-17T19:15:44.9190952Z",
+  "UpdatedAt": "2026-07-17T19:59:47.4603236Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "aa87adc3-3d7b-4adc-87bb-f2a8ce1a6a8a",
+      "Name": "RandomResult",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "PlayerAName"
+    },
+    {
+      "Id": "c7312ff2-1c3b-4c8f-978a-cdb1262e886f",
+      "Name": "RandomInstruction",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "Roll D12"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "813fa52c01b1bdecbd4b88bb6d3476261499f789f16808659c80dff4f43234fa",
+      "Text": "{RandomInstruction} to give the <b>Start Player</b> marker to:\n{RandomResult}",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T19:59:47.4602037Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

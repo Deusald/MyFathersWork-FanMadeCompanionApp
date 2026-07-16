@@ -1,0 +1,40 @@
+{
+  "Id": "5912353b-18fc-4f2f-b8fc-cae2d8b72148",
+  "CategoryId": "fb7d618c-607c-4693-9c35-3f0b4905a459",
+  "KeyName": "content0_Gamebook",
+  "Description": "",
+  "CreatedAt": "2026-07-17T17:41:35.4522869Z",
+  "UpdatedAt": "2026-07-17T17:44:58.6593233Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "065bcbf3-d8b7-4260-bdd9-82f290170b09",
+      "Name": "RandomInstruction",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "Roll D12"
+    },
+    {
+      "Id": "79e09465-3b4e-4b77-b2b4-b76a127f7cd0",
+      "Name": "RandomResult",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "rolled 1-6 -> 9<br/>rolled 7-12 -> 10"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "bcd3f730c3e246bdbd605f019d106078e6b5e619215d673f03ee12732c561eca",
+      "Text": "{RandomInstruction} to place the Suspicion marker on space:\n{RandomResult}\nand the <icon=AngryMobIcon> token one space to the left.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T17:44:58.6591785Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,25 @@
+{
+  "Id": "242ac13b-06e1-4b44-bd49-20c6f9900aaf",
+  "CategoryId": "af06ad74-3799-4fb0-93f4-229942d7083b",
+  "KeyName": "Yiellow_Fever",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:19:20.7475198Z",
+  "UpdatedAt": "2026-07-17T15:20:35.6735455Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "898eaf5757ed0915a5a68e436a4e000c74f55be163a80015bae0e1405f2e7ffc",
+      "Text": "Yellow Fever",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:20:35.6734044Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

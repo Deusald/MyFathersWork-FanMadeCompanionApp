@@ -1,0 +1,25 @@
+{
+  "Id": "03b4ccd3-db6e-48b9-8ea6-59b58f05dc41",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "setup",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:26:23.3289388Z",
+  "UpdatedAt": "2026-07-17T15:26:27.4451617Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "7013af4c42fe43802a9e8b0affc4f521fcd126160569969fb2ec09e1b7c422b1",
+      "Text": "Setup",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:26:27.4450811Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

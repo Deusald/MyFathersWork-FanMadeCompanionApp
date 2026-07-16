@@ -1,16 +1,7 @@
-//====== Setup ======;
-ScenarioStart_SubTitle;Yellow Fever
-ScenarioStart_Content;The siblings' arrival to claim their considerable inheritance was met with the indifference of a murky countryside, gray and overcast. The sky was heavy with moisture, but could not crack into a tempest, as if heralding the unfortunate circumstances to which they would soon find themselves.<br /><br />Upon reaching the village, a foul stench tinged the air as teams of horses pulled the charcoal wagons like a silent funeral procession through the muddy streets. Emaciated peasants shielded their faces from the ashen gloom, seemingly unbothered by the display, and went about their somber activities uninterrupted. Several canvas-bound carts lined the edges of the main road, the dismal, gray skin of a human foot sometimes dangling freely from a rip in the fabric.<br /><br />The Yellow Fever had struck the village, and for several weeks any visit to its somber limits forced the young heirs to keep a cloth handkerchief about their mouth and nostrils to protect from the miasma. While they were remiss to admit it, this seemed the perfect macabre backdrop in which to advance their father's dreadful business.<br /><br />While the prevailing mood in the village was one of morose caution, the young entrepreneurs saw potential in these darkened streets. A particularly ambitious individual could lift this gray village into a thriving city. Perhaps even an aristocrat with coin to spare could make a persuasive argument as to its direction.<br /><br />As the kindred surveyed the dreary countryside from behind the iron gates of their estate, they watched the billowing mists move slowly across the valley. The townsfolk stirred as a disquieting laugh echoed down from the hillside. They were excited to begin their father's work in earnest!
-Dubious_Title;<b>Dubious Bartering</b>
-Dubious_Content;Within days of their settling in to their spouse's liking, the local diocese sent a messenger to speak with each of the heirs about their father's charitability towards the diseased — or lack thereof. The bishop entreated them to donate precious time and money to help aid the sick at the church.<br /><br />Having an extensive background in biological studies at the university, the youths proudly offered their scientific services in subduing the epidemic. The bishop was unenthusiastic about the response and pressed them to change their mind — to no avail.
 //====== Gen1 - Fever ======;
 // ---Hub---;
-Fever_Title;Yellow Fever
-Fever_Hospital_Title;BUILD A HOSPITAL
-Fever_Hospital_Content;The church can no longer handle the influx of the diseased and needs to expand their facilities. 
 Fever_Bank_Title;BANK
 Fever_Library_Title;LIBRARY
-Fever_Creepy_Title;<icon=StorybookToken> Attracting Attention
 Fever_Sane_Title;<icon=StorybookToken> The Mark of Genius
 Fever_End_Title;Second round Event - Election Season
 Fever_End_Content;Political pandering may require more than simply a silver tongue and a bright smile. Be sure to have some extra capital on hand as the need may arise.

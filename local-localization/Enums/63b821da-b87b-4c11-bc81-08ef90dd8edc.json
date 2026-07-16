@@ -1,0 +1,15 @@
+{
+  "Id": "63b821da-b87b-4c11-bc81-08ef90dd8edc",
+  "Name": "AppTheme",
+  "Description": "",
+  "Entries": [
+    {
+      "IntValue": 0,
+      "StringValue": "Light"
+    },
+    {
+      "IntValue": 1,
+      "StringValue": "Dark"
+    }
+  ]
+}

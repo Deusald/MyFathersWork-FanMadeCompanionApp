@@ -1,0 +1,25 @@
+{
+  "Id": "8f354558-f796-441a-9f46-a6e38cc15b7b",
+  "CategoryId": "5bde254e-4a1d-4cb5-be80-b3823cb16a36",
+  "KeyName": "creepy_title",
+  "Description": "",
+  "CreatedAt": "2026-07-17T20:49:16.3356515Z",
+  "UpdatedAt": "2026-07-17T20:57:39.2602891Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "c8589d073b5c9d95b434f81b4ed1d764df68c0051f222d60fff025b403e5149a",
+      "Text": "Attracting Attention",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:49:17.7512509Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

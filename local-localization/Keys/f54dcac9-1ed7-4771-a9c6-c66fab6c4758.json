@@ -1,0 +1,25 @@
+{
+  "Id": "f54dcac9-1ed7-4771-a9c6-c66fab6c4758",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "generation_III",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:00:08.6073629Z",
+  "UpdatedAt": "2026-07-17T15:30:40.3156637Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "7200f10fb41735ed21c6543f93a3d0d62669fbdae1999a364be7aca475cd5965",
+      "Text": "Generation III",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:19:04.3260273Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

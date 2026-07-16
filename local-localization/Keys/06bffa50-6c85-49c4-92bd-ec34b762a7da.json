@@ -1,0 +1,25 @@
+{
+  "Id": "06bffa50-6c85-49c4-92bd-ec34b762a7da",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "middle_years",
+  "Description": "",
+  "CreatedAt": "2026-07-17T20:26:21.6717572Z",
+  "UpdatedAt": "2026-07-17T20:26:23.8900611Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "8b3c8f5ad2b73e5df19c7882133d1657aa997a3bbd6b278d98666bbaad1151b4",
+      "Text": "Middle Years",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:26:23.8899992Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

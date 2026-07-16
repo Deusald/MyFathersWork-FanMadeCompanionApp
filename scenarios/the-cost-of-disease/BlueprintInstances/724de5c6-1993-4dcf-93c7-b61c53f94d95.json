@@ -1,0 +1,21 @@
+{
+  "Id": "724de5c6-1993-4dcf-93c7-b61c53f94d95",
+  "BlueprintId": "75418de0-1be1-4d40-871b-3ca80015073c",
+  "ParentContainer": "f03cd9b0-95a2-4ee4-a1d7-4649b43f35b3",
+  "X": 563.0,
+  "Y": -369.0,
+  "EntryPorts": [
+    {
+      "Id": "d69231f4-bf1f-4c0d-8c6e-a030894ca83c",
+      "DefinitionPointId": "8f361a95-dcf4-41d6-9828-5113791a3e24",
+      "Name": "In"
+    }
+  ],
+  "ExitPorts": [
+    {
+      "Id": "48a9bf00-af76-44c0-ad97-961d10cc4676",
+      "DefinitionPointId": "36caf307-778a-49d7-ab87-cb3261ae4f47",
+      "Name": "Out"
+    }
+  ]
+}

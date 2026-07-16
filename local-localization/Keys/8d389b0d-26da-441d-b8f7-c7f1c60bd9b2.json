@@ -1,0 +1,33 @@
+{
+  "Id": "8d389b0d-26da-441d-b8f7-c7f1c60bd9b2",
+  "CategoryId": "5bde254e-4a1d-4cb5-be80-b3823cb16a36",
+  "KeyName": "creepy_content",
+  "Description": "",
+  "CreatedAt": "2026-07-17T20:52:34.060824Z",
+  "UpdatedAt": "2026-07-17T20:58:56.723675Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "cd7c95d4-76ae-4d39-832f-bad85f3a3ec5",
+      "Name": "Gen1_Fever_CreepySpace",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "4"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "fb2d1ed4ee53940a9dbd0b7be40be8011ed835b96310f3e60ec9d619b3be777b",
+      "Text": "If a player reaches the <b>{Gen1_Fever_CreepySpace}{Gen1_Fever_CreepySpace:choose(1|2|3):st|nd|rd|th}</b> space on the <icon=CreepyIcon> Track, ",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:58:56.7236082Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

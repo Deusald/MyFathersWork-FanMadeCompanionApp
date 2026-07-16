@@ -1,0 +1,96 @@
+{
+  "Id": "01d331ec-82a0-487e-b7d2-d56cd3d38612",
+  "CategoryId": "5bde254e-4a1d-4cb5-be80-b3823cb16a36",
+  "KeyName": "build_hospital_content",
+  "Description": "",
+  "CreatedAt": "2026-07-17T20:30:28.6968713Z",
+  "UpdatedAt": "2026-07-17T20:35:09.4453025Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "56e754ca-a067-4291-a6ad-f3c507013e5a",
+      "Name": "dollar_low",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "0"
+    },
+    {
+      "Id": "48e9bf12-37cf-4999-9ee4-27b3a771a7ef",
+      "Name": "dollar_middle",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "1"
+    },
+    {
+      "Id": "5f63165f-e95e-4d39-b9cb-2833c90b292b",
+      "Name": "dollar_high",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "2"
+    },
+    {
+      "Id": "75a2e377-a414-4e1a-9916-a30e8cb42884",
+      "Name": "heart_low",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "1"
+    },
+    {
+      "Id": "c71e04d3-5299-40c8-b91d-01cb3ed06e51",
+      "Name": "heart_middle",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "2"
+    },
+    {
+      "Id": "87934ae0-2c1c-428d-a83d-caa748798001",
+      "Name": "heart_high",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "3"
+    },
+    {
+      "Id": "585271e9-55fc-4e48-abb2-d2ab64559230",
+      "Name": "creepy_low",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "1"
+    },
+    {
+      "Id": "c799f67b-0b33-4ef4-a049-6586a20c7799",
+      "Name": "creepy_middle",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "2"
+    },
+    {
+      "Id": "fb22bdf7-de48-4f92-b74d-2bb109abd5f9",
+      "Name": "creepy_high",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "3"
+    },
+    {
+      "Id": "2af84c53-5a5c-4f02-b4f9-8a5ad9a7dc6a",
+      "Name": "vp",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "5"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "f63a5f7205e5c544ddd84fb44eb7e0b5b6b1bc12fdf5c1d2556c4a52ce1dc662",
+      "Text": "The church can no longer handle the influx of the diseased and needs to expand their facilities. Each time a player visits the church, they may donate funds and assistance towards building a new Hospital by paying money to the supply. Depending on the amount spent (${dollar_low}, ${dollar_middle}, or ${dollar_high}), the player will receive {heart_low}, {heart_middle}, or {heart_high} <icon=S1_HeartToken> and lose {creepy_low}, {creepy_middle}, or {creepy_high} <icon=CreepyIcon>. <i>You do not pay extra ($) for placing a piece if another player has already placed at the church.</i>\n\nAt the end of the Generation, the player with the most <icon=S1_HeartToken> tokens will gain <b>{vp}VP.</b> <i>If there is a tie, all tied players gain {vp}VP each.</i>",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:35:09.4452377Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

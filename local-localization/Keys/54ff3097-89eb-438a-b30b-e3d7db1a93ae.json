@@ -1,0 +1,54 @@
+{
+  "Id": "54ff3097-89eb-438a-b30b-e3d7db1a93ae",
+  "CategoryId": "86c0a35c-ba60-4d5a-a065-886a8142907b",
+  "KeyName": "content0",
+  "Description": "",
+  "CreatedAt": "2026-07-17T18:19:13.3779373Z",
+  "UpdatedAt": "2026-07-17T19:15:54.6381737Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "ddd60d65-5906-4e7b-8895-1b0e7ef97551",
+      "Name": "PlayerAName",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "Adam"
+    },
+    {
+      "Id": "6990a1ae-af31-4d4b-9fcf-2b12547943d7",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    },
+    {
+      "Id": "45a229f7-bad5-4a6f-a923-6ef7555ec2d0",
+      "Name": "page",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "1"
+    },
+    {
+      "Id": "0e646c49-2c58-4703-98a8-a227fb1c497d",
+      "Name": "AppTheme",
+      "Type": "EnumString",
+      "EnumId": "63b821da-b87b-4c11-bc81-08ef90dd8edc",
+      "DefaultPreviewValue": "0"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "49d96967e155e84981557505d1d89e5f30f2c5b39d65da07dffa906dcbc3c8ee",
+      "Text": "Turn to <b>The Cost of Disease</b> section of the Village Chronicle. Then, turn to <b>page {page}</b> <i>(this is noted by the matching The Cost of Disease symbol:</i> {AppTheme:choose(Light|Dark):<icon=S1_ScenarioIconForLight>|<icon=S1_ScenarioIconForDark>}). <br />Retrieve the <icon=S1_HeartToken> tokens from the Scenario box and keep them in a supply near the board.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T19:15:54.6381102Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

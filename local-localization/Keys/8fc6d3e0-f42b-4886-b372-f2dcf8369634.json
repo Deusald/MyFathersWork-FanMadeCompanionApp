@@ -1,0 +1,33 @@
+{
+  "Id": "8fc6d3e0-f42b-4886-b372-f2dcf8369634",
+  "CategoryId": "86c0a35c-ba60-4d5a-a065-886a8142907b",
+  "KeyName": "content1_App",
+  "Description": "",
+  "CreatedAt": "2026-07-17T19:15:09.2342271Z",
+  "UpdatedAt": "2026-07-17T19:28:47.4535999Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "6b802123-356b-47da-b486-33298ecfa632",
+      "Name": "RandomResult",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "PlayerAName"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "5084547d50bb8993b2ab1f3c246cf3b007654e53836ca3d1812659be0a2a49c9",
+      "Text": "Give the <b>Start Player</b> marker to <b>\\{{RandomResult}\\}</b>.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T19:28:47.4532593Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

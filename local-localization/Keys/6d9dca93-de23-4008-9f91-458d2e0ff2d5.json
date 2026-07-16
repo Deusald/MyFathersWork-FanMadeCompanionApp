@@ -1,0 +1,47 @@
+{
+  "Id": "6d9dca93-de23-4008-9f91-458d2e0ff2d5",
+  "CategoryId": "dfdaebad-5195-4825-9a1c-ed7b5a473660",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:40:41.4699843Z",
+  "UpdatedAt": "2026-07-17T20:51:44.4342212Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "ad3438b2-36ab-407b-97fa-c21209dbcfe4",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    },
+    {
+      "Id": "b54726b2-ac21-49d6-88cf-e299e900cbb0",
+      "Name": "InsanityValue",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "3"
+    },
+    {
+      "Id": "4fdb3076-59c4-4563-a9b8-1b9500e0c474",
+      "Name": "Gen1_Fever_CreepySpace",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "4"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "42bfd91b110715ee50ec6a1371b42725825456ac0d5368dcc545722dec81b1ff",
+      "Text": "<b>Retrieve the <icon=StorybookToken> tokens.</b>\n\nPlace one token on <b>space {InsanityValue}</b> of the <icon=InsanityIcon> Track.\n\nPlace one token on <b>space {Gen1_Fever_CreepySpace}</b> of the <icon=CreepyIcon> Track.\n\n<i>When a player's piece reaches one of these tokens, they will {AppGamebook:choose(App|Gamebook):click|follow} on the appropriate link and receive a special message for reaching this achievement.</i>",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:51:44.434157Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

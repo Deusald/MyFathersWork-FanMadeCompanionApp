@@ -1,0 +1,25 @@
+{
+  "Id": "840bc798-05a9-42ef-8fe2-feba710e88f8",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "generation_I",
+  "Description": "",
+  "CreatedAt": "2026-07-17T14:59:30.265964Z",
+  "UpdatedAt": "2026-07-17T15:30:35.3020689Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "622aea83b5ff2b5b957bd544e2eb7741bd0c3b654765ff460f1b3e89c1c770b4",
+      "Text": "Generation I",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:07:41.9362488Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

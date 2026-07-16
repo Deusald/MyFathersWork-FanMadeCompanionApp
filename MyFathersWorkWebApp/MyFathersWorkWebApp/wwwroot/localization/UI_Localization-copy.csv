@@ -42,19 +42,12 @@ Gameplay_ClickHereContinueNextRound;Click here to continue to the next round...;
 Gameplay_ClickHere;Click Here;Kliknij Tutaj
 Gameplay_ClickHereForReward;Click Here for a special Reward;Kliknij Tutaj aby otrzymać specjalną Nagrodę
 Gameplay_OnceYouAreReady;Once you are ready, click here to reveal your secret conversation.;Kiedy będziesz gotów, kliknij tutaj aby odkryć swoją tajną rozmowę.
-Gameplay_Setup;SETUP;PRZYGOTOWANIE
 Gameplay_SpecialSetup;SPECIAL SETUP;SPECJALNE PRZYGOTOWANIE
 Gameplay_Accept;Accept;Akceptuj
 Gameplay_Confirm;Confirm;Potwierdź
 Gameplay_Choose;CHOOSE:;WYBIERZ:
 Gameplay_HandStorybookTo;Carefully hand this storybook device to {{0=...|Oliver|James|Olivia|...}}. This text (and its choice if any) should be read aloud and made in full view of all players.;Ostrożnie przekaż to urządzenie osobie o imieniu {{0=...|Oliver|James|Olivia|...}}. Ten tekst (i wybór jeśli jakiś jest) powinien być przeczytany na głos, tak aby wszyscy gracze mogli go usłyszeć.
 Gameplay_DoNotOtherPlayersSee;Carefully hand this storybook device to {{0=...|Oliver|James|Olivia|...}} and do not allow any other players to see the screen.;Ostrożnie przekaż to urządzenie osobie o imieniu {{0=...|Oliver|James|Olivia|...}} i nie pozwól aby inni gracze zobaczyli zawartość następnego ekranu.
-Gameplay_EarlyYears;Early Years;Wczesne Lata
-Gameplay_MiddleYears;Middle Years;Środkowe Lata
-Gameplay_LateYears;Late Years;Późne Lata
-Gameplay_Generation_I;<b>GENERATION I:</b>;<b>POKOLENIE I:</b>
-Gameplay_Generation_II;<b>GENERATION II:</b>;<b>POKOLENIE II:</b>
-Gameplay_Generation_III;<b>GENERATION III:</b>;<b>POKOLENIE III:</b>
 Gameplay_EndOfRound_Title;End of the Round;Koniec Rundy
 Gameplay_EndOfRound_Content;The {{0=|Early Years|Middle Years|Late Years| }} of the {{1=|First Generation|Second Generation|Third Generation}} has ended.{{2=?|<br />Perform all End of Round actions.<br />Then, perform all Start of Round actions for the {{3=|Early Years|Middle Years|Late Years| }} before continuing.|<br />Perform all End of Round actions before continuing.}};{{0=|Wczesne Lata|Środkowe Lata|Późne Lata| }} {{1=|Pierwszego Pokolenia|Drugiego Pokolenia|Trzeciego Pokolenia}} zakończyły się.{{2=?|<br />Wykonaj wszystkie akcje Końca Rundy.<br />Następnie wykonaj wszystkie akcje Startu Rundy {{3=|Wczesnych Lat|Środkowych Lat|Późnych Lat| }} przed kontynuaowaniem.|<br />Wykonaj wszystkie akcjie Końca Rundy przed kontynuowaniem.}}
 Gameplay_ClickHereAfterBid;Click here after resolving the bid...;Kliknij tutaj po tym jak zakończycie licytację...

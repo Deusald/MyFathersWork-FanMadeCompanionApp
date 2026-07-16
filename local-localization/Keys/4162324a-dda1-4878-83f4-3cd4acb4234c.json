@@ -1,0 +1,25 @@
+{
+  "Id": "4162324a-dda1-4878-83f4-3cd4acb4234c",
+  "CategoryId": "e88c2ae3-e181-4b8a-b865-7fad051eb369",
+  "KeyName": "title",
+  "Description": "",
+  "CreatedAt": "2026-07-17T14:56:40.1622431Z",
+  "UpdatedAt": "2026-07-17T14:56:49.2000909Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "0096190e8a820e2831a7f3bbebec45413ac867fbcbc611abfcfeb612a76f8d21",
+      "Text": "Dubious Bartering",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T14:56:49.1999682Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

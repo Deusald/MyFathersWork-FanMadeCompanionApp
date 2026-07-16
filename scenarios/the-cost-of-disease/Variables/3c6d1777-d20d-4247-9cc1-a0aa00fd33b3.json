@@ -1,0 +1,24 @@
+{
+  "Id": "3c6d1777-d20d-4247-9cc1-a0aa00fd33b3",
+  "Name": "Tracker",
+  "Description": "The position of Suspicion marker that guards Angry Mob Token and Creepy Token positions",
+  "PossibleValues": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "IsConstant": false
+}

@@ -1,0 +1,25 @@
+{
+  "Id": "e6dd1c59-4d1e-419f-b632-f555cbecc81b",
+  "CategoryId": "a75131f3-1374-4e1d-b1be-b0a62d304f1f",
+  "KeyName": "generation_II",
+  "Description": "",
+  "CreatedAt": "2026-07-17T14:59:52.8939279Z",
+  "UpdatedAt": "2026-07-17T15:30:37.9656687Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "c1239e8a007f2468734d85d88d3e186498fdef092426652a413564c823993aea",
+      "Text": "Generation II",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:07:48.7033947Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

@@ -4,7 +4,7 @@
   "KeyName": "name_instruction",
   "Description": "",
   "CreatedAt": "2026-07-13T23:17:22.9903565Z",
-  "UpdatedAt": "2026-07-15T21:48:19.8374424Z",
+  "UpdatedAt": "2026-07-17T11:56:10.8560271Z",
   "MaxLength": 0,
   "Tags": [
     "scenario-common"
@@ -27,41 +27,20 @@
     },
     {
       "Id": "e4bbd2d0-7069-4971-b53a-9c0f7906f81a",
-      "Name": "PlayerANameSlot",
+      "Name": "PlayerNameSlot",
       "Type": "String",
       "EnumId": null,
       "DefaultPreviewValue": "SA"
-    },
-    {
-      "Id": "47c42b91-b08b-4c96-92c1-b1703caebb15",
-      "Name": "PlayerBNameSlot",
-      "Type": "String",
-      "EnumId": null,
-      "DefaultPreviewValue": "TB"
-    },
-    {
-      "Id": "5f06d74d-0794-4454-a21a-375703ad8bb6",
-      "Name": "PlayerCNameSlot",
-      "Type": "String",
-      "EnumId": null,
-      "DefaultPreviewValue": "TC"
-    },
-    {
-      "Id": "81977234-df05-47d7-8a85-40155c86210b",
-      "Name": "PlayerDNameSlot",
-      "Type": "String",
-      "EnumId": null,
-      "DefaultPreviewValue": "TD"
     }
   ],
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "cad77ca72075c489d1892d6cd29175783be2e7735bcf3190106a919b47340025",
-      "Text": "{AppGamebook:choose(App|Gamebook):Player {PlayerNum:choose(1|2|3|4):A|B|C|D} – Please enter your given name:|Please write Player {PlayerNum:choose(1|2|3|4):A|B|C|D}'s name in slot {PlayerNum:choose(1|2|3|4):{PlayerANameSlot}|{PlayerBNameSlot}|{PlayerCNameSlot}|{PlayerDNameSlot}}}",
+      "BaseTextHash": "a22bb3b04459c281faaa87ed1365b759763d1bbc33dd50d124259f0ccbdde996",
+      "Text": "{AppGamebook:choose(App|Gamebook):Player {PlayerNum:choose(1|2|3|4):A|B|C|D} – Please enter your given name:|Please write Player {PlayerNum:choose(1|2|3|4):A|B|C|D}'s name in slot {PlayerNameSlot}}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-15T21:48:19.8373636Z",
+      "UpdatedAt": "2026-07-17T11:56:10.8558978Z",
       "Suggestions": [],
       "Comments": []
     }

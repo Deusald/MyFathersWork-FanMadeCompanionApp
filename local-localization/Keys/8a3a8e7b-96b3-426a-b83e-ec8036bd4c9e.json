@@ -1,0 +1,25 @@
+{
+  "Id": "8a3a8e7b-96b3-426a-b83e-ec8036bd4c9e",
+  "CategoryId": "fb7d618c-607c-4693-9c35-3f0b4905a459",
+  "KeyName": "content1",
+  "Description": "",
+  "CreatedAt": "2026-07-17T17:41:40.5101298Z",
+  "UpdatedAt": "2026-07-17T17:42:08.4673428Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "d9dbc035536243a63425e9d56e750f1d0774d1e607122abe86f1fb447df48f2b",
+      "Text": "<b>Suspicion Marker</b><br />The Suspicion Marker represents the furthest right that the <icon=AngryMobIcon> can move during a Generation. This marker stays in the same location throughout the current Generation and the <icon=AngryMobIcon> token can never be moved <b>onto or past</b> this marker by any actions or abilities during gameplay.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T17:42:08.4672664Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

@@ -1,0 +1,25 @@
+{
+  "Id": "feff384f-25af-46f9-a65f-d7e9ef20cc47",
+  "CategoryId": "a487a4ca-1848-49a0-ad5a-cace1a993fa2",
+  "KeyName": "content",
+  "Description": "",
+  "CreatedAt": "2026-07-17T15:28:54.9864807Z",
+  "UpdatedAt": "2026-07-17T15:29:06.6747998Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "bf66e8bd9da35df70d5cb177df3b1a8b6a7d237d22c9f6712f7922b9929d6582",
+      "Text": "Retrieve the Dubious Bartering cards from the scenario box. Shuffle them and <b>give each player a Dubious Bartering card</b> and return any remaining to the box. This card is placed face-up near their Estate and is activated each time the listed action is taken.",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T15:29:06.6746148Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

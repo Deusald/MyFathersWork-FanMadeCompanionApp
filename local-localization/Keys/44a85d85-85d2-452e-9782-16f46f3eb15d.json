@@ -1,0 +1,25 @@
+{
+  "Id": "44a85d85-85d2-452e-9782-16f46f3eb15d",
+  "CategoryId": "5bde254e-4a1d-4cb5-be80-b3823cb16a36",
+  "KeyName": "build_hospital_title",
+  "Description": "",
+  "CreatedAt": "2026-07-17T20:29:43.866138Z",
+  "UpdatedAt": "2026-07-17T20:29:57.782013Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "f65e570fd9b08cd2d3cbdfa284e64495621cd1989d6a03df586e75403a947f84",
+      "Text": "Build a Hospital",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-17T20:29:57.7819522Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}
