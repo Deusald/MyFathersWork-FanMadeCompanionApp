@@ -1,0 +1,118 @@
+## Deusald C# .gitattributes
+## Author: Adam "Deusald" Orliński
+## Version: 2.1.0
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Custom for Visual Studio
+*.cs     diff=csharp
+
+# Apply native OS line-endings on checkout of these files...
+*.[bB][oO][oO]											text
+*.[cC]													text
+*.[cC][gG][iI][nN][cC]									text
+*.[cC][oO][nN][fF][iI][gG]								text
+*.[cC][oO][nN][tT][eE][nN][tT][pP][rR][oO][jJ]			text
+*.[cC][pP][pP]											text
+*.[dD][aA][eE]											text
+*.[dD][tT][dD]											text
+*.[fF][xX]												text
+*.[gG][lL][sS][lL]										text
+*.[hH]													text
+*.[iI][nN][cC]											text
+*.[iI][nN][iI]											text
+*.[jJ][sS]												text
+*.[jJ][sS][fF][lL]										text
+*.[jJ][sS][oO][nN]										text
+*.[lL][oO][gG]											text
+*.[mM][dD]												text
+*.[mM][eE][lL]											text
+*.[pP][hH][pP]											text
+*.[sS][hH][aA][dD][eE][rR]								text
+*.[tT][xX][tT]											text
+*.[xX][aA][mM][lL]										text
+*.[xX][mM][lL]											text
+*.[xX][sS][dD]											text
+.[gG][iI][tT][aA][tT][tT][rR][iI][bB][uU][tT][eE][sS]	text
+.[gG][iI][tT][iI][gG][nN][oO][rR][eE]					text
+[cC][oO][pP][yY][iI][nN][gG]							text
+[iI][nN][sS][tT][aA][lL][lL]*							text
+[kK][eE][yY][sS]*										text
+[lL][iI][cC][eE][nN][sS][eE]*							text
+[nN][eE][wW][sS]*										text
+[nN][oO][tT][iI][cC][eE]*								text
+[rR][eE][aA][dD][mM][eE]*								text
+[tT][oO][dD][oO]*										text
+[wW][hH][aA][tT][sS][nN][eE][wW]*						text
+
+# Apply Unix-style LF line-endings on checkout of these files...
+*.[mM][eE][tT][aA]			text eol=lf
+*.[sS][hH]					text eol=lf
+*.[vV][sS][pP][sS][cC][cC]	text eol=lf
+
+# Apply Windows/DOS-style CR-LF line-endings on checkout of these files...
+*.[bB][aA][tT]					text eol=crlf
+*.[cC][mM][dD]					text eol=crlf
+*.[cC][sS][pP][rR][oO][jJ]		text eol=crlf
+*.[sS][lL][nN]					text eol=crlf
+*.[uU][sS][eE][rR]				text eol=crlf
+*.[vV][cC][pP][rR][oO][jJ]		text eol=crlf
+*.[cC][sS]						text eol=crlf
+*.[cC][sS][sS]					text eol=crlf
+*.[hH][tT][mM]					text eol=crlf
+*.[hH][tT][mM][lL]				text eol=crlf
+
+# No end-of-line conversions are applied (i.e., "-text -diff") to these files...
+*.7[zZ]															filter=lfs diff=lfs merge=lfs -text
+*.[aA][iI]														filter=lfs diff=lfs merge=lfs -text
+*.[aA][nN][iI][mM]												filter=lfs diff=lfs merge=lfs -text
+*.[aA][pP][kK]													filter=lfs diff=lfs merge=lfs -text
+*.[bB][iI][nN]													filter=lfs diff=lfs merge=lfs -text
+*.[bB][mM][pP]													filter=lfs diff=lfs merge=lfs -text
+*.[bB][uU][nN][dD][lL][eE]										filter=lfs diff=lfs merge=lfs -text
+*.[cC][oO][mM]													filter=lfs diff=lfs merge=lfs -text
+*.[cC][uU][bB][eE][mM][aA][pP]									filter=lfs diff=lfs merge=lfs -text
+*.[dD][eE][xX]													filter=lfs diff=lfs merge=lfs -text
+*.[dD][lL][lL]													filter=lfs diff=lfs merge=lfs -text
+*.[dD][yY][lL][iI][bB]											filter=lfs diff=lfs merge=lfs -text
+*.[eE][pP][sS]													filter=lfs diff=lfs merge=lfs -text
+*.[eE][xX][eE]													filter=lfs diff=lfs merge=lfs -text
+*.[eE][xX][rR]													filter=lfs diff=lfs merge=lfs -text
+*.[fF][bB][xX]													filter=lfs diff=lfs merge=lfs -text
+*.[fF][lL][aA]													filter=lfs diff=lfs merge=lfs -text
+*.[fF][lL][aA][rR][eE]											filter=lfs diff=lfs merge=lfs -text
+*.[fF][lL][vV]													filter=lfs diff=lfs merge=lfs -text
+*.[gG][iI][fF]													filter=lfs diff=lfs merge=lfs -text
+*.[gG][zZ]														filter=lfs diff=lfs merge=lfs -text
+*.[hH][tT]														filter=lfs diff=lfs merge=lfs -text
+*.[iI][cC][oO]													filter=lfs diff=lfs merge=lfs -text
+*.[jJ][pP][eE][gG]												filter=lfs diff=lfs merge=lfs -text
+*.[jJ][pP][gG]													filter=lfs diff=lfs merge=lfs -text
+*.[mM][aA][sS][kK]												filter=lfs diff=lfs merge=lfs -text
+*.[mM][bB]														filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP]3														filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP]4														filter=lfs diff=lfs merge=lfs -text
+*.[mM][pP][gG]													filter=lfs diff=lfs merge=lfs -text
+*.[oO][gG][gG]													filter=lfs diff=lfs merge=lfs -text
+*.[pP][cC][xX]													filter=lfs diff=lfs merge=lfs -text
+*.[pP][dD][bB]													filter=lfs diff=lfs merge=lfs -text
+*.[pP][dD][fF]													filter=lfs diff=lfs merge=lfs -text
+*.[pP][nN][gG]													filter=lfs diff=lfs merge=lfs -text
+*.[pP][sS]														filter=lfs diff=lfs merge=lfs -text
+*.[pP][sS][dD]													filter=lfs diff=lfs merge=lfs -text
+*.[pP][sS][bB]													filter=lfs diff=lfs merge=lfs -text
+*.[qQ][tT]														filter=lfs diff=lfs merge=lfs -text
+*.[sS][oO]														filter=lfs diff=lfs merge=lfs -text
+*.[sS][wW][fF]													filter=lfs diff=lfs merge=lfs -text
+*.[tT][gG][aA]													filter=lfs diff=lfs merge=lfs -text
+*.[tT][iI][fF]													filter=lfs diff=lfs merge=lfs -text
+*.[tT][iI][fF][fF]												filter=lfs diff=lfs merge=lfs -text
+*.[tT][tT][fF]													filter=lfs diff=lfs merge=lfs -text
+*.[uU][nN][iI][tT][yY][pP][aA][cC][kK][aA][gG][eE]				filter=lfs diff=lfs merge=lfs -text
+*.[wW][aA][vV]													filter=lfs diff=lfs merge=lfs -text
+*.[wW][mM][vV]													filter=lfs diff=lfs merge=lfs -text
+*.[zZ][iI][pP]													filter=lfs diff=lfs merge=lfs -text
+*.[aA][vV][iI]													filter=lfs diff=lfs merge=lfs -text
+*.[mM][oO][vV]													filter=lfs diff=lfs merge=lfs -text
+*.[mM][kK][vV]													filter=lfs diff=lfs merge=lfs -text

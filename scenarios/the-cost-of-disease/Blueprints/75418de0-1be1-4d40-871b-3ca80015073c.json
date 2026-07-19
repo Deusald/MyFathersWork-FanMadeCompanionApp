@@ -1,9 +1,0 @@
-{
-  "Id": "75418de0-1be1-4d40-871b-3ca80015073c",
-  "Name": "Gen1/Fever -> Hub: Build Hospital",
-  "Description": "",
-  "Kind": "Container",
-  "DefinitionNodeId": "feb7b9d3-2a40-4869-9587-218794acc671",
-  "Inputs": [],
-  "Outputs": []
-}
