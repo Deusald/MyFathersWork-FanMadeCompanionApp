@@ -1,0 +1,33 @@
+{
+  "Id": "4704eab4-967c-4629-b2a7-d0139c833662",
+  "CategoryId": "5bde254e-4a1d-4cb5-be80-b3823cb16a36",
+  "KeyName": "creepy_condition",
+  "Description": "",
+  "CreatedAt": "2026-07-18T01:28:27.6466435Z",
+  "UpdatedAt": "2026-07-18T01:32:04.7105248Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "006c9ad9-9965-411e-a0f5-12aad28d285d",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "1"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "e372333408e0ccb99b8c9dfa7dc7eee4314404e2d2366dc053c9a0ad1cef5f98",
+      "Text": "{AppGamebook:choose(App|Gamebook):|if <var=Gen1Creep> is empty then }",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-18T01:32:04.7103895Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

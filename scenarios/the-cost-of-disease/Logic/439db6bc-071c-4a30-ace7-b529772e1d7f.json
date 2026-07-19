@@ -3,14 +3,15 @@
   "Name": "Creepy Main",
   "Description": "",
   "ParentContainer": "f6049a4c-8ac2-4684-acb4-b6e664d448be",
-  "X": 193.0,
-  "Y": 97.0,
+  "X": 133.0,
+  "Y": 102.0,
   "GamebookInstructions": false,
-  "ExitMode": "ManyPaths",
+  "ExitMode": "SinglePath",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [
     {
       "Id": "254825ee-8632-493d-9bfc-5ddecbd0f53a",
-      "Name": "Continue",
+      "Name": "Two",
       "TextIn": {
         "Id": "a076bfc3-0962-46ba-9270-11bb9db3b6ae",
         "Name": "Text",
@@ -27,10 +28,77 @@
         "Y": 0.0,
         "FlowKind": "Flow"
       },
-      "VariableValues": []
+      "VariableValues": [
+        {
+          "DeclaredVarId": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+          "Value": "2"
+        }
+      ]
+    },
+    {
+      "Id": "081324e2-0745-4585-bbb3-37558ff0a2ab",
+      "Name": "Three",
+      "TextIn": {
+        "Id": "01dcd169-83f7-4a68-9a22-b72ff3a58cc6",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": null,
+      "OuterFlowOut": {
+        "Id": "65f9c8aa-bccf-4d5c-9f94-a961fdf89891",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": [
+        {
+          "DeclaredVarId": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+          "Value": "3"
+        }
+      ]
+    },
+    {
+      "Id": "bf1042a6-ae72-445d-a668-ee14fe49a457",
+      "Name": "Four",
+      "TextIn": {
+        "Id": "831538a3-d1f7-43d4-9ee0-1e26050f06c1",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": null,
+      "OuterFlowOut": {
+        "Id": "ad9649ff-75a8-4bc0-8b2a-43d1552fc4fc",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": [
+        {
+          "DeclaredVarId": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+          "Value": "4"
+        }
+      ]
     }
   ],
-  "DeclaredVariables": [],
+  "DeclaredVariables": [
+    {
+      "Id": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+      "Name": "PlayerNum",
+      "PossibleValues": [
+        "2",
+        "3",
+        "4"
+      ]
+    }
+  ],
   "ExpectedVariables": [],
   "VFlowOut": {
     "Id": "d7ccfa42-f5de-4bc0-8957-ea40d48cab31",
@@ -83,8 +151,8 @@
   "ExitLFlowIn": {
     "Id": "ccee5e72-c620-4d85-8584-ae6045521658",
     "Name": "Flow",
-    "X": 660.0,
-    "Y": 200.0,
+    "X": 955.0,
+    "Y": 289.0,
     "FlowKind": "Flow"
   },
   "ExitVariablesIn": {
@@ -179,8 +247,8 @@
   "ExternalVariableNodes": [
     {
       "Id": "39f1fe1b-7563-4929-8c7c-1652f17e6fb0",
-      "X": 108.0,
-      "Y": 666.0,
+      "X": -134.0,
+      "Y": 664.0,
       "SelectedVariableId": "de4edb21-ea25-41f6-ace3-df24d4bade96",
       "OutPoint": {
         "Id": "8945196c-5928-4bac-8bc7-d43bf93b70eb",
@@ -233,7 +301,46 @@
   "LogicPortalNodes": [],
   "ConditionFlowNodes": [],
   "CommentNodes": [],
-  "FunctionInstanceNodes": [],
+  "FunctionInstanceNodes": [
+    {
+      "Id": "4386a242-0f3c-4176-9a6f-850e12a2af56",
+      "BlueprintId": "f7294cdf-5ce3-4aa0-926b-43c3fb087842",
+      "X": 619.0,
+      "Y": 343.0,
+      "FlowIn": {
+        "Id": "08bb3b63-22f3-43da-82fb-128f5f6a771b",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "FlowOut": {
+        "Id": "b1d515c5-0ee9-41ce-b2c3-90451436c7a7",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "InputPorts": [],
+      "OutputPorts": [
+        {
+          "Id": "8816a41c-feb6-4a24-8534-8439fe3769b3",
+          "DefinitionPointId": "4f0925c6-5b64-4181-9dfe-bb27dce4e067",
+          "Name": "PlayerTwo"
+        },
+        {
+          "Id": "18e46b33-e713-4587-80ad-333915d37969",
+          "DefinitionPointId": "76a2eb4c-92dd-40a1-a520-b6df3312f043",
+          "Name": "PlayerThree"
+        },
+        {
+          "Id": "74a2247b-cc9b-4ec1-9f34-692d457fc6c0",
+          "DefinitionPointId": "babbc918-45a3-408c-9765-c47bb7abc1b2",
+          "Name": "PlayerFour"
+        }
+      ]
+    }
+  ],
   "RandomizedInstructionNodes": [],
   "ContentConnections": [
     {
@@ -257,11 +364,6 @@
       "ToPoint": "f8632b76-4d20-4f97-8453-0bb8b1055169"
     },
     {
-      "Id": "b32cb757-cfdd-4d45-922a-74aa3132a6f3",
-      "FromPoint": "b2f14616-2ff9-4a48-841e-2a5b6d8767ae",
-      "ToPoint": "ccee5e72-c620-4d85-8584-ae6045521658"
-    },
-    {
       "Id": "bc487cd6-6a11-4374-8a33-cb62ff801751",
       "FromPoint": "6e7b7653-fe3d-4b50-891d-041d044b2933",
       "ToPoint": "5bc23cda-2207-47e4-a127-0195dafedadc"
@@ -270,6 +372,31 @@
       "Id": "292dfbf4-6bc3-4914-946b-c9628dbe1d8f",
       "FromPoint": "8945196c-5928-4bac-8bc7-d43bf93b70eb",
       "ToPoint": "34504093-5668-43a1-852c-9686aa41f3b7"
+    },
+    {
+      "Id": "c4b20faa-668d-40f6-85ef-8fcb4c76caba",
+      "FromPoint": "b2f14616-2ff9-4a48-841e-2a5b6d8767ae",
+      "ToPoint": "08bb3b63-22f3-43da-82fb-128f5f6a771b"
+    },
+    {
+      "Id": "ad991b32-264d-4554-9143-c6106c3593d8",
+      "FromPoint": "b1d515c5-0ee9-41ce-b2c3-90451436c7a7",
+      "ToPoint": "ccee5e72-c620-4d85-8584-ae6045521658"
+    },
+    {
+      "Id": "973eadeb-2632-461c-984c-dcede4b2f1f4",
+      "FromPoint": "8816a41c-feb6-4a24-8534-8439fe3769b3",
+      "ToPoint": "a076bfc3-0962-46ba-9270-11bb9db3b6ae"
+    },
+    {
+      "Id": "5c4f2520-06eb-48dd-80e8-460d968118e1",
+      "FromPoint": "18e46b33-e713-4587-80ad-333915d37969",
+      "ToPoint": "01dcd169-83f7-4a68-9a22-b72ff3a58cc6"
+    },
+    {
+      "Id": "a71bb1a1-69fd-4514-be8e-f883ad9f66a4",
+      "FromPoint": "74a2247b-cc9b-4ec1-9f34-692d457fc6c0",
+      "ToPoint": "831538a3-d1f7-43d4-9ee0-1e26050f06c1"
     }
   ]
 }

@@ -7,6 +7,7 @@
   "Y": 14.5,
   "GamebookInstructions": false,
   "ExitMode": "ManyPaths",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [
     {
       "Id": "9a99636f-3184-4904-82a3-4f535728c7f5",
@@ -260,34 +261,7 @@
       "Suffix": ""
     }
   ],
-  "ExternalVariableNodes": [
-    {
-      "Id": "b6ff4fd8-65cd-44bf-bc54-00be3c20a32c",
-      "X": -23.101347107438187,
-      "Y": 623.6137595041325,
-      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
-      "OutPoint": {
-        "Id": "430ea6e5-2855-4726-9c45-1c89ddb26357",
-        "Name": "Value",
-        "X": 0.0,
-        "Y": 0.0,
-        "FlowKind": "Flow"
-      }
-    },
-    {
-      "Id": "5a919a88-52d8-491c-b94c-93776d3eaf1f",
-      "X": -8.0,
-      "Y": 1013.0,
-      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000002",
-      "OutPoint": {
-        "Id": "efa1d688-4952-4d0d-addf-93702a5c1bb8",
-        "Name": "Value",
-        "X": 0.0,
-        "Y": 0.0,
-        "FlowKind": "Flow"
-      }
-    }
-  ],
+  "ExternalVariableNodes": [],
   "GetVariableNodes": [
     {
       "Id": "4c436fc5-4bb8-4774-9283-fa8a8a261de5",
@@ -421,8 +395,8 @@
   "ConstantVariableNodes": [
     {
       "Id": "7cae6882-9640-4ed7-bac3-9a66a1998946",
-      "X": -58.0,
-      "Y": 851.0,
+      "X": 11.0,
+      "Y": 638.0,
       "Name": "page",
       "Value": "1",
       "OutPoint": {
@@ -625,11 +599,6 @@
       "ToPoint": "0c2dfb8c-6bc9-4eed-a697-8d315e16d117"
     },
     {
-      "Id": "9e6aad90-3450-43f1-a058-70736a25a482",
-      "FromPoint": "430ea6e5-2855-4726-9c45-1c89ddb26357",
-      "ToPoint": "00cc8328-a9e1-47a3-8ad3-5c6669750a91"
-    },
-    {
       "Id": "b6855ed5-0e7a-4633-bb31-1032f3f52e7b",
       "FromPoint": "38825e4b-e74d-4808-9c20-f18c1917ef7a",
       "ToPoint": "3c5555ea-f12e-4f50-9b66-6d087ebe57c6"
@@ -637,11 +606,6 @@
     {
       "Id": "6d472c14-f218-4e00-8ad9-351950f53fa3",
       "FromPoint": "73386616-2212-4c3a-9845-fb4299a78da7",
-      "ToPoint": "00cc8328-a9e1-47a3-8ad3-5c6669750a91"
-    },
-    {
-      "Id": "46649466-764a-49c2-9b71-99355bbfd399",
-      "FromPoint": "efa1d688-4952-4d0d-addf-93702a5c1bb8",
       "ToPoint": "00cc8328-a9e1-47a3-8ad3-5c6669750a91"
     },
     {

@@ -1,0 +1,40 @@
+{
+  "Id": "3dff8a8d-9ca3-4bdc-a8a5-9e793aabe4c6",
+  "CategoryId": "23c9000d-5134-4871-aaba-8e6fd5c8f89d",
+  "KeyName": "00_content",
+  "Description": "",
+  "CreatedAt": "2026-07-18T01:47:44.609262Z",
+  "UpdatedAt": "2026-07-18T01:49:31.9107821Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "fdc6265d-e4b0-430f-afae-b34ee40f90cf",
+      "Name": "Gen1_Fever_CreepySpace",
+      "Type": "Int",
+      "EnumId": null,
+      "DefaultPreviewValue": "4"
+    },
+    {
+      "Id": "1bb8dcdb-1335-4508-8958-aeff07b593ce",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "8fd8599628708b02bca1054cfbd1724998fecd04ad4cc8f0c3573e9732b61a8b",
+      "Text": "The increasingly eccentric actions of the siblings aroused dark memories from the previous generation, and tense rumors once again circulated throughout the village. However, as these same fears were shared more openly, the news attracted opportunities for those with similar, nefarious intent.\n\nPlease {AppGamebook:choose(App|Gamebook):click on|follow} the name of the scientist that reached <b>space {Gen1_Fever_CreepySpace}</b> on the <icon=CreepyIcon> track:",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-18T01:49:31.9106394Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

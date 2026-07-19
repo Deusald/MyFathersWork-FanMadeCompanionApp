@@ -7,6 +7,7 @@
   "Y": 13.0,
   "GamebookInstructions": false,
   "ExitMode": "SinglePath",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [
     {
       "Id": "261632e7-84cc-4a8c-9a3c-e782143b3b79",
@@ -314,19 +315,6 @@
   ],
   "ExternalVariableNodes": [
     {
-      "Id": "55834048-20e7-4ae4-b806-c91b0c183475",
-      "X": -276.4000000000002,
-      "Y": 637.0999999999988,
-      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
-      "OutPoint": {
-        "Id": "0a537291-7fb4-4acd-aacd-880328616627",
-        "Name": "Value",
-        "X": 0.0,
-        "Y": 0.0,
-        "FlowKind": "Flow"
-      }
-    },
-    {
       "Id": "240f8eb0-0291-411c-8754-6d0b4453f549",
       "X": 1536.0,
       "Y": -3.0,
@@ -341,8 +329,8 @@
     },
     {
       "Id": "d3bfbc3c-c9fc-452a-8a02-4aea0dd27ebc",
-      "X": 129.0,
-      "Y": 765.0,
+      "X": -280.0,
+      "Y": 807.0,
       "SelectedVariableId": "de4edb21-ea25-41f6-ace3-df24d4bade96",
       "OutPoint": {
         "Id": "572e7040-73f0-45f3-94d2-78177f44af3c",
@@ -357,8 +345,8 @@
   "ConstantVariableNodes": [
     {
       "Id": "0fab098b-f3f4-46db-9b3f-67b5122939af",
-      "X": -204.8999999999996,
-      "Y": 797.699999999999,
+      "X": -285.89999999999964,
+      "Y": 647.699999999999,
       "Name": "InsanityValue",
       "Value": "3",
       "OutPoint": {
@@ -480,7 +468,7 @@
       "SpecificValue": 1,
       "RandomMode": "Saved",
       "ConditionKeyId": "00000000-0000-0000-0000-000000000000",
-      "PreviewValue": "Adam",
+      "PreviewValue": "",
       "Placement": "Below",
       "StringMode": "Unset",
       "StringValue": "",
@@ -541,7 +529,7 @@
       "SpecificValue": 1,
       "RandomMode": "Saved",
       "ConditionKeyId": "00000000-0000-0000-0000-000000000000",
-      "PreviewValue": "Bella",
+      "PreviewValue": "",
       "Placement": "Below",
       "StringMode": "Unset",
       "StringValue": "",
@@ -665,11 +653,6 @@
       "Id": "862f6a2d-576b-4f10-8dfe-ea2a66b01d64",
       "FromPoint": "87f5812f-dc75-4d30-96c4-b88f3f890643",
       "ToPoint": "7a5d8410-bcef-430b-8546-58844ad81211"
-    },
-    {
-      "Id": "4b390310-887f-4b95-800d-23fc5754000e",
-      "FromPoint": "0a537291-7fb4-4acd-aacd-880328616627",
-      "ToPoint": "36b1cf5b-0b45-41d3-9153-300e8d289add"
     },
     {
       "Id": "3b812dfc-9116-4654-8f69-f8183bf7f7ea",

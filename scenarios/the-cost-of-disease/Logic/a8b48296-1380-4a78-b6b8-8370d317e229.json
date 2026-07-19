@@ -7,6 +7,7 @@
   "Y": 0.0,
   "GamebookInstructions": false,
   "ExitMode": "ManyPaths",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [],
   "DeclaredVariables": [],
   "ExpectedVariables": [],
@@ -160,7 +161,10 @@
         "X": 0.0,
         "Y": 0.0,
         "FlowKind": "Flow"
-      }
+      },
+      "Casing": "None",
+      "Prefix": "",
+      "Suffix": ""
     },
     {
       "Id": "ac4ee308-3dde-47ad-abd2-dd801ffe26b2",
@@ -186,7 +190,10 @@
         "X": 0.0,
         "Y": 0.0,
         "FlowKind": "Flow"
-      }
+      },
+      "Casing": "None",
+      "Prefix": "",
+      "Suffix": ""
     },
     {
       "Id": "f0993173-0e90-4813-8195-fcd602ae4894",
@@ -212,24 +219,13 @@
         "X": 0.0,
         "Y": 0.0,
         "FlowKind": "Flow"
-      }
+      },
+      "Casing": "None",
+      "Prefix": "",
+      "Suffix": ""
     }
   ],
-  "ExternalVariableNodes": [
-    {
-      "Id": "cb5c0938-de63-4ab4-93b9-e0a6e4f68458",
-      "X": 18.3845487052082,
-      "Y": 857.8355315665,
-      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
-      "OutPoint": {
-        "Id": "3a1a0cf8-98b0-4d0f-8e8f-14e3492c7b9e",
-        "Name": "Value",
-        "X": 0.0,
-        "Y": 0.0,
-        "FlowKind": "Flow"
-      }
-    }
-  ],
+  "ExternalVariableNodes": [],
   "GetVariableNodes": [
     {
       "Id": "b45df975-586a-43b6-9637-4e7d56a01c7f",
@@ -265,8 +261,8 @@
     },
     {
       "Id": "c1684e36-36a5-4be7-a6d3-f63e26ad561a",
-      "X": 192.71899543467134,
-      "Y": 1176.9054879051414,
+      "X": 190.29899543467138,
+      "Y": 1028.0754879051387,
       "RefMode": "ByType",
       "RefType": "String",
       "NameIn": {
@@ -297,6 +293,7 @@
     }
   ],
   "ConstantVariableNodes": [],
+  "ConstantStringNodes": [],
   "FlowTextNodes": [
     {
       "Id": "f5323531-fdc6-40fd-a3eb-c5c58899cc70",
@@ -416,6 +413,7 @@
       "Assignment": "SetSpecific",
       "Secret": false,
       "SpecificValue": 1,
+      "RandomMode": "Saved",
       "Placement": "Below",
       "StringMode": "PlayerInput",
       "StringValue": "",
@@ -627,8 +625,8 @@
         {
           "Id": "be02fb3f-6a3f-49f4-b8f4-ea91e4f5c64a",
           "Name": "Out",
-          "X": 19.97180947797125,
-          "Y": 1009.7019687416387,
+          "X": 17.55180947797125,
+          "Y": 860.8719687416375,
           "FlowKind": "Flow"
         },
         {
@@ -669,8 +667,8 @@
         {
           "Id": "5bd42997-9f9f-48a4-ae48-9adc4c244bd3",
           "Name": "Out",
-          "X": -94.7925690909113,
-          "Y": 1273.317422727277,
+          "X": -108.10256909091127,
+          "Y": 1048.2574227272721,
           "FlowKind": "Flow"
         }
       ]
@@ -679,12 +677,8 @@
   "ConditionFlowNodes": [],
   "CommentNodes": [],
   "FunctionInstanceNodes": [],
+  "RandomizedInstructionNodes": [],
   "ContentConnections": [
-    {
-      "Id": "e5dfbbac-b32f-4dc2-83b8-5b4e9db120c1",
-      "FromPoint": "3a1a0cf8-98b0-4d0f-8e8f-14e3492c7b9e",
-      "ToPoint": "f8920771-6e44-4262-912a-cbbc53005875"
-    },
     {
       "Id": "36805e47-59bb-4842-882d-e08b5c70623f",
       "FromPoint": "86454b1c-7b69-4737-96ec-3fe323a80d16",

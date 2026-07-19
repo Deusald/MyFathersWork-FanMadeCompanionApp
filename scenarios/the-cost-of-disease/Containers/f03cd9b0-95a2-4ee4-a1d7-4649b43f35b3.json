@@ -18,8 +18,8 @@
     {
       "Id": "4d9ef742-a1e2-47e8-b1fb-0e693d69e67f",
       "Name": "Continue",
-      "X": 1184.0,
-      "Y": 65.0,
+      "X": 872.0,
+      "Y": -21.0,
       "FlowKind": "Flow"
     }
   ],
@@ -65,6 +65,11 @@
       "Id": "f88a45c8-f5d7-4801-82e8-a65210b09071",
       "FromPoint": "6732c409-cde4-488a-98c9-809e86eba3e2",
       "ToPoint": "8c94efc7-58b6-4d8b-919d-82e49cb9ffc3"
+    },
+    {
+      "Id": "c95393ab-2f95-41ae-a2aa-3a22443c6cbd",
+      "FromPoint": "6af31b3b-ea46-4b2e-94ed-58bbb0606740",
+      "ToPoint": "4d9ef742-a1e2-47e8-b1fb-0e693d69e67f"
     }
   ]
 }

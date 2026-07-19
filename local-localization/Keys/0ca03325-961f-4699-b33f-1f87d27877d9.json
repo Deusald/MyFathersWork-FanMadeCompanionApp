@@ -1,0 +1,40 @@
+{
+  "Id": "0ca03325-961f-4699-b33f-1f87d27877d9",
+  "CategoryId": "6472e7ab-90b3-4c24-8fc0-3d643b01a0aa",
+  "KeyName": "for_player_name",
+  "Description": "Localization for button App or Gamebook section jump for player name.\nApp: Adam ->\nGamebook: For Adam go to section X",
+  "CreatedAt": "2026-07-18T20:02:04.1652539Z",
+  "UpdatedAt": "2026-07-18T20:12:02.7891954Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [
+    {
+      "Id": "579e2827-6292-4455-bcd2-0f13be268a9f",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
+    },
+    {
+      "Id": "1c2188d9-69e3-4d99-8fbb-fd14a91e85dd",
+      "Name": "PlayerName",
+      "Type": "String",
+      "EnumId": null,
+      "DefaultPreviewValue": "Adam"
+    }
+  ],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "cb8be76a5b8dd1851f26233e1808b79fa1e6f30b4b5b643afeb543799d284ba1",
+      "Text": "{AppGamebook:choose(App|Gamebook):{PlayerName}|For {PlayerNameTag}}",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-18T20:12:02.7889893Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

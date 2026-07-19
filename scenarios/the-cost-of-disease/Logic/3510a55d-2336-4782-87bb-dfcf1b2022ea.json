@@ -3,10 +3,11 @@
   "Name": "Init",
   "Description": "",
   "ParentContainer": "f6ed3207-f3d1-48b6-ada3-464290bace74",
-  "X": 237.0,
+  "X": 238.0,
   "Y": 14.0,
   "GamebookInstructions": false,
   "ExitMode": "ManyPaths",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [
     {
       "Id": "2fdefb1b-ceae-4cb9-ad9e-7495e8d21191",
@@ -165,6 +166,7 @@
   "ExternalVariableNodes": [],
   "GetVariableNodes": [],
   "ConstantVariableNodes": [],
+  "ConstantStringNodes": [],
   "FlowTextNodes": [
     {
       "Id": "ddc7dedb-17b6-4cbd-adac-df7292dfe4d1",

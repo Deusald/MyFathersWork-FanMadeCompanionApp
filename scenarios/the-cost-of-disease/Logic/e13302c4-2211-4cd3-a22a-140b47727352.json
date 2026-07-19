@@ -1,0 +1,535 @@
+{
+  "Id": "e13302c4-2211-4cd3-a22a-140b47727352",
+  "Name": "Enemy of the People",
+  "Description": "",
+  "ParentContainer": "f6049a4c-8ac2-4684-acb4-b6e664d448be",
+  "X": 492.0,
+  "Y": 99.0,
+  "GamebookInstructions": false,
+  "ExitMode": "SinglePath",
+  "ExitAutoMode": "ChoiceVisibility",
+  "Choices": [
+    {
+      "Id": "d05f3b81-0b1b-4635-b659-16a362508eef",
+      "Name": "PlayerA",
+      "TextIn": {
+        "Id": "cee0404e-b3d6-4aa5-9cb2-97d8f6f233a6",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": {
+        "Kind": "Group",
+        "LeftVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Operator": "Equal",
+        "RightKind": "Constant",
+        "RightConstant": "",
+        "RightVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Connector": "And",
+        "Children": []
+      },
+      "OuterFlowOut": {
+        "Id": "5f8d3837-b88d-45a1-8c0a-3769bd7aedaa",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": [
+        {
+          "DeclaredVarId": "17c89da8-0199-497d-b4d7-47d6b6f75305",
+          "Value": "PlayerAName"
+        }
+      ]
+    },
+    {
+      "Id": "c285a998-b7e0-41da-a504-cd990badd948",
+      "Name": "PlayerB",
+      "TextIn": {
+        "Id": "cbeada4c-bcc4-410b-ae96-d944792cb4d3",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": {
+        "Kind": "Group",
+        "LeftVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Operator": "Equal",
+        "RightKind": "Constant",
+        "RightConstant": "",
+        "RightVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Connector": "And",
+        "Children": []
+      },
+      "OuterFlowOut": {
+        "Id": "81ee07c8-63e9-44b4-a5b7-e8340e36a8aa",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": [
+        {
+          "DeclaredVarId": "17c89da8-0199-497d-b4d7-47d6b6f75305",
+          "Value": "PlayerBName"
+        }
+      ]
+    },
+    {
+      "Id": "44403f86-95ad-49cf-ad1c-ef6b7da8fc36",
+      "Name": "PlayerC",
+      "TextIn": {
+        "Id": "fba3f722-db7e-49e8-95ea-2d52e9994640",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": {
+        "Kind": "Group",
+        "LeftVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Operator": "Equal",
+        "RightKind": "Constant",
+        "RightConstant": "",
+        "RightVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Connector": "And",
+        "Children": [
+          {
+            "Kind": "Comparison",
+            "LeftVariableRef": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+            "Operator": "GreaterOrEqual",
+            "RightKind": "Constant",
+            "RightConstant": "3",
+            "RightVariableRef": "00000000-0000-0000-0000-000000000000",
+            "Connector": "And",
+            "Children": []
+          }
+        ]
+      },
+      "OuterFlowOut": {
+        "Id": "aef2dd9f-1a9c-4c47-a22e-d0d639e166de",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": [
+        {
+          "DeclaredVarId": "17c89da8-0199-497d-b4d7-47d6b6f75305",
+          "Value": "PlayerCName"
+        }
+      ]
+    },
+    {
+      "Id": "256c156e-7426-4266-a000-3c3cff5a60a2",
+      "Name": "PlayerD",
+      "TextIn": {
+        "Id": "7ba22498-e968-4bdc-b971-df4e0f6dbad3",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "IsElse": false,
+      "Condition": {
+        "Kind": "Group",
+        "LeftVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Operator": "Equal",
+        "RightKind": "Constant",
+        "RightConstant": "",
+        "RightVariableRef": "00000000-0000-0000-0000-000000000000",
+        "Connector": "And",
+        "Children": [
+          {
+            "Kind": "Comparison",
+            "LeftVariableRef": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+            "Operator": "GreaterOrEqual",
+            "RightKind": "Constant",
+            "RightConstant": "4",
+            "RightVariableRef": "00000000-0000-0000-0000-000000000000",
+            "Connector": "And",
+            "Children": []
+          }
+        ]
+      },
+      "OuterFlowOut": {
+        "Id": "69506823-33d0-402c-83f6-91b0ccb5df89",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariableValues": [
+        {
+          "DeclaredVarId": "17c89da8-0199-497d-b4d7-47d6b6f75305",
+          "Value": "PlayerDName"
+        }
+      ]
+    }
+  ],
+  "DeclaredVariables": [
+    {
+      "Id": "17c89da8-0199-497d-b4d7-47d6b6f75305",
+      "Name": "PlayerName",
+      "PossibleValues": [
+        "PlayerAName",
+        "PlayerBName",
+        "PlayerCName",
+        "PlayerDName"
+      ]
+    }
+  ],
+  "ExpectedVariables": [],
+  "VFlowOut": {
+    "Id": "9101d7bb-c605-4c92-9f30-fdf0e3e043f0",
+    "Name": "Continue",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "AcceptVariables": true,
+  "VariablesIn": {
+    "Id": "669990fa-83ba-4acb-b85f-a0f533dd37fb",
+    "Name": "Variables",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "PrevExitVariable": {
+    "Id": "5240a3ab-c691-4a46-889b-2b4ca4e97d7e",
+    "X": 993.0,
+    "Y": 152.0
+  },
+  "EntryPoint": {
+    "Id": "61a21fae-f205-4848-8869-7e1fc5274e9d",
+    "Name": "In",
+    "X": 60.0,
+    "Y": 200.0,
+    "FlowKind": "Flow"
+  },
+  "TitleIn": {
+    "Id": "f1e6b2a8-04ba-416d-a824-2417b188ec7c",
+    "Name": "Title",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "SubtitleIn": {
+    "Id": "1c7eb04c-fd5f-4e0f-89ab-df6488d1a1a7",
+    "Name": "Subtitle",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "IconIn": {
+    "Id": "b6bccf39-0301-40c2-aed5-643ad6ef2b89",
+    "Name": "Icon",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "ExitLFlowIn": {
+    "Id": "8e053571-ef63-444f-8b3a-99bea742563a",
+    "Name": "Flow",
+    "X": 1412.0,
+    "Y": 309.0,
+    "FlowKind": "Flow"
+  },
+  "ExitVariablesIn": {
+    "Id": "9885acb9-26a3-439b-9ce1-f649600ba5d1",
+    "Name": "Variables",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "ExitAutoTextIn": {
+    "Id": "e0acbdf4-41fa-4c1b-8ac6-948da15313c0",
+    "Name": "Text",
+    "X": 0.0,
+    "Y": 0.0,
+    "FlowKind": "Flow"
+  },
+  "LocalizationNodes": [
+    {
+      "Id": "9639c775-6ceb-4a21-a345-155ecb432c59",
+      "X": -299.0,
+      "Y": 119.0,
+      "SelectedKeyId": "eb28cdeb-2403-406d-a4fa-e9eb407d9123",
+      "OutPoint": {
+        "Id": "b75a1bf4-e3dd-4c88-8f20-10c26f932a86",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      }
+    },
+    {
+      "Id": "fbf48e31-8b42-4315-b408-ff22966867f8",
+      "X": -28.0,
+      "Y": 526.0,
+      "SelectedKeyId": "3dff8a8d-9ca3-4bdc-a8a5-9e793aabe4c6",
+      "OutPoint": {
+        "Id": "f09eb17f-3e4b-4fd9-986b-efc6588360d5",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      }
+    },
+    {
+      "Id": "4b894252-a868-47b8-b3dd-2201b5a6484a",
+      "X": 371.5454545454545,
+      "Y": 638.2727272727273,
+      "SelectedKeyId": "083fe0e4-57ce-47df-80ae-207dd51c0929",
+      "OutPoint": {
+        "Id": "11272715-46b5-4d50-aea5-dd20a7cb390a",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      }
+    }
+  ],
+  "IconNodes": [],
+  "LightDarkSwitchNodes": [],
+  "SmartFormatNodes": [
+    {
+      "Id": "8a67d51c-f69e-4b0d-84a9-c8c2433e7131",
+      "X": 274.0,
+      "Y": 481.0,
+      "LocalizationIn": {
+        "Id": "2f32faac-1387-4b02-9757-c9305dfefbf2",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "VariablesIn": {
+        "Id": "28b08983-bd54-4983-b92b-64d940000739",
+        "Name": "Variables",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "OutPoint": {
+        "Id": "e47ffa6b-e8f5-4960-a0c9-e10814290260",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "Casing": "None",
+      "Prefix": "",
+      "Suffix": ""
+    }
+  ],
+  "ExternalVariableNodes": [
+    {
+      "Id": "2624867d-13c4-4840-8864-7044a607fcc3",
+      "X": -38.0,
+      "Y": 679.0,
+      "SelectedVariableId": "de4edb21-ea25-41f6-ace3-df24d4bade96",
+      "OutPoint": {
+        "Id": "7433c3e4-2608-492c-8dd3-69e1a210d489",
+        "Name": "Value",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      }
+    }
+  ],
+  "GetVariableNodes": [],
+  "ConstantVariableNodes": [],
+  "ConstantStringNodes": [],
+  "FlowTextNodes": [
+    {
+      "Id": "7e042fe2-7092-4027-a8b9-695dfcd6c867",
+      "X": 376.0,
+      "Y": 233.0,
+      "FlowIn": {
+        "Id": "3f2d84e6-b146-4b26-a6d7-0dab7855e444",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "TextIn": {
+        "Id": "920be062-90fa-4a80-838f-e6b3749a6ef9",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "FlowOut": {
+        "Id": "8e9d5f98-bf6d-4952-b5bf-e83b4761231c",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "RenderInApp": true,
+      "RenderInGamebook": true,
+      "FrameStyle": "Normal"
+    },
+    {
+      "Id": "23d5d3f6-ac5a-4b55-8f80-9c6016fe9904",
+      "X": 684.0,
+      "Y": 306.0,
+      "FlowIn": {
+        "Id": "69138407-90cb-4095-849f-b34ab5de11b0",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "TextIn": {
+        "Id": "5c3e3e55-62ef-4a8b-bf22-9bf291b6f125",
+        "Name": "Text",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "FlowOut": {
+        "Id": "04c7d6cb-a6e5-465e-a37f-806885ba2637",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "RenderInApp": true,
+      "RenderInGamebook": true,
+      "FrameStyle": "Warning"
+    }
+  ],
+  "SplitForAppNodes": [],
+  "RegisterVariableNodes": [],
+  "SetVariableNodes": [],
+  "UnregisterVariableNodes": [],
+  "SetExternalVariableNodes": [],
+  "LogicPortalNodes": [],
+  "ConditionFlowNodes": [],
+  "CommentNodes": [],
+  "FunctionInstanceNodes": [
+    {
+      "Id": "d903f106-20be-47c0-9e20-6c57e073c5ab",
+      "BlueprintId": "af46adee-4f27-4cc9-a310-566019c1e4a4",
+      "X": 980.0,
+      "Y": 308.0,
+      "FlowIn": {
+        "Id": "cf7a8b7d-0e73-4558-8b17-90c07a930977",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "FlowOut": {
+        "Id": "e95e2694-bbec-499b-8361-979fa5308d1c",
+        "Name": "Flow",
+        "X": 0.0,
+        "Y": 0.0,
+        "FlowKind": "Flow"
+      },
+      "InputPorts": [],
+      "OutputPorts": [
+        {
+          "Id": "53e636c0-9005-4ad7-bf89-e80621086ec2",
+          "DefinitionPointId": "e9d1f395-44df-438f-b9ce-af856820c55e",
+          "Name": "PlayerAText"
+        },
+        {
+          "Id": "b69f3d2e-9f95-4c6e-9b66-610306b26304",
+          "DefinitionPointId": "875fccd8-f9c2-479c-96df-100f69203061",
+          "Name": "PlayerBText"
+        },
+        {
+          "Id": "4526adcb-0c30-469e-8309-98d907d03b8e",
+          "DefinitionPointId": "6f207d0a-8dd7-44d6-a91e-67d627afe566",
+          "Name": "PlayerCText"
+        },
+        {
+          "Id": "96ca70da-81d4-440e-acc1-68db4eaa1ad3",
+          "DefinitionPointId": "e8f17106-3bb7-4673-824c-015b97004bcb",
+          "Name": "PlayerDText"
+        }
+      ]
+    }
+  ],
+  "RandomizedInstructionNodes": [],
+  "ContentConnections": [
+    {
+      "Id": "f1c87965-a1bf-4967-8f72-0f2ad2b8ab4a",
+      "FromPoint": "b75a1bf4-e3dd-4c88-8f20-10c26f932a86",
+      "ToPoint": "f1e6b2a8-04ba-416d-a824-2417b188ec7c"
+    },
+    {
+      "Id": "48c47848-800f-4721-a9ca-b9a8991b397c",
+      "FromPoint": "f09eb17f-3e4b-4fd9-986b-efc6588360d5",
+      "ToPoint": "2f32faac-1387-4b02-9757-c9305dfefbf2"
+    },
+    {
+      "Id": "3483571b-ee81-4551-8d81-a3e908e8ca97",
+      "FromPoint": "61a21fae-f205-4848-8869-7e1fc5274e9d",
+      "ToPoint": "3f2d84e6-b146-4b26-a6d7-0dab7855e444"
+    },
+    {
+      "Id": "0d439d6f-6eab-4908-b774-8634fd41c4cc",
+      "FromPoint": "e47ffa6b-e8f5-4960-a0c9-e10814290260",
+      "ToPoint": "920be062-90fa-4a80-838f-e6b3749a6ef9"
+    },
+    {
+      "Id": "2d705f8a-6d40-40c6-aa75-a6d910870442",
+      "FromPoint": "7433c3e4-2608-492c-8dd3-69e1a210d489",
+      "ToPoint": "28b08983-bd54-4983-b92b-64d940000739"
+    },
+    {
+      "Id": "8bd68146-694c-45d6-a5f3-4e6317a216d5",
+      "FromPoint": "947249e7-e4e2-4eb5-8167-a2bb8ffe06da",
+      "ToPoint": "9885acb9-26a3-439b-9ce1-f649600ba5d1"
+    },
+    {
+      "Id": "88f7a51f-04d4-455e-873f-85dea16e4658",
+      "FromPoint": "e95e2694-bbec-499b-8361-979fa5308d1c",
+      "ToPoint": "8e053571-ef63-444f-8b3a-99bea742563a"
+    },
+    {
+      "Id": "13608bad-92e2-4ee7-9204-13be45f0a8c8",
+      "FromPoint": "53e636c0-9005-4ad7-bf89-e80621086ec2",
+      "ToPoint": "cee0404e-b3d6-4aa5-9cb2-97d8f6f233a6"
+    },
+    {
+      "Id": "426f536e-fe4e-4ca0-8a65-4d6b64aec169",
+      "FromPoint": "b69f3d2e-9f95-4c6e-9b66-610306b26304",
+      "ToPoint": "cbeada4c-bcc4-410b-ae96-d944792cb4d3"
+    },
+    {
+      "Id": "44f5527f-5944-4869-9a87-6ba94a13e604",
+      "FromPoint": "4526adcb-0c30-469e-8309-98d907d03b8e",
+      "ToPoint": "fba3f722-db7e-49e8-95ea-2d52e9994640"
+    },
+    {
+      "Id": "857b5d79-f99f-4313-b181-079f8467687c",
+      "FromPoint": "96ca70da-81d4-440e-acc1-68db4eaa1ad3",
+      "ToPoint": "7ba22498-e968-4bdc-b971-df4e0f6dbad3"
+    },
+    {
+      "Id": "138fdc7b-770e-4206-998b-e72988078a89",
+      "FromPoint": "8e9d5f98-bf6d-4952-b5bf-e83b4761231c",
+      "ToPoint": "69138407-90cb-4095-849f-b34ab5de11b0"
+    },
+    {
+      "Id": "778d030a-4e46-4505-973f-2274545de8dd",
+      "FromPoint": "04c7d6cb-a6e5-465e-a37f-806885ba2637",
+      "ToPoint": "cf7a8b7d-0e73-4558-8b17-90c07a930977"
+    },
+    {
+      "Id": "32935d35-53ab-4ced-bdbf-bf49e1c9275b",
+      "FromPoint": "11272715-46b5-4d50-aea5-dd20a7cb390a",
+      "ToPoint": "5c3e3e55-62ef-4a8b-bf22-9bf291b6f125"
+    }
+  ]
+}

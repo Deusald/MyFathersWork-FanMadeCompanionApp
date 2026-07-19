@@ -1,0 +1,25 @@
+{
+  "Id": "eb28cdeb-2403-406d-a4fa-e9eb407d9123",
+  "CategoryId": "23c9000d-5134-4871-aaba-8e6fd5c8f89d",
+  "KeyName": "00_title",
+  "Description": "",
+  "CreatedAt": "2026-07-18T01:47:09.0105577Z",
+  "UpdatedAt": "2026-07-18T01:47:19.9720655Z",
+  "MaxLength": 0,
+  "Tags": [],
+  "Flags": [],
+  "Variables": [],
+  "Translations": [
+    {
+      "LanguageId": "en-US",
+      "BaseTextHash": "1b93e988e98acf653e075cb47f9bc585927f408a16d283ff65eda8eaf3110380",
+      "Text": "Enemy of the People",
+      "Status": "Approved",
+      "SourceChanged": false,
+      "UpdatedAt": "2026-07-18T01:47:19.9719299Z",
+      "Suggestions": [],
+      "Comments": []
+    }
+  ],
+  "Comments": []
+}

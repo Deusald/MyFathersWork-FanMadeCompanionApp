@@ -4,7 +4,7 @@
   "KeyName": "creepy_content",
   "Description": "",
   "CreatedAt": "2026-07-17T20:52:34.060824Z",
-  "UpdatedAt": "2026-07-17T20:58:56.723675Z",
+  "UpdatedAt": "2026-07-18T19:18:23.9321161Z",
   "MaxLength": 0,
   "Tags": [],
   "Flags": [],
@@ -15,16 +15,23 @@
       "Type": "Int",
       "EnumId": null,
       "DefaultPreviewValue": "4"
+    },
+    {
+      "Id": "3556c5b6-9621-4f0d-b215-30bbc66f2cac",
+      "Name": "AppGamebook",
+      "Type": "EnumString",
+      "EnumId": "0e37c09d-8583-4f73-be91-dea8208395cb",
+      "DefaultPreviewValue": "0"
     }
   ],
   "Translations": [
     {
       "LanguageId": "en-US",
-      "BaseTextHash": "fb2d1ed4ee53940a9dbd0b7be40be8011ed835b96310f3e60ec9d619b3be777b",
-      "Text": "If a player reaches the <b>{Gen1_Fever_CreepySpace}{Gen1_Fever_CreepySpace:choose(1|2|3):st|nd|rd|th}</b> space on the <icon=CreepyIcon> Track, ",
+      "BaseTextHash": "59d17043093b423b981e5eb0deb839a59fc4bbeda8d22730be6dac2fd49d8a05",
+      "Text": "If a player reaches the <b>{Gen1_Fever_CreepySpace}{Gen1_Fever_CreepySpace:choose(1|2|3):st|nd|rd|th}</b> space on the <icon=CreepyIcon> Track,  {AppGamebook:choose(App|Gamebook):<choice>|<br/><choice=Two><br/><choice=Three><br/><choice=Four>}",
       "Status": "Approved",
       "SourceChanged": false,
-      "UpdatedAt": "2026-07-17T20:58:56.7236082Z",
+      "UpdatedAt": "2026-07-18T19:18:23.9319649Z",
       "Suggestions": [],
       "Comments": []
     }

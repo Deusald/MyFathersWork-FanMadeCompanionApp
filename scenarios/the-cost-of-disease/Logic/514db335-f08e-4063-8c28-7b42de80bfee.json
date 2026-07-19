@@ -7,6 +7,7 @@
   "Y": 30.342445454545423,
   "GamebookInstructions": false,
   "ExitMode": "ManyPaths",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [
     {
       "Id": "7bdb89e9-9445-440f-b242-e9f17770da99",
@@ -117,8 +118,8 @@
     },
     {
       "Id": "34281660-873f-446f-9b7f-85ec05b04444",
-      "X": -113.74380165289199,
-      "Y": 599.3966942148757,
+      "X": -112.74380165289199,
+      "Y": 622.3966942148757,
       "SelectedKeyId": "7cd52cff-1c91-48fc-b320-68c708892c43",
       "OutPoint": {
         "Id": "e5eda158-0915-4226-9cf5-e8ecc0b57106",
@@ -130,8 +131,8 @@
     },
     {
       "Id": "5da8a479-8802-4ada-af1d-d831505df0e6",
-      "X": 224.27272727272708,
-      "Y": 804.3553719008269,
+      "X": 189.27272727272708,
+      "Y": 799.3553719008269,
       "SelectedKeyId": "3e6a7554-6f00-46c7-9637-27e900dcc332",
       "OutPoint": {
         "Id": "75f9bfb7-fda8-4262-aed3-deae2f287554",
@@ -188,23 +189,10 @@
       "Suffix": ""
     }
   ],
-  "ExternalVariableNodes": [
-    {
-      "Id": "522edb6d-db48-4cd3-8fc0-ccd8c6c27d14",
-      "X": -112.09090909090872,
-      "Y": 758.9008264462816,
-      "SelectedVariableId": "a9905e00-0000-4000-8000-000000000001",
-      "OutPoint": {
-        "Id": "020d783b-4973-4f6e-aec2-7be42a82a358",
-        "Name": "Value",
-        "X": 0.0,
-        "Y": 0.0,
-        "FlowKind": "Flow"
-      }
-    }
-  ],
+  "ExternalVariableNodes": [],
   "GetVariableNodes": [],
   "ConstantVariableNodes": [],
+  "ConstantStringNodes": [],
   "FlowTextNodes": [
     {
       "Id": "1bda5387-fe5b-40ad-8c43-1447a5c9988d",
@@ -328,11 +316,6 @@
       "Id": "04c0b0e5-1426-4f0f-8df4-8f768db824ad",
       "FromPoint": "a14227c4-cd1b-42bf-8c11-8444d6805217",
       "ToPoint": "fb525311-5211-4e43-ba55-7e47214b9b0f"
-    },
-    {
-      "Id": "48c4d0a7-917e-4a2e-b10c-b2ec8c9b226f",
-      "FromPoint": "020d783b-4973-4f6e-aec2-7be42a82a358",
-      "ToPoint": "992313be-acba-4358-83ba-853402f5ce58"
     },
     {
       "Id": "d7b2e3be-403e-47ff-b488-5643d484bb98",

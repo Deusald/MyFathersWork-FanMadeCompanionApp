@@ -4,9 +4,10 @@
   "Description": "Player select number of player that will be playing the game",
   "ParentContainer": "72254fba-a47c-4472-b565-f53cfd463ca1",
   "X": -8.510000000000009,
-  "Y": 7.352000000000004,
+  "Y": 6.352000000000004,
   "GamebookInstructions": false,
   "ExitMode": "SinglePath",
+  "ExitAutoMode": "AutomaticChoice",
   "Choices": [
     {
       "Id": "8f386939-8cf9-43fd-b436-946fdf0b47ad",
