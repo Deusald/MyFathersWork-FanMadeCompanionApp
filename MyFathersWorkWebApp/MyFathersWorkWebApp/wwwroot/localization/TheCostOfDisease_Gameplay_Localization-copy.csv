@@ -1,4 +1,4 @@
-﻿//====== Gen1 - Fever ======;
+//====== Gen1 - Fever ======;
 // ---Hub---;
 Fever_Bank_Content;A new Bank has been built in town. For each visit to the Bank, <b>gain $2.</b>
 Fever_Library_Content;A new Library has been built in town. For each visit to the Library, <b>gain one Knowledge of your choice </b><i>(not Occult).</i> You will also gain 1 <icon=Creepy_Icon>.
@@ -107,7 +107,7 @@ LetterCode_0_Content1;<b>{{0=...|Oliver|James|Olivia|...}} collects letter numbe
 LetterCode_0_Content2;Once all players have received their correspondence, they may read the reverse side secretly.
 Gen1InsanityYes_1_Content;Gain a Maladjustment card and place it into play immediately for this Generation.
 Gen1InsanityYes_2_Content;Lose 3VP.
-PreDevastation_Content;Turn to page <b>{{0=?|12|13}}</b> of the Village Chronicle. Place the Suspicion marker on space <b>{{1=...|2|3|4|...}}</b> and the <icon=AngryMob_Icon> token {{2=?|<b>two</b> spaces to the left (due to some seedy dealings).|one space to the left.}} Pass the Start Player token to the player with the <icon=S1_HeartToken>.
+PreDevastation_Content;Turn to page <b>{{0=?|12|13}}</b> of the Village Chronicle. Place the Suspicion marker on space <b>{{1=...|2|3|4|...}}</b> and the <icon=AngryMob_Icon> token {{2=?|<b>two</b> spaces to the left (due to some seedy dealings).|one space to the left.}} Pass the Start Player marker <icon=StartPlayerToken> to the player with the <icon=S1_HeartToken>.
 // ---Hub---;
 Devastation_Envelopes_Content;When a player reveals their Sealed Envelope card, complete the location's action and then 
 Devastation_HereditaryDisease_Content;A "Hereditary Disease" Experiment card can be completed by taking the Perform Experiment action as normal. Completing this Experiment will allow you to <b>ignore all ill effects</b> from Disease between rounds.<br /><br />When a player completes their Hereditary Disease Experiment, 

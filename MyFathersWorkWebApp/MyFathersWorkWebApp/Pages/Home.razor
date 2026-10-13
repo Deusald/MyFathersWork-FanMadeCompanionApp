@@ -1,4 +1,4 @@
-﻿@page "/"
+@page "/"
 @using MyFathersWorkWebApp.Shared
 @inject NavigationManager Nav
 @inject IJSRuntime        Js
@@ -12,7 +12,6 @@
     <div class="menu-buttons">
         <button @onclick="OnNewGameClick">@GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_NewGame)</button>
         <button @onclick="ShowLoadPopup">@GlobalData.GetLocalizedUITag(GlobalTags.MainMenu_LoadGame)</button>
-        <button @onclick="Test">Test</button>
 
         @if (IsContinueAvailable)
         {
@@ -68,20 +67,6 @@
         GlobalData.TownName    = string.Empty;
         GlobalData.ResetUndo();
         Nav.NavigateTo("PlayersSelect");
-    }
-
-    private async Task Test()
-    {
-        await Js.InvokeAsync<string>("localStorage.removeItem", "continue");
-        GlobalData.PlayersNum  = 2;
-        GlobalData.PlayerAName = "Player1";
-        GlobalData.PlayerBName = "Player2";
-        GlobalData.PlayerCName = "Player3";
-        GlobalData.PlayerDName = "Player4";
-        GlobalData.TownName    = "PlayersTown";
-        GlobalData.ScenarioId  = ScenarioId.CostOfDisease;
-        GlobalData.ResetUndo();
-        Nav.NavigateTo("PlayersScenarioLanguage");
     }
 
     private async void OnContinue()

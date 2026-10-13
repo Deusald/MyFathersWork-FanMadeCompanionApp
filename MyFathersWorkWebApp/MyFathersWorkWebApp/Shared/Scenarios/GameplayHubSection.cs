@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 
 namespace MyFathersWorkWebApp;
 
@@ -39,6 +39,11 @@ public class GameplayHubSection(GlobalData globalData, bool main, string titleTa
         if (contentFormatter != null) click = contentFormatter(click);
         
         Elements.Add(new GameplayElement(click, callback, fromNewLine));
+    }
+
+    public void AddSpecialClickHere(string subName, Action callback, bool fromNewLine = false, Func<string, string>? contentFormatter = null, [CallerMemberName] string callerName = "")
+    {
+        AddSpecialClickHere(subName, _ => callback(), fromNewLine, contentFormatter, callerName);
     }
     
     public void AddClickHereForReward(Action<GlobalData>? callback, bool fromNewLine = false)

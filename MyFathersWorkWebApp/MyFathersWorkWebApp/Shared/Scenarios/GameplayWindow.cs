@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
 namespace MyFathersWorkWebApp;
@@ -47,7 +47,7 @@ public class GameplayWindow(GlobalData globalData)
         Elements.Add(new GameplayElement(content, nextCallback, fromNewLine));
     }
 
-    public void AddNextContentWithLinks(int index, List<Action<GlobalData>?> nextCallbacks, bool fromNewLine = false, Func<string, string>? contentFormatter = null, [CallerMemberName] string callerName = "")
+    public void AddNextContentWithLinks(int index, IReadOnlyList<Action<GlobalData>?> nextCallbacks, bool fromNewLine = false, Func<string, string>? contentFormatter = null, [CallerMemberName] string callerName = "")
     {
         string content                        = globalData.GetScenarioLocalizedTag(callerName + $"_Content{index}");
         if (contentFormatter != null) content = contentFormatter(content);
@@ -99,6 +99,16 @@ public class GameplayWindow(GlobalData globalData)
     public void AddClickHereToContinue(Action<GlobalData> nextCallback)
     {
         Elements.Add(new GameplayElement(globalData.GetLocalizedUITag(GlobalTags.Gameplay_ClickHereToContinue), nextCallback, true));
+    }
+
+    public void AddNextButton(Action<GlobalData> nextCallback)
+    {
+        AddClickHereToContinue(nextCallback);
+    }
+
+    public void AddNextButton(Action nextCallback)
+    {
+        AddClickHereToContinue(_ => nextCallback());
     }
 
     public void AddClickHereAfterBid(Action<GlobalData> nextCallback)

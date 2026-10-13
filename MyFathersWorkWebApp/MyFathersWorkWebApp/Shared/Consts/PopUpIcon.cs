@@ -1,4 +1,4 @@
-﻿// ReSharper disable InconsistentNaming
+// ReSharper disable InconsistentNaming
 namespace MyFathersWorkWebApp;
 
 public static class PopUpIcon
@@ -36,4 +36,69 @@ public static class PopUpIcon
     public const string ExperimentBBack            = "ExperimentBBack";
     public const string S1_HunterToken             = "S1_HunterToken";
     public const string S1_WolfToken               = "S1_WolfToken";
+    public const string S1_VialToken               = "S1_VialToken";
+    public const string S1_MWUpdateLycanthropic    = "S1_MWUpdateLycanthropic";
+    public const string S1_Heart                   = "S1_HeartToken";
+    public const string CompulsionBack             = "CompulsionBack";
+    public const string Spouse_Servant             = "Spouse_Servant";
+    public const string Servant                    = "Servant";
+    public const string LoseServant_Icon           = "Servant";
+    public const string GainBody_Icon              = "Bodies_Icon";
+    public const string ValidationToken            = "StorybookToken";
+    public const string GainExperiment_Icon        = "ExperimentABack";
+    public const string AdvanceAngryMob            = "AdvanceAngryMob";
+    public const string Bodies_Icon                = "Bodies_Icon";
+    public const string BuildingS3Barracks         = "BuildingS3Barracks";
+    public const string Caretaker                  = "Caretaker";
+    public const string ExperimentABack            = "ExperimentABack";
+    public const string ExperimentCFront           = "ExperimentCFront";
+    public const string LoseCreepy                 = "LoseCreepy";
+    public const string S3_AdvancedWeaponry        = "S3_AdvancedWeaponry";
+    public const string S3_CardBack                = "S3_CardBack";
+    public const string S3_CircuitryToken          = "S3_CircuitryToken";
+    public const string S3_CrownToken              = "S3_CrownToken";
+    public const string S3_EstateUpgradeBack       = "S3_EstateUpgradeBack";
+    public const string S3_FlagSeparatists         = "S3_FlagSeparatists";
+    public const string S3_FlagUnitfiedMonarchists = "S3_FlagUnitfiedMonarchists";
+    public const string S3_GiantMW                 = "S3_GiantMW";
+    public const string S3_MonarchisToken          = "S3_MonarchisToken";
+    public const string S3_MWUpgradeTimeMaching    = "S3_MWUpgradeTimeMaching";
+    public const string S3_ModernExperiment        = "S3_ModernExperiment";
+    public const string S3_ParadoxToken            = "S3_ParadoxToken";
+    public const string S3_ScenarioIcon            = "S3_ScenarioIcon";
+    public const string S3_SeparatistToken         = "S3_SeparatistToken";
+    public const string S3_ShieldToken             = "S3_ShieldToken";
+    public const string S3_SickleToken             = "S3_SickleToken";
+    public const string S3_TimeMachineRepairs      = "S3_TimeMachineRepairs";
+    public const string S3_TimeParadox             = "S3_TimeParadox";
+    public const string S3_WeaponToken             = "S3_WeaponToken";
+    public const string S3_WoodenFigureToken       = "S3_WoodenFigureToken";
+    public const string S3_WorldConquest           = "S3_WorldConquest";
+    public const string SearchDeck_Icon            = "SearchDeck_Icon";
+    public const string ChooseFromSupply_Icon      = "AnyKnowledge_Icon";
+    public const string DiscardExperiment_Icon     = "ExperimentABack";
+    public const string EstateUpgradeBack3         = "EstateUpgradeBack3";
+    public const string ExperimentCBack            = "ExperimentCBack";
+    public const string GainCaretakerFromLost      = "GainCaretakerFromLost";
+    public const string S2_BattleStartTile         = "S2_BattleStartTile";
+    public const string S2_BlessingOfTheStrigoi    = "S2_BlessingOfTheStrigoi";
+    public const string S2_BrickTokens             = "S2_BrickTokens";
+    public const string S2_CardBack                = "S2_CardBack";
+    public const string S2_CollaborativeToken      = "S2_CollaborativeToken";
+    public const string S2_ColoredMoneyToken       = "S2_ColoredMoneyToken";
+    public const string S2_EstateUpgradeBACK       = "S2_EstateUpgradeBACK";
+    public const string S2_HouseOnTheHillTile      = "S2_HouseOnTheHillTile";
+    public const string S2_HuntTokenFRONT          = "S2_HuntTokenFRONT";
+    public const string S2_MWUpdateCreature        = "S2_MWUpdateCreature";
+    public const string S2_MarketToken             = "S2_MarketToken";
+    public const string S2_Obsession               = "S2_Obsession";
+    public const string S2_RehabilitationToken     = "S2_RehabilitationToken";
+    public const string S2_RomaniToken             = "S2_RomaniToken";
+    public const string S2_ScenarioIcon            = "S2_ScenarioIcon";
+    public const string S2_WitchHexToken           = "S2_WitchHexToken";
+    public const string Spouse                     = "Spouse";
+    public const string SuspicionMarker            = "SuspicionMarker";
+    public const string VotingTokenNay             = "VotingTokenNay";
+    public const string VotingTokenYay             = "VotingTokenYay";
+    public const string None                       = "MFWlogo";
 }

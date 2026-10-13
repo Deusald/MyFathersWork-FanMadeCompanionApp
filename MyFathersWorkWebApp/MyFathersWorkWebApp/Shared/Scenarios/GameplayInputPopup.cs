@@ -1,10 +1,10 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 
 namespace MyFathersWorkWebApp;
 
-public class GameplayInputPopup(GlobalData globalData, string placeholder, PopUpButton popUpButton, Func<string, bool> validate, Action<string> onClose, bool placeholderAsTag = false, [CallerMemberName] string callerName = "")
+public class GameplayInputPopup(GlobalData globalData, string placeholder, PopUpButton popUpButton, Func<string, bool> validate, Action<string> onClose, bool placeholderAsTag = false, Func<string, string>? mod = null, [CallerMemberName] string callerName = "")
 {
-    public string Message     { get; } = globalData.GetScenarioLocalizedTag(callerName + "_Content");
+    public string Message     { get; } = mod != null ? mod(globalData.GetScenarioLocalizedTag(callerName + "_Content")) : globalData.GetScenarioLocalizedTag(callerName + "_Content");
     public string Placeholder { get; } = placeholderAsTag ? globalData.GetScenarioLocalizedTag(placeholder) : placeholder;
 
     public string ButtonText { get; } = popUpButton switch

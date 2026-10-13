@@ -1,4 +1,12 @@
-﻿// https://tableconvert.com/excel-to-csv
+using LocalizationMerger;
+
+// https://tableconvert.com/excel-to-csv
+
+if (args.Length > 0 && args[0] == "validate")
+{
+    Validator.Run();
+    return;
+}
 
 Console.WriteLine("Choose the target:");
 Console.WriteLine("1. UI_Localization");
@@ -16,6 +24,7 @@ string filePath = targetFileSelection switch
 };
 
 string targetFile = File.ReadAllText(Path.Combine("..", "..", "..", "..", "MyFathersWorkWebApp", "wwwroot", "localization", filePath));
+
 
 Console.WriteLine("Choose column to merge:");
 string columnName = Console.ReadLine()!;

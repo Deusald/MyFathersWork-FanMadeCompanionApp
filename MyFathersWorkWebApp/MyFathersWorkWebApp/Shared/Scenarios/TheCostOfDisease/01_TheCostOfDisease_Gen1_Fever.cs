@@ -1,4 +1,4 @@
-﻿namespace MyFathersWorkWebApp;
+namespace MyFathersWorkWebApp;
 
 public static partial class TheCostOfDisease
 {
@@ -10,7 +10,7 @@ public static partial class TheCostOfDisease
         globalData.TheCostOfDiseaseVars.HubId = CostOfDiseaseHubId.Fever;
         globalData.ActiveHub                  = new GameplayHub(globalData);
         globalData.ActiveHub.SetDefaultTitle();
-        globalData.ActiveHub.SetSubtitle(Years.Early);
+        globalData.ActiveHub.SetSubtitle(globalData.Years);
 
         const string       hospitalSection = "Hospital";
         GameplayHubSection hospital        = globalData.ActiveHub.AddSection(hospitalSection, true);
@@ -173,7 +173,7 @@ public static partial class TheCostOfDisease
     {
         globalData.SaveToUndo();
         globalData.ActiveWindow = new GameplayWindow(globalData);
-        globalData.ActiveWindow.AddDefaultContent();
+        globalData.ActiveWindow.AddDefaultTitle();
         globalData.ActiveWindow.AddDefaultContent();
         globalData.ActiveWindow.AddNextContent(1, true);
         globalData.ActiveWindow.AddAllPlayersNamesAsOptions(saneName =>
@@ -395,7 +395,7 @@ public static partial class TheCostOfDisease
     private static void FeverHeart2_1(GlobalData globalData)
     {
         globalData.SaveToUndo();
-        globalData.ActivePopup = new GameplayPopup(globalData, PopUpTitle.EndOfGeneration, PopUpIcon.MFWlogo,
+        globalData.ActivePopup = new GameplayPopup(globalData, PopUpTitle.EndOfGeneration, PopUpIcon.S1_HeartToken,
             PopUpButton.Confirm, globalData.TheCostOfDiseaseVars.RandomElement([S5Fate1, S5Fate2], 5));
     }
 

@@ -1,0 +1,300 @@
+Tag;English_Source
+BattleStatEntry_Content;<b>{{0=PlayerName}}</b>, please enter your Warrior's statistics with honesty and integrity in view of all players. <i>If you make a mistake, at the end you will have the option to return here and start again.</i>
+IsoVerify_Content;Any player who did not visit the Town Hall to verify their identity is penalized for failing to comply with the local ordinance:<br>{{4=?|<br><b>{{0=pA}}</b> loses 4VP and must discard an Estate Upgrade and return it to the board.}}{{5=?|<br><b>{{1=pB}}</b> loses 4VP and must discard an Estate Upgrade and return it to the board.}}{{6=?|<br><b>{{2=pC}}</b> loses 4VP and must discard an Estate Upgrade and return it to the board.}}{{7=?|<br><b>{{3=pD}}</b> loses 4VP and must discard an Estate Upgrade and return it to the board.}}{{8=?|<br>Every player complied with the local ordinance, so no penalty will be applied.}}
+Isolation_Setup_Content;Turn to page <b>14</b> of the Village Chronicle. Place the Suspicion Marker on space <b>{{0=Tracker}}</b> and the <icon=AngryMob_Icon> token one space to the left. Return all Memorial bricks to the Scenario box.<br />{{1=?|Then, since this is a 3 player game, pass the starting player marker clockwise 1 additional time.}}
+S4Con2A_Setup_Content;{{1=|Nothing happens.|You lose 1VP and gain 1 <icon=Creepy_Icon>.|You lose {{0=vpLoss}}VP.}}
+SmugEvent2A_Setup_Content;{{5=?|Because this is a 2-player game, the player who collected the most Collaboration tokens <icon=S2_CollaborativeToken> gains 4VP. (In a tie, neither player receives this reward.)<br><br>}}Remove the Experiment card and all Collaboration tokens <icon=S2_CollaborativeToken> from the game and return them to the Scenario box.<br><br>Because the Town Hall was destroyed along with all records, any player who took the time to verify their identity is now considered a trusted citizen of the town:<br>{{6=?|<b>{{0=pA}}</b><br>}}{{7=?|<b>{{1=pB}}</b><br>}}{{8=?|<b>{{2=pC}}</b><br>}}{{9=?|<b>{{3=pD}}</b><br>}}{{10=?|Each player listed above loses {{4=creepyLoss}} <icon=Creepy_Icon>.|No player managed to do so.}}
+SmugEventA_Setup_Content;Take an unused {{1=|Biology|Chemistry|Engineering}} Experiment card and place it face down near the Town Board.<br><br>Retrieve {{0=collab}} Collaboration tokens <icon=S2_CollaborativeToken> from the Scenario box and place them on this card.
+TenseEventBad2No_Setup_Content;Move the <icon=AngryMob_Icon> Marker {{0=moveRight}} spaces to the right.{{1=?|<br><br>All players who voted YAY gain 1 Knowledge cube of their choice.}}
+S4Con2_Content1;<link=0>Pay ${{0=bribeAmount}} to the supply and click here.</link>
+S4Con2_Content2;<link=0>Accept the Outcome.</link>
+SmugEvent_Content1;<link=0>Complete a Biology Experiment.</link>
+SmugEvent_Content2;<link=0>Complete a Chemistry Experiment.</link>
+SmugEvent_Content3;<link=0>Complete an Engineering Experiment.</link>
+TenseEventBad2Res_Content1;<link=0>We voted to steal. (YAY)</link>
+TenseEventBad2Res_Content2;<link=0>We voted against. (NAY)</link>
+TwoPTenseEvent2_Content1;<link=0>I choose to steal resources.</link>
+TwoPTenseEvent2_Content2;<link=0>I choose to remain ethical and do nothing.</link>
+WallCheck_Content1;If {{0=bricks}} or more pieces have been purchased, <link=0>click here...</link>
+WallCheck_Content2;If fewer than {{0=bricks}} bricks have been purchased, <link=0>click here...</link>
+Creature_Title;The Creature Re-emerges
+Creature_EarlySetup_Title;Setup
+Creature_EarlySetup_Content;Turn to page <b>{{1=?|4|5}}</b> of the Village Chronicle. Retrieve the <b>Puppy</b> and <b>Bride</b> Special Experiment cards from the Scenario box. Retrieve the <b>Ball and Chain</b> Estate Upgrades.<br /><br />Place the Suspicion Marker on space <b>{{0=5}}</b> and the <icon=AngryMob_Icon> Marker one space to the left.{{2=?|<br /><br />Then, since this is a 3 player game, pass the starting player marker clockwise 1 additional time.}}
+Creature_MiddleSetup_Title;Setup
+Creature_MiddleSetup_Content;<sprite=VillageChronicleCover>Turn to page <b>{{0=?|6|7}}</b> of the Village Chronicle.
+Creature_AsylumEarly_Title;The Asylum
+Creature_AsylumEarly_Content;The town has resolved to provide safety for its citizens, but not repeat the mistakes of the past. The ground is already broken for the construction of the new Asylum. At the end of this round, it will be built.
+Creature_Asylum_Title;<icon=StorybookToken> The Asylum
+Creature_Asylum_Content;Visiting the Asylum allows you to <b>lose 1 <icon=Insanity_Icon></b>. When you visit the Asylum for the <b>first time</b>, click below for a message.
+Creature_Business_Title;<icon=StorybookToken> Business Meeting
+Creature_Business_Content;Visiting the <b>House on the Hill</b> allows you to <b>gain $2</b>. When you visit the Businessman for the <b>first time</b>, click below for a message.
+Creature_Requests_Title;<icon=StorybookToken> Creature's Requests
+Creature_Requests_Content;When taking the <b>Perform Experiment</b> action, the <b>Puppy</b> and <b>Bride</b> Experiments are available for any player to complete as if they were in their hand. <i>Only one player may complete each Experiment.</i><br /><br />When a player completes one of the Monster's Experiments, click below to see the consequences.
+Creature_Church_Title;The Church
+Creature_Church_Content;Click below for an explanation of the Church location if needed.
+Creature_ObsessionFAQ_Title;Obsessions
+Creature_ObsessionFAQ_Content;Click below for a reminder of how Obsession cards work.
+Creature_EndOfRound_Title;End of the Round
+Creature_EndOfRound_Content;Once every player has finished their turns, click below to move to the next round.
+TheCreatureYes_Setup_Content;Retrieve <b>The Creature Masterwork Upgrade</b> card from the Scenario box. Then, give it to the player with <b>THE CREATURE</b> Masterwork Experiment. This card goes into effect immediately and must be kept face-up near that player's Estate for the remainder of the game.
+Guilt_Setup_Content;<b>Move backwards 1 space on a Journal Track of your choice.</b> <i>If this movement would cause you to move from Level 3 to Level 2, you must return a Vanity Upgrade you have built to the supply. If you cannot move backwards any spaces, lose 4VP.</i><br /><br />Then, collect the card and keep it face-up in your play area as a completed Experiment.
+AsylumOpps_Setup_Content;Each player must <b>return a Servant to Lost</b>.
+AsylumOpp2_Setup_Content;Place the <b>House on the Hill</b> tile on the main board near the Village Chronicle.<br /><br />Place a <b><icon=StorybookToken> token</b> on that Location.
+AsylumMeet_Setup_Content;Choose one of the options below:<br /><br /><b>Pay $1 to gain a Caretaker from Lost.</b><br />OR<br /><b>Gain a Servant from Lost.</b>
+AsylumComplete_Setup_Content;<b>{{0=Oliver}}</b> loses <b>1VP</b> <i>and has wasted everyone's time.</i>
+BusThanks_UpgradeSetup_Content;Immediately gain the <b>Ball and Chain</b> Estate Upgrade.{{1=?|<br /><br /><b>Immediately gain {{0=2}}VP.</b>}}
+BusThanks_VpSetup_Content;<b>Immediately gain {{0=2}}VP.</b>
+CountCureQuestion1_Setup_Content;Place the <b><icon=StorybookToken> token</b> from this Location in your Quarters.<br /><br />At the End of this Generation, the Count will return. You may decide to cure him by gifting him a <b>C-Level Occult Experiment</b> at the End of the Generation.
+S4Asylum_Setup_Content;Retrieve the <b>{{0=|Asylum Labor Union|Key to the Asylum|Asylum Share}}</b> Estate Upgrades from the Scenario box.
+S4Asylum2_Setup_Content;<b>Option to Donate</b><br />Each player, in turn order, now has the opportunity to purchase this Upgrade for <b>${{0=2}}</b> or decline. If purchased, the Upgrade is built immediately. <i>(You must still pay any costs to expand to a new plot if required.)</i><br /><br />Once all have chosen, click the accept button.
+CureCountYes_Setup_Content;Gain <b>2VP.</b><br /><br />Discard one completed C-Level Occult Experiment.
+Payment1Thanks_Setup_Content;<b>Immediately pay ${{0=3}} to the supply.</b>
+S4BadCreature_Setup_Content;All players place their <b>Spouse</b> piece into the <b>game box</b>. <i>This piece cannot be used for the remainder of the game.</i><br /><br />All players gain a <icon=Bodies_Icon> from the supply.
+RareCreatureBonus_Setup_Content;The player with a completed <b>Puppy</b> or <b>Bride</b> Experiment receives several torn pages from your grandfather's journal.<br /><br />They <b>move one space forward on the Journal Track of their choice</b> at no cost.
+IsoBricksRes_Setup_Content;Confirm the Suspicion Marker has been placed on space {{0=tracker}} of the <icon=Creepy_Icon> Track.<br><br>Every 3 bricks the players have in their supply will allow them to move the Suspicion Marker 1 space to the right on the <icon=Creepy_Icon> Track. Once the players have utilized all of their bricks in this way, return all bricks to the Scenario box.<br><br>All remaining bricks are worthless.
+WitchIsolationResolution_Setup_Content;{{0=witch}} gains 1 <icon=Creepy_Icon> and 2 Knowledge of their choice.
+Creepy1stPlayer_Setup_Content;The player (or players) with the most VP gains 2 <icon=Creepy_Icon>.
+S4IsoBrick_Setup_Content;The player with the most Brick tokens gains the "Key to the City" token as well as {{0=vpBonus}}VP. (On a tie, all tied players receive the reward.)<br>{{0=?|In addition, the player with the second-most Brick tokens also receives the "Key to the City" token.<br>}}<br><b>Keep the Brick tokens for the next Generation.</b>
+Isolation_Content_Setup;<b>Setup</b><br>Turn to page 14 of the Village Chronicle.<br><br>If not already done, place the Suspicion Marker on space {{0=tracker}} of the <icon=Creepy_Icon> Track and the <icon=AngryMob_Icon> Marker one space to the left of it.<br><br>If not already done, return all Memorial bricks to the Scenario box.{{0=?|<br><br>Pass the starting player marker clockwise 1 additional time so that each player in a 3-player game is the starting player once in a Generation.}}
+Isolation_Content_RisingPrices;<b>Rising Prices</b><br>Any space with a <span style="color: #E04E4E">$1 payment</span> symbol requires the player to <span style="color: #E04E4E">pay $1</span> to take the action listed.
+Isolation_Content_LateSetup;<b>Setup</b><br>Turn to page {{0=dev}} of the Village Chronicle.
+Isolation_Content_BrazenOffer;<b>A Brazen Offer</b><br>Because of the strict import laws, smugglers have become far more emboldened. Once per round, each player may choose to visit the <span style="color: #E04E4E">Smuggler's Dock</span> by placing any piece there. (Any player with the "Key to the City" cannot visit this location as it is beneath their station.) If they do, they gain 2 Ingredients of their choice and then
+Isolation_Content_Verification;<b>Verification of Identity</b><br>Players are required to place their <span style="color: #E04E4E">Self</span> on the Town Hall space once this Generation to prove their identity and avoid penalty. When they do, in addition to taking the Town Hall action, they will
+Isolation_Content_TheExperiment;<b>The Experiment</b><br>Anytime a player completes {{0=ex|a Biology|a Chemistry|an Engineering}} Experiment, they will gain a Collaboration token <icon=S2_CollaborativeToken> from the Experiment Card in the town center.{{1=?| Each player can only collect a maximum of 1 token in this way. (A player who has already gained a Collaboration token may still complete those Experiments as normal.)| At the end of the round, the player with the most tokens will gain 4VP.}}
+Isolation_Content_Church;<b>The Church</b><br>Wait until the first player takes the action at the Church, then
+Isolation_Content_ObsessionFAQ;<b>Obsession Clarification and FAQ</b><br>If players have any questions about the Obsession cards,
+Isolation_Content_EndOfRound;When you arrive at the End of the Round,
+IsoIdentificationSignIn_Content;<b>The player will verify their identity with the town registry by selecting their name below:</b>
+IsoIdentification_Setup_Content;{{0=?|Nothing else happens.|Apparently, the clerk thought you looked suspicious as well. Gain 1 <icon=Creepy_Icon>.}}
+S4Con1_Setup_Content;Gain 2 <icon=Creepy_Icon>.
+S4Con2_Content_1;[Pay ${{0=bribeAmount}}]
+S4Con2_Content_2;[Accept the outcome of the trial]
+S4Con3_Setup_Content;{{0=?|Nothing happens.|Gain 1 <icon=Creepy_Icon> for being weird.}}
+S4Smug_Setup_Content;Turn to page 15 in the Village Chronicle.
+SmugEvent_Content_1;[Biology]
+SmugEvent_Content_2;[Chemistry]
+SmugEvent_Content_3;[Engineering]
+SmugEvent2_Content;<b>Did the players collect {{0=collab}} Collaboration tokens <icon=S2_CollaborativeToken>?</b>
+SmugEvent2aa_Library_Setup_Content;Because of this terrible devastation, move the <icon=AngryMob_Icon> Marker 3 spaces to the left.
+SmugEventEnd_Setup_Content;Because of this devastation, move the <icon=AngryMob_Icon> Marker {{0=moveLeft}} space(s) to the left.
+SmugEvent2B_Setup_Content;For each Collaboration token <icon=S2_CollaborativeToken> in their possession, a player will gain 1 Knowledge of their choice.<br><br>Any player who does not have a Collaboration token <icon=S2_CollaborativeToken> will lose 2VP for failing to contribute to the effort.<br>{{0=?|<br>Because this is a 2-player game, the player who collected the most Collaboration tokens <icon=S2_CollaborativeToken> gains 4VP. (In a tie, neither player receives this reward.)<br>}}<br>Remove the Experiment card and all Collaboration tokens <icon=S2_CollaborativeToken> from the game and return them to the Scenario box.
+IsolationCaravanResolve_Setup_Content;Every player may trade any 2 remaining Ingredients or Knowledge they have for 1VP. They may do this as many times as they are able.
+TensionSetting_Setup_Content;Retrieve the Romani token <icon=S2_RomaniToken> from the Scenario box and place it on space 1 of the <icon=Creepy_Icon> Track.<br><br>Return the Suspicion Marker to the box.<br><br>Place the <icon=AngryMob_Icon> Marker on space 14 of the <icon=Creepy_Icon> Track.
+WallCheck_Content_1;[The players have a combined total of {{0=wal}} or more bricks.]
+WallCheck_Content_2;[The players have less than {{0=wal}} bricks.]
+WitchTensionResolution_Setup_Content;{{0=witch}} gains a Servant from Lost and 1 Ingredient of their choice (or 2VP if they have no Servants in Lost).
+Creepy1stPlayerB_Setup_Content;The player (or players) with the most VP loses 1 <icon=Creepy_Icon> and must discard 1 Experiment card from their hand (if able).
+Tension_Content_Setup;<b>Setup</b><br>Turn to page 19 of the Village Chronicle.<br>{{0=?|<br>Return all bricks to the Scenario box.<br>}}<br>Retrieve the "Cabinet of Curiosities" Estate Upgrades from the Scenario box and place them near the Town Board.{{1=?|<br><br>Pass the starting player marker clockwise 1 additional time so that each player in a 3-player game is the starting player once in a Generation.}}
+Tension_Content_SpecialRule;<b>Special Rule</b><br>Whenever a player places a piece on a location with a black border, move the Romani token <icon=S2_RomaniToken> 1 space to the right on the <icon=Creepy_Icon> Track.<br><br>Whenever a player places a piece on a location with a white border, move the <icon=AngryMob_Icon> Marker 1 space to the left on the <icon=Creepy_Icon> Track.
+Tension_Content_SpecialEvent;<b>Special Event - Resolution</b><br>If the <icon=AngryMob_Icon> Marker ever overtakes the <icon=S2_RomaniToken> Marker, immediately
+Tension_Content_MiddleBadSetup;<b>Setup</b><br>Turn to page 21 of the Village Chronicle.
+Tension_Content_BadSpecialRule;<b>Special Rule</b><br>Whenever a player places a piece on a location with a black border, move the <icon=AngryMob_Icon> Marker 1 space to the left on the <icon=Creepy_Icon> Track.
+Tension_Content_MiddleGoodSetup;<b>Setup</b><br>Turn to page 20 of the Village Chronicle.
+Tension_Content_Crossroads;<b>A Crossroads</b><br>The first time any player reaches space {{0=crossroads}} on the <icon=Creepy_Icon> Track, immediately
+Tension_Content_ObsessionPenalty;<b>Obsession Penalty</b><br>Any player who does not Deepen their Obsession by the End of this Generation will lose {{0=obsVp}}VP.
+Tension_Content_PlotExpansion;<b>Plot Expansion</b><br>Bricks from the previous Generation can be used to expand to new plots on player Estates ($1 each).
+Tension_Content_OccultExperimentation;<b>Occult Experimentation</b><br>The player with the most completed Occult Experiments at the end of the game will gain the "Cabinet of Curiosities" Vanity Estate Upgrade (10VP), which can be placed on an empty plot or over an existing upgrade at no cost. (On a tie, all tied players receive the reward.){{0=?| In addition, the player with the second-most completed Occult Experiments will also receive the "Cabinet of Curiosities" Vanity Estate Upgrade.}}
+Tension_Content_Church;<b>The Church</b><br>Wait until the first player takes the action at the Church, then
+Tension_Content_ObsessionFAQ;<b>Obsession Clarification and FAQ</b><br>If players have any questions about the Obsession cards,
+Tension_Content_EndOfRound;When you arrive at the End of the Round,
+TenseConfirmNo_Setup_Content;Remove the Romani token <icon=S2_RomaniToken> from the <icon=Creepy_Icon> Track and return it to the Scenario box.<br><br>For the rest of this round, the <icon=AngryMob_Icon> Marker will stay where it is.
+TenseConfirmYes_Setup_Content;Move the <icon=AngryMob_Icon> Marker to the same space as the Romani token <icon=S2_RomaniToken>, then remove the Romani token <icon=S2_RomaniToken> from the <icon=Creepy_Icon> Track and return it to the Scenario box.
+ThistenseBad_Setup_Content;If you have not done so already, remove the Romani token <icon=S2_RomaniToken> from the <icon=Creepy_Icon> Track and return it to the Scenario box.
+ThisTenseGood_Setup_Content;Remove the <icon=AngryMob_Icon> Marker from the <icon=Creepy_Icon> Track and return it to the Scenario box.
+TenseGoodEvent1_Setup_Content;Put a <icon=StorybookToken> token on space {{0=crossroads}} of the <icon=Creepy_Icon> Track.
+TenseEventBad2Res_Content;<b>Reveal the result of the vote:</b>
+TenseEventBad2Res_Content_1;[The YAYs have it!]
+TenseEventBad2Res_Content_2;[The NAYs have it!]
+TwoPTenseEvent2_Content;<b>The winner of the bid gains 4VP and will now make their choice:</b>
+TwoPTenseEvent2_Content_1;[Steal the Romani supplies]
+TwoPTenseEvent2_Content_2;[Take the ethical path]
+TenseEventBad2Yes_Setup_Content;All players gain 2 Resources of their choice.{{0=?|<br><br>The player who won the bid gains 1 additional Resource of their choice.}}{{1=?|<br><br>All players who voted NAY lose 2 <icon=Insanity_Icon>.}}
+TensionBonus_Content;The player with the most completed Occult Experiments gains the "Cabinet of Curiosities" Vanity Estate Upgrade (10VP), which can be placed on an empty plot or over an existing upgrade at no cost. (On a tie, all tied players receive the reward.){{0=?| In addition, the player with the second-most completed Occult Experiments also receives the "Cabinet of Curiosities" Vanity Estate Upgrade.}}<br><br>In addition, any player who has reached the final space of the Occult Track on their Estate Journal gains 3VP.
+TensionCaravanResolve_Setup_Content;Every player may trade any 2 remaining Ingredients or Knowledge they have for 1VP. They may do this as many times as they are able.
+Privatized_Title;Private Investors
+Privatized_Setup_Title;SETUP
+Privatized_Setup_Content;{{1=?|Retrieve the Hunt tokens <sprite=S2_HuntTokenFRONT> and turn them all so the yellow crosshairs are face-up.<br /><br />Shuffle them and randomly place one token on each Location shown on the Village Chronicle without looking at the opposite side. Keep any remaining tokens in a supply nearby.<br /><br />}}Place the Suspicion Marker on space <b>{{0=TRACKER}}</b> and the <icon=AngryMob_Icon> Marker one space to the left.{{2=?|<br /><br />Then, since this is a 3 player game, pass the starting player marker clockwise 1 additional time.}}
+Privatized_Investment_Title;Investment in Town
+Privatized_Investment_Content;To visit a Location with a <icon=S2_ColoredMoneyToken> token in another player's color, you must <b>pay $1</b> to the owner of the token. <i>($1 total for each visit even if multiple pieces are placed at the same time.)</i>
+Privatized_Jail_Title;Jail
+Privatized_Jail_Content;Our business investments have created new opportunities. When you visit the Jail, you may <b>pay $1</b> to take a Perform Experiment action.
+Privatized_Hunt_Title;<sprite=StorybookToken> The Hunt is On
+Privatized_Hunt_Content;Any time a player visits a Location with a Hunt token <icon=S2_HuntTokenFRONT>, they claim the token and place it on their Estate.<br /><br />At the end of each round, an expedition sets off to kill the Creature. All players on a successful expedition receive <b>5VP</b>.<br /><br />For a detailed explanation of the hunt,
+Privatized_MiddleSetup_Title;SETUP
+Privatized_MiddleSetup_Content;Remove the <b>Suspicion Marker</b> from the <icon=Creepy_Icon> Track. Return all <b>Hunt tokens</b> <icon=S2_HuntTokenFRONT> to the Scenario box.
+Privatized_EverythingWrong_Title;Everything You Know is Wrong
+Privatized_EverythingWrong_Content;You cannot place Servants or Spouse in TOWN until you have <b>reached or exceeded the <icon=AngryMob_Icon></b> Marker. Caretaker pieces can be placed in TOWN.
+Privatized_Impressing_Title;<sprite=StorybookToken> Impressing the Warden
+Privatized_Impressing_Content;In this town, creepy actions are rewarded by {{0=WARDEN}}. The first time your token reaches the final space (14) of the <icon=Creepy_Icon> Track,
+Privatized_JunkPalaceAsylum_Title;The Junk Palace
+Privatized_JunkPalaceAsylum_Content;When a player visits this Location, they may activate their {{0=ASYLUMUP}} ability.
+Privatized_JunkPalace_Title;<sprite=StorybookToken> The Junk Palace
+Privatized_JunkPalace_Content;When a player visits the Junk Palace, they may talk to {{0=WARDEN}}.
+Privatized_BattleDome_Title;<sprite=StorybookToken> Blood in the Battledome
+Privatized_BattleDome_Content;At the End of the Generation, each player will create a Warrior composed of their best Experiments in each discipline. For a detailed explanation of the final battle,
+Privatized_HuntOver_Title;The Hunt
+Privatized_HuntOver_Content;With the land changed, the hunt is abandoned forever.
+Privatized_Crossroads_Title;<sprite=StorybookToken> At a Crossroads
+Privatized_Crossroads_Content;When a player claims the Storybook token,
+Privatized_Church_Title;The Church
+Privatized_Church_Content;For the rules regarding the Church in this Generation,
+Privatized_ObsessionFAQ_Title;<sprite=S2_Obsession> Obsession Reminder
+Privatized_ObsessionFAQ_Content;For a reminder of how Obsession cards are resolved,
+Privatized_EndOfRound_Title;End of the Round
+Privatized_EndOfRound_Content;Once every player has passed and all Locations have been resolved,
+PrivatetoJail_Setup_Content;Turn to page <b>8</b> of the Village Chronicle.
+PrivateInvestors_Setup_Content;Retrieve the Player <icon=S2_ColoredMoneyToken> tokens from the Scenario box and give one to each player in their color. Starting with the player with the fewest VP and then to the next lowest, and so on, each player places their token on a Town Location of their choice. <i>If there is a tie, it is broken by turn order.</i><br /><br />When you visit a Location with a <icon=S2_ColoredMoneyToken> token in another player's color, you must <b>pay $1</b> to the owner of that token.
+PrivateCountCure_Setup_Content;Retrieve the <b>Blessing of the Strigoi</b> card and give it to {{0=NAME}}. Place it face-up in front of you. The effects of this card last for the entire Generation.
+PrivateHomeTile_Setup_Content;{{0=NAME}} gains the <b>House on the Hill</b> tile and places it face-up near their Estate.<br /><br />{{0=NAME}} may visit this Location as if it were a TOWN Location for the remainder of the game. No other players may visit this Location.
+PrivateCountYesNo_Setup_Content;Each player <b>gains a Servant</b> from Lost.
+PrivateReward_Setup_Content;Draw the top 2 Estate Upgrades from the stack.<br /><br />Build 1 of them at no cost and place the other on the bottom of the stack. <i>You must still pay any costs to expand to a new plot on your Estate.</i>
+JunkPalaceMeet1_Content1;<link=0>I kindly declined the offer.</link>
+JunkPalaceMeet1_Content2;<link=0>$1. (to gain 1 Creepy)</link>
+JunkPalaceMeet1_Content3;<link=0>$2. (to gain 2 Creepy)</link>
+JunkPalaceMeet1_Content4;<link=0>$3. (to gain 3 Creepy)</link>
+JunkPalaceMeetb_Setup_Content;{{0=|Nothing happens.|Pay $1. Gain 1 Creepy.|Pay $2. Gain 2 Creepy.|Pay $3. Gain 3 Creepy.}}
+BattleDomeExplanation_Title;Battle Warrior
+BattleDomeExplanation_Content;The End of this Generation culminates in a scientific spectacle where <b>{{0=COUNT}}</b> mechanized combatants enter the dome and only one will exit. {{1=WARDEN}} will field a champion of their own.<br /><br />To form your Warrior, you will place your Battledome Warrior token in your play area and place any one completed Experiment of the matching type in each section. The <b>VP</b> amount listed on each Experiment determines the stat of your Warrior.<br /><br /><b>Agility</b> is equal to the VP of your Biology Experiment. <i>(The ability to dodge attacks.)</i><br /><b>Damage</b> is equal to the VP of your Engineering Experiment. <i>(The strength of your attacks.)</i><br /><b>HP</b> is equal to the combined VP of your Chemistry and Occult Experiments. <i>(How much damage you can receive.)</i><br /><br />Before the final battle, you will be asked to enter the stats of your Warrior. If you have no completed Experiments of a type, you will enter 0.<br /><br />The last Warrior remaining will receive <b>9VP</b>.
+JailEventA_Setup_Content;Turn to page <b>9</b> in the Village Chronicle. Return all <b><icon=S2_ColoredMoneyToken> tokens</b> to the Scenario box.
+JailEvent1A_Setup_Content;Retrieve the cross-shaped <b>Battledome Warrior</b> tiles and give one to each player.<br /><br />At the End of the Generation, each player will choose their single best Experiment of each type, place it face up in each of the 4 slots, and add its strength (VP total) to assemble their <b>Warrior</b> as noted on the Battledome Warrior tiles.
+JailEvent1c_Setup_Content;All players return their {{0=ASYLUMUP}} tile to the Scenario box.
+EndtotheCount_Setup_Content;{{0=|There is no bonus Servant this round. The Count has decided to no longer offer his services.|Each player <b>gains 1 Resource</b> of their choice as a parting gift. The Count has decided to no longer offer his services.}}
+JailEvent2_Setup_Content;{{0=WARDEN}} claims the last of the Count's holdings. Turn to the final page of the Village Chronicle and prepare the Battledome Warrior tiles for the End of the Generation.
+PrivateCreepPenalty_Title;Penalty for Defiance
+PrivateCreepPenalty_Content;{{0=WARDEN}} has enacted a penalty for all players who did not reach the end of the <icon=Creepy_Icon> Track.<br /><br />{{5=?|<b>{{1=NAME_A}}</b> must suffer the penalty below.<br />}}{{6=?|<b>{{2=NAME_B}}</b> must suffer the penalty below.<br />}}{{7=?|<b>{{3=NAME_C}}</b> must suffer the penalty below.<br />}}{{8=?|<b>{{4=NAME_D}}</b> must suffer the penalty below.<br />}}<br /><b>Any player who did NOT reach the end of the <icon=Creepy_Icon> Track:</b><br /><br />{{9=|Lose <b>5VP</b>.|Discard a Vanity Estate Upgrade from your Estate if possible.}}
+BattlePreparation_Title;The Battledome
+BattlePreparation_Content;Each player will now build their <b>Warrior</b> within the Storybook.<br /><br />To form your Warrior, place any one completed Experiment of the matching type in each section of your <b>Battledome Warrior</b> tile. The <b>VP</b> amount listed on each Experiment represents the STAT of your Warrior.<br /><br /><b>Agility</b> is equal to the VP of your Biology Experiment. <i>(The ability to dodge attacks.)</i><br /><b>Damage</b> is equal to the VP of your Engineering Experiment. <i>(The strength of your attacks.)</i><br /><b>HP</b> is equal to the combined VP of your Chemistry and Occult Experiments. <i>(How much damage you can receive.)</i><br /><br />If you have no completed Experiments of a type, you will enter 0.
+BattleStatEntry_Title;{{0=NAME}}'s Warrior
+BattleAskAgility_Content;{{0=NAME}}, please enter the VP of your Biology Experiment - your Warrior's Agility.
+BattleAskStrength_Content;{{0=NAME}}, please enter the VP of your Engineering Experiment - your Warrior's Strength.
+BattleAskLife_Content;{{0=NAME}}, please enter the VP of your Chemistry and Occult Experiments combined - your Warrior's Life.
+BattleAskName_Content;{{0=NAME}}, please enter the epic name of your Warrior.
+BattleAgilityConfirmed_Title;Agility Confirmed
+BattleAgilityConfirmed_Content;<b>{{0=VALUE}}</b> is locked in as how likely you are to dodge an attack.
+BattleStrengthConfirmed_Title;Strength Confirmed
+BattleStrengthConfirmed_Content;<b>{{0=VALUE}}</b> is locked in as how much damage you will deal.
+BattleLifeConfirmed_Title;Life Total Confirmed
+BattleLifeConfirmed_Content;<b>{{0=VALUE}}</b> is locked in as your ability to receive damage.<br /><br />Your Warrior is built and prepared for a battle to the death. Now it only needs a mighty name.
+BattleWarriorComplete_Title;{{0=WARRIOR}} Complete
+BattleWarriorComplete_Content;Agility: <b>{{0=AGI}}</b><br />Strength: <b>{{1=STR}}</b><br />Life: <b>{{2=HIT}}</b><br /><br /><b>You are ready for a trial by combat!</b>
+BattleWarriorComplete_Content1;If this is correct, please <link=0>click to continue...</link><br /><br />If this is in error, please <link=1>return to the start...</link>
+BattleEnd_Setup_Content;{{1=?|{{0=NAME}} keeps the arena and everything in it. No household gains the champion's reward.|{{0=NAME}} gains <b>9VP</b>.}}
+LiberalHomeTile_Setup_Content;Take the <b>House on the Hill</b> tile from the Scenario box and place it beside your Estate.<br /><br />{{0=Player}} is the owner of this second property and may use it as an additional Estate space for the remainder of the game.
+LibCountBlessing_Setup_Content;{{0=Player}} takes the <b>Blessing of the Strigoi</b> card from the Scenario box and places it face-up in front of them.<br /><br />While they hold this card they are considered a thrall of the Count and are immune to Insanity gained from Scenario events.
+LiberalReplace_Setup_Content;Advance the Asylum marker on the Scenario track to space <b>{{0=3}}</b>.<br /><br />Then take all <b>Rehabilitation</b> tokens from the Scenario box and place them in a supply within easy reach of all players.<br /><br />Whenever a player is instructed to gain a Rehabilitation token they take one from this supply. If the supply is ever empty, no token is gained.
+ExpYes_Setup_Content;The Creature is dead. Return the Creature standee to the Scenario box.<br /><br />Every player who took part in the expedition discards all of their Hunt tokens <icon=S2_HuntTokenFRONT> and gains <b>3VP</b> for their part in the kill. The player who contributed the most Clues gains an additional <b>2VP</b>. <i>(If tied, all tied players gain the bonus.)</i>
+ExpNo_Setup_Content;The Creature escapes. Every player who took part in the expedition discards all of their Hunt tokens <icon=S2_HuntTokenFRONT> and gains <b>1VP</b> for the attempt.<br /><br />{{0=?|The Creature remains at large. A new hunt may be mounted in a later round.|The Creature can no longer be hunted this Generation. Leave the Creature standee on the board.}}
+EssentialCons_Setup_Content;Every player who paid for the resurrection returns their Spouse <icon=Spouse> from the Lost pile to their Estate.<br /><br />{{0=?|In addition, each of those players gains <b>1 Creepy</b>.|The experiment was flawless. No Creepy is gained.}}
+EssentialSaltsRes_Setup_Content;Every player who paid for the resurrection takes a <b>Caretaker</b> <icon=Caretaker> from the Lost pile and places it in their Estate instead of their Spouse.<br /><br />Each of those players also gains <b>1 Creepy</b>.
+EssentialSaltsNo_Setup_Content;No player attempted the resurrection. Every player gains <b>2VP</b> for their restraint and loses <b>1 Creepy</b> if able.
+LiberalEvent3Resa_Content;The player who won the bid may now name the new program at the Asylum. This name will be used for the remainder of the Scenario.
+LiberalEvent3Resb_Setup_Content;Take the <b>Menagerie</b> Estate Upgrade from the Scenario box and place it beside the board.<br /><br />At the End of the Generation it will be awarded to the player who has completed the most <b>{{0=Occult}}</b> Experiments.{{1=?| With 4 players, the player with the second-most completed Experiments of that type also gains a copy of this Upgrade.}}
+LiberalEventGood_Setup_Content;No player pays anything towards the bribe. Return all coins offered to their owners.<br /><br />In addition, every player gains <b>$1</b> from the supply as a gift from their mysterious benefactor.
+LiberalEventA_Setup_Content;Every player pays <b>$1</b> to the supply.<br /><br />Any player who cannot pay must instead lose <b>2VP</b>.
+LiberalEventB_Setup_Content;The <b>{{0=Asylum}}</b> program is shut down. Return its Estate Upgrade and all remaining Rehabilitation tokens to the Scenario box.<br /><br />Every player who still holds a Rehabilitation token discards it and gains <b>1VP</b> for each one discarded.
+LiberalTaxes2_Setup_Content;Every player who paid their estate taxes in full gains <b>{{0=2}}VP</b>.<br /><br />Every player who refused to pay loses <b>{{1=1}}VP</b> and must return one Upgrade of their choice from their Estate to the box.
+TaxesEventGood_Setup_Content;Each player who chose to pay money to resolve their taxes recovers that amount back to their Quarters and <b>gains 2VP</b>.<br /><br />All other players <b>gain 1 <icon=Creepy_Icon></b>.
+Payment2Thanks_Setup_Content;Pay <b>${{0=3}}</b> to the supply. Your contract is settled and your marker is removed from the contract track.
+Payment2No_Setup_Content;Return your <b>Self</b> <icon=Self> to the Scenario box. You are dead.<br /><br />You continue to score at the end of the game, but you may no longer take actions or gain rewards.
+AsylumTreatmentBPay_Setup_Content;Pay <b>$2</b> to the supply.<br /><br />The patient is discharged with no further consequences. They also gain one <b>Rehabilitation</b> token.
+AsylumTestResults_Setup_Content;{{0=|Return the patient's <b>Self</b> <icon=Self> to the Scenario box. They are committed to the Asylum permanently and may no longer take actions, though they still score at the end of the game.|The patient pays <b>$1</b> to the supply and is released. If they cannot pay they lose <b>2VP</b> instead.|The patient gains a <b>Maladjustment</b> card from the supply.|Move one <b>Caretaker</b> <icon=GainCaretakerFromLost> from the Lost pile into the patient's Estate.|The patient gains a <b>Maladjustment</b> card from the supply and loses <b>1 Creepy</b> if able.|The patient gains <b>2 Insanity</b>.}}<br /><br />The patient then gains one <b>Rehabilitation</b> token.
+CountTestResults_Setup_Content;{{0=|No penalty is applied. The patient is released immediately and gains <b>2VP</b>.|The patient must move one <b>Caretaker</b> or <b>Servant</b> from their Estate to the Lost pile as their referral.|The patient loses <b>1VP</b> and must move one <b>Caretaker</b> or <b>Servant</b> from their Estate to the Lost pile as their referral.}}<br /><br />The patient then gains one <b>Rehabilitation</b> token.
+Liberal_Title;Acceptance
+Liberal_Setup_Title;Scenario Setup
+Liberal_Setup_Content;{{0=?|Turn to <b>page 10</b> of the Scenario book and follow the instructions to establish the Creature's business in the town.}}{{1=?|Turn to <b>page 11</b> of the Scenario book and follow the instructions for the Hunt. Place the Hunt tokens <icon=S2_HuntTokenFRONT> in a supply within reach of all players.}}{{2=?|<br /><br /><i>With 3 players, remove one Hunt token of each value from the supply before play begins.</i>}}
+Liberal_ServantRule_Title;Work Release
+Liberal_ServantRule_Content;The Asylum's work release program is in full effect. Whenever you would gain a <b>Servant</b> you may instead pay <b>$1</b> to gain a <b>Caretaker</b> from the Lost pile.<br /><br />Servants gained this way may never be discarded to avoid a Scenario penalty.
+Liberal_Rehabilitation_Title;Rehabilitation Tokens
+Liberal_Rehabilitation_Content;A <b>Rehabilitation</b> token may be spent at any time on your turn to ignore one instance of gaining Insanity, or to discard one Maladjustment card from your Estate.<br /><br />Unspent Rehabilitation tokens are worth <b>1VP</b> each at the end of the game.
+Liberal_FocusOnRehabilitation_Title;A Focus on Rehabilitation
+Liberal_FocusOnRehabilitation_Content;Once per round, one player may commit themselves to the Asylum for evaluation. The evaluation may end in a discharge, a treatment, or permanent residency.
+Liberal_HuntIsOn_Title;The Hunt is On
+Liberal_HuntIsOn_Content;The Creature still roams the valley. Players may collect Hunt tokens <icon=S2_HuntTokenFRONT> during the round and mount an expedition at the end of it.
+Liberal_Program_Title;The Program
+Liberal_Program_Content;The <b>{{0=Rehabilitation}}</b> Program now focuses on <b>{{1=Occult}}</b> research.<br /><br />At the End of the Generation the player who has completed the most Experiments of that type gains the <b>Menagerie</b> Estate Upgrade.{{2=?| With 4 players, the player with the second-most also gains a copy of this Upgrade.}}
+Liberal_Crossroads_Title;The Crossroads
+Liberal_Crossroads_Content;A stranger waits at the crossroads outside of town after dark, offering favours to those willing to sign their name.
+Liberal_Politics_Title;Regional Politics
+Liberal_Politics_Content;Parliament is debating the future of the <b>{{0=Asylum}}</b> program. The decision will be settled at the end of this round.
+Liberal_Church_Title;The Church
+Liberal_Church_Content;The parish remains open to those seeking absolution, for a modest donation.
+Liberal_ObsessionFAQ_Title;Obsession FAQ
+Liberal_ObsessionFAQ_Content;Review the rules for Obsession cards and how they are scored.
+Liberal_EndOfRound_Title;End of the Round
+Liberal_EndOfRound_Content;Once all players have completed their turns and all actions have been resolved, continue to the next round.
+Isolation_Setup_Title;<b>SETUP</b>
+Isolation_RisingPrices_Title;<b>Rising Prices</b>
+Isolation_RisingPrices_Content;With the town's isolation in full force, the cost of business has increased. Any space with a <b>$1 payment</b> symbol requires the player to <b>pay $1</b> to take the action listed.
+Isolation_LateSetup_Title;<b>SETUP</b>
+Isolation_LateSetup_Content;Turn to page <b>{{0=...|16|17|18|...}}</b> of the Village Chronicle.
+Isolation_BrazenOffer_Title;<icon=StorybookToken> <b>Brazen Offer</b>
+Isolation_BrazenOffer_Content;Once per round, each player may visit the <b>Smuggler's Dock</b> Location in Town. <i><b>Any player with the Key to the City cannot visit this Location.</b></i> Upon visiting, <b>gain 2 Ingredients of your choice</b>.<br /><br />Then, for the consequences of your indiscretion:
+Isolation_Verification_Title;<icon=StorybookToken> <b>Verification of Identity</b>
+Isolation_Verification_Content;As a registered citizen within the district, you must undergo a strict government background check and perform civic duty obligations.<br /><br />You MUST place your <b>Self</b> piece on the Town Hall as an action once this Generation.<br /><br /><i>(If you have not verified by the End of the Generation, you will <b>lose 4VP and an Estate Upgrade of your choice</b>, if possible.)</i><br /><br />When you visit the Town Hall, complete your verification:
+Isolation_TheExperiment_Title;<b>The Experiment</b>
+Isolation_TheExperiment_Content;Anytime a player completes <b>{{0=|a Biology|a Chemistry|an Engineering}} Experiment</b>, that player gains a Collaboration token <icon=S2_CollaborativeToken>, placing it in their Quarters. {{1=?|<i>Only 1 token can be collected per player.</i>|The player who gains the most <b>Collaboration</b> tokens <icon=S2_CollaborativeToken> will gain an additional <b>4VP</b>.}}
+Isolation_Church_Title;<b>The Church</b>
+Isolation_Church_Content;For an explanation of the Church Location if needed:
+Isolation_ObsessionFAQ_Title;<b>Obsession FAQ</b>
+Isolation_ObsessionFAQ_Content;For a reminder of how an Obsession is Deepened and scored in this Scenario:
+Isolation_EndOfRound_Title;<b>End of the Round</b>
+Isolation_EndOfRound_Content;Once every player has taken all of their actions and the round is complete:
+Tension_Setup_Title;<b>SETUP</b>
+Tension_Setup_Content;Turn to page <b>19</b> of the Village Chronicle. {{0=?|Return all bricks to the box. }}Retrieve the <b>Cabinet of Curiosities</b> Estate Upgrades from the Scenario box.<br />{{1=?|Then, since this is a 3 player game, pass the starting player marker clockwise 1 additional time.}}
+Tension_SpecialRule_Title;<b>Special Rule</b>
+Tension_SpecialRule_Content;Visiting any Location with a <b>black</b> border moves the Romani token <icon=S2_RomaniToken> 1 space to the right. Visiting any Location with a <b>white</b> border moves the <icon=AngryMob_Icon> Marker 1 space to the left.
+Tension_SpecialEvent_Title;<icon=StorybookToken> <b>Special Event - Resolution</b>
+Tension_SpecialEvent_Content;If the <icon=AngryMob_Icon> Marker ever overtakes the Romani token <icon=S2_RomaniToken>, resolve the Special Event:
+Tension_MiddleBadSetup_Title;<b>SETUP</b>
+Tension_MiddleBadSetup_Content;Turn to page <b>21</b> of the Village Chronicle.
+Tension_BadSpecialRule_Title;<b>Special Rule</b>
+Tension_BadSpecialRule_Content;Visiting any Location with a <b>black</b> border moves the <icon=AngryMob_Icon> Marker 1 space to the left.
+Tension_MiddleGoodSetup_Title;<b>SETUP</b>
+Tension_MiddleGoodSetup_Content;Turn to page <b>20</b> of the Village Chronicle.
+Tension_Crossroads_Title;<icon=StorybookToken> <b>A Crossroads</b>
+Tension_Crossroads_Content;The first time any player reaches space <b>{{0=...|7|8|9|...}}</b> on the <icon=Creepy_Icon> Track:
+Tension_ObsessionPenalty_Title;<b>Obsession Penalty</b>
+Tension_ObsessionPenalty_Content;Any player who does not Deepen their Obsession by the End of this Generation will <b>lose {{0=...|4|5|6|...}}VP</b>.
+Tension_PlotExpansion_Title;<b>Plot Expansion</b>
+Tension_PlotExpansion_Content;Bricks can now be used to expand to new plots in your Estate. When expanding to a new plot, each brick token you spend is worth $1.
+Tension_OccultExperimentation_Title;<b>Occult Experimentation</b>
+Tension_OccultExperimentation_Content;At the End of the Generation, the player with the most completed <b>Occult</b> Experiments gains the <b>Cabinet of Curiosities</b> Vanity Estate Upgrade. {{0=?|The player with the second-most Experiments will also receive this Upgrade. }}<i>Ties are broken by the one with the lowest VP.</i>
+Tension_Church_Title;<b>The Church</b>
+Tension_Church_Content;For an explanation of the Church Location if needed:
+Tension_ObsessionFAQ_Title;<b>Obsession FAQ</b>
+Tension_ObsessionFAQ_Content;For a reminder of how an Obsession is Deepened and scored in this Scenario:
+Tension_EndOfRound_Title;<b>End of the Round</b>
+Tension_EndOfRound_Content;Once every player has taken all of their actions and the round is complete:
+ShowWarriorHandOver_Title;{{0=...|Oliver|James|Olivia|...}}'s Warrior
+ShowWarriorHandOver_Content;{{0=...|Oliver|James|Olivia|...}} steps forward to build a champion for the Battle Dome.<br /><br />Please enter your Warrior's statistics with honesty and integrity in view of all players. <i>If you make a mistake, at the end you will have the option to return here and start again.</i>
+ShowWarriorStatConfirmed_Title;Statistic Confirmed
+ShowWarriorStatConfirmed_Content;<b>{{0=...|3|7|12|...}}</b> is locked in.
+ShowWarriorComplete_Title;{{0=...|Ironjaw|The Pale Duke|...}} Complete
+ShowWarriorComplete_Content;Agility: <b>{{0=...|7|8|9|...}}</b><br />Strength: <b>{{1=...|3|4|5|...}}</b><br />Life: <b>{{2=...|12|14|16|...}}</b><br /><br /><b>You are ready for a trial by combat!</b>
+HuntExplanation_Title;The Hunt
+HuntExplanation_Content;At the end of each round, an expedition sets off to kill the Creature. This expedition is led by the player or players who have collected the most Hunt tokens. <i>The Storybook will prompt you to compare totals. All tied players go on the expedition together. You may secretly look at your Hunt tokens when you collect them.</i><br /><br />The player or players leading the expedition reveal their tokens and count up the total number of <b>Clues</b> on the reverse side. If you have collected a number of <b>Clues</b> equal to or greater than the expedition amount needed, the expedition succeeds and the Creature is killed.<br /><br />All players on a successful expedition receive <b>5VP</b>.<br /><br />If unsuccessful, another expedition will begin at the end of the next round.
+FotuChurch_Title;Charitable Church
+FotuChurch_Content;Pay $ X/X/X to move 1/2/3 spaces backwards on the Creepy Track.<br /><br /><i>For example, if the cost is 1/2/3 and you pay $2, you will lose 2 Creepy.</i>
+ObsessionFAQ_Title;Common Obsession Clarifications
+ObsessionFAQ_Content;<b>White Diamond Abilities</b><br />These are always optional. If you do not want to gain the benefit, you are not forced to gain the benefit.<br /><br /><b>Obsession Deepens TIED/NO TIES</b><br />If the ability lists NO TIES, you must have the most or least outright. If the ability lists OR TIED, as long as you share the most or least, you have completed the task.<br /><br /><b>SPECIFIC CARDS</b><br /><br /><b>INFAMY</b><br />"You cannot visit Town Hall" with any of your pieces.<br /><br /><b>RISING STAR</b><br />The Estate Upgrade discount applies to the purchase price only, not for expanding to a new plot in your estate. If this ability would reduce the cost below $0, you do not receive ($) from the supply.
+Caravansery_Setup_Content;In turn order, any player with a <b>Market token</b> may choose to purchase <b>any number</b> of goods at the Traveling Caravan:<br /><br /><b>Pay $1: Gain 1 Ingredient or 1 Knowledge of your choice.</b><br /><br /><i>We note that the caravan is always wandering and is never guaranteed to return again.</i>
+PEWitch2_Setup_Content;<b>Retrieve the Obsession cards <i>(18 total)</i>.</b>
+PEWitch2PlayerA_Setup_Content;<b>{{0=player name}} {{1=|receives the FOR FAME Obsession.|gains the FOR KNOWLEDGE Obsession.|gains the FOR SCIENCE Obsession.|gains the FOR REVENGE Obsession.|gains the FOR RESPECT Obsession.|gains the FOR ENTERTAINMENT Obsession.}}</b>
+PEWitch2PlayerB_Setup_Content;<b>{{0=player name}} {{1=|receives the FOR FAME Obsession.|gains the FOR KNOWLEDGE Obsession.|gains the FOR SCIENCE Obsession.|gains the FOR REVENGE Obsession.|gains the FOR RESPECT Obsession.|gains the FOR ENTERTAINMENT Obsession.}}</b>
+PEWitch2PlayerC_Setup_Content;<b>{{0=player name}} {{1=|receives the FOR FAME Obsession.|gains the FOR KNOWLEDGE Obsession.|gains the FOR SCIENCE Obsession.|gains the FOR REVENGE Obsession.|gains the FOR RESPECT Obsession.|gains the FOR ENTERTAINMENT Obsession.}}</b>
+PEWitch2PlayerD_Setup_Content;<b>{{0=player name}} {{1=|receives the FOR FAME Obsession.|gains the FOR KNOWLEDGE Obsession.|gains the FOR SCIENCE Obsession.|gains the FOR REVENGE Obsession.|gains the FOR RESPECT Obsession.|gains the FOR ENTERTAINMENT Obsession.}}</b>
+PEExplanation1_Title;Obsession!
+PEExplanation1_Content;Your <b>Obsession</b> card is kept face-up in front of you.<br /><br />Next to a white diamond is a <b>new special ability</b> that you will perform each time you complete the action listed. This ability is in addition to any normal rewards you would receive.<br /><br /><b>OBSESSION DEEPENS</b><br />At the bottom of your Obsession is a task that you may complete and an amount of <b>VP</b> that is awarded if you do. When you complete your <b>Obsession Deepens</b> task, immediately gain the listed VP and flip the card face-down. <i>The Storybook will prompt you when to resolve any Obsessions that resolve at the END of a Generation.</i><br /><br />Depending on whether you complete or do not complete your Obsession, you will be given a continuing Obsession in the next Generation <i>(more evil or more good).</i> The path the story takes will also interact with your choice to complete or not complete your Obsession.
+PEWitch3Intro_Content;All players who have not resolved their Obsession cards do so now.<br /><br /><i>Your Obsession will be altered on the next page depending on whether the Obsession was completed or not completed.</i>
+PEWitch3_Setup_Content;<b>{{0=?|If you <i>did not</i> complete your Obsession, draw a Maladjustment for this Generation.|If you completed your Obsession, draw a Maladjustment for this Generation.}}</b>
+PEWitch3b_Title;Obsessions Evolve
+PEWitch3b_Content;{{6=?|If {{0=first Fate player}} completed their Obsession, they gain the <b>INFAMY</b> card.<br />If they <b>did not</b>, they gain the <b>RISING STAR</b> card.<br /><br />}}{{7=?|If {{1=second Fate player}} completed their Obsession, they gain the <b>LIMITLESS KNOWLEDGE</b> card.<br />If they <b>did not</b>, they gain the <b>GRAND KNOWLEDGE</b> card.<br /><br />}}{{8=?|If {{2=third Fate player}} completed their Obsession, they gain the <b>TRUE SCIENCE</b> card.<br />If they <b>did not</b>, they gain <b>THE TRUEST SCIENCE</b> card.<br /><br />}}{{9=?|If {{3=fourth Fate player}} completed their Obsession, they gain the <b>UTTER REVENGE</b> card.<br />If they <b>did not</b>, they gain the <b>SWEET REVENGE</b> card.<br /><br />}}{{10=?|If {{4=fifth Fate player}} completed their Obsession, they gain the <b>COMMANDING RESPECT</b> card.<br />If they <b>did not</b>, they gain the <b>DEMANDING RESPECT</b> card.<br /><br />}}{{11=?|If {{5=sixth Fate player}} completed their Obsession, they gain the <b>WITHOUT RESTRICTION</b> card.<br />If they <b>did not</b>, they gain <b>THE WORLD MUST BURN</b> card.<br /><br />}}Discard and return ALL other <b>Obsession</b> cards to the Scenario box.
+PEExplanation2_Title;Obsession Penalty
+PEExplanation2_Content;Your Obsession card now lists a penalty.<br /><br />Next to a <b>red</b> diamond is a <b>new penalty</b> rule that you <b>must</b> follow. If this penalty affects an action, the penalty is in addition to any normal rewards you would receive.
+PEWitchEnding_Title;Obsession Resolution
+PEWitchEnding_Content;All players who have not resolved their Obsession cards, do so now.<br /><br />{{5=?|<b>Any player who did not DEEPEN their Obsession card loses {{0=Obsession VP}}VP.</b><br /><br />}}{{6=?|{{1=first player}}, if you have Deepened your Obsession, you <b>gain 4VP</b>. Otherwise, you <b>lose 4VP</b>.<br />}}{{7=?|{{2=second player}}, if you have Deepened your Obsession, you <b>gain 4VP</b>. Otherwise, you <b>lose 4VP</b>.<br />}}{{8=?|{{3=third player}}, if you have Deepened your Obsession, you <b>gain 4VP</b>. Otherwise, you <b>lose 4VP</b>.<br />}}{{9=?|{{4=fourth player}}, if you have Deepened your Obsession, you <b>gain 4VP</b>. Otherwise, you <b>lose 4VP</b>.<br />}}
+Gen3Token2b_Setup_Content;Discard your <b>Obsession</b> card to the Scenario box.<br /><br />Draw <b>4 Compulsion</b> cards.
+Scoring_Title;Scoring
+Scoring_Content;Each Estate Upgrade is worth 1VP.<br />Add any additional points from Vanity Estate Upgrades.<br />Score -3VP for any Maladjustments gained at the End of this Generation.<br /><br />{{0=?|<b>Creature Masterwork</b><br />The player with <b>The Creature</b> Masterwork loses <b>5VP</b> if the Experiment is not completed.<br /><br />}}THE PLAYER WITH THE MOST POINTS IS THE WINNER OF THE GAME.
+FotuScoreEntry_Content;Enter the final Victory Point total for {{0=player name}}.
+FotuTieBreak_Content;There is a tie for the most Victory Points. Enter the amount of money ($) that {{0=player name}} has remaining.

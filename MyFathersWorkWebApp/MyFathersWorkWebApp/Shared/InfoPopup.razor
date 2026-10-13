@@ -1,10 +1,10 @@
-﻿<div class="popup-overlay">
+<div class="popup-overlay">
     <div class="popup-box">
         <div class="popup-content">
             @if (!string.IsNullOrEmpty(GameplayPopUp.ImageSrc))
             {
                 <div class="popup-image-wrapper">
-                    <img class="popup-image" src="@FullImagePath" alt="@GameplayPopUp.Title"/>
+                    <img class="popup-image" src="@FullImagePath" alt="@GameplayPopUp.Title" onerror="if(!this.src.includes('/images/gameplay/'))this.src=this.src.replace('/images/setup/','/images/gameplay/');"/>
                 </div>
             }
 

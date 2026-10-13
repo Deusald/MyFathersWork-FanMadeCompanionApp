@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 
 namespace MyFathersWorkWebApp;
 
@@ -37,6 +37,7 @@ public class GameplayPopup
             Description = description;
         }
         else Description = string.Empty;
+        globalData.ActivePopup = this;
     }
 
     public GameplayPopup(GlobalData globalData, PopUpTitle title, string imageSrc, PopUpButton button, Action<GlobalData> onClose, Func<string, string>? contentProcessor = null, [CallerMemberName] string callerName = "")
@@ -59,6 +60,19 @@ public class GameplayPopup
         string description                        = globalData.GetScenarioLocalizedTag(callerName + "_Content");
         if (contentProcessor != null) description = contentProcessor(description);
         Description = description;
+        globalData.ActivePopup = this;
+    }
+
+    public GameplayPopup(GlobalData globalData, PopUpTitle title, string imageSrc, PopUpButton button, Action onClose, Func<string, string>? contentProcessor = null, [CallerMemberName] string callerName = "")
+        : this(globalData, title, imageSrc, button, _ => onClose(), contentProcessor, callerName)
+    {
+        globalData.ActivePopup = this;
+    }
+
+    public GameplayPopup(GlobalData globalData, PopUpTitle title, string imageSrc, PopUpButton button, Action onClose, string localizationTag, Func<string, string>? contentProcessor = null)
+        : this(globalData, title, imageSrc, button, _ => onClose(), localizationTag, contentProcessor)
+    {
+        globalData.ActivePopup = this;
     }
 
     public void ReplaceDescription(string newDescription)

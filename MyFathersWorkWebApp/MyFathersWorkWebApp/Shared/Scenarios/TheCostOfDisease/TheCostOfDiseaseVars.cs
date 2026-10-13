@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography;
+using System.Security.Cryptography;
 
 // ReSharper disable AutoPropertyCanBeMadeGetOnly.Global
 
@@ -64,6 +64,55 @@ public class TheCostOfDiseaseVars
     public int[]                       BuildingsExposeValue { get; set; } = new int[3];         // originally exposeA, exposeB, exposeC
     public int                         GoodCount            { get; set; }
     public Society                     Society              { get; set; } = Society.None;
+
+    // Shared / Deterioration / Endings / Scoring
+    public bool[]                   DetVisited   { get; set; } = new bool[4];
+    public bool                     Killed       { get; set; }
+    public bool                     Lycan        { get; set; }
+    public bool                     Ultimate     { get; set; }
+    public bool                     Peeps        { get; set; }
+    public string                   Ending       { get; set; } = string.Empty;
+    public Dictionary<string, int>  Scores       { get; set; } = new();
+    public List<string>             TiedPlayers  { get; set; } = new();
+    public Dictionary<string, bool> TieSelection { get; set; } = new();
+    public string                   Winner       { get; set; } = string.Empty;
+
+    // Gen 3 - University
+    public int    Mental     { get; set; }
+    public string SanePlayer { get; set; } = string.Empty;
+
+    // Gen 3 - GloomyGothic
+    public int    HuntVp         { get; set; }
+    public bool   Confront       { get; set; }
+    public bool   Taxes          { get; set; } = true;
+    public bool   VialCleansed   { get; set; }
+    public int    VoteYea        { get; set; }
+    public int    VoteNay        { get; set; }
+    public int    DonatedVpTotal { get; set; }
+    public string DonatedLevel   { get; set; } = string.Empty;
+
+    // Gen 3 - Prosperity
+    public bool     ReturnToEvil       { get; set; }
+    public bool     FarmersMarketCreepy { get; set; }
+    public int      HuntCount          { get; set; }
+    public int      HuntRound          { get; set; } = 1;
+    public string[] HuntRound1Players  { get; set; } = new string[2];
+    public string[] HuntRound2Players  { get; set; } = new string[2];
+    public string   HuntName           { get; set; } = string.Empty;
+    public string   HuntDirection      { get; set; } = string.Empty;
+    public string[] HuntMonsters       { get; set; } = new string[4];
+    public string[] HuntRewards        { get; set; } = new string[2];
+    public int      AngryMobIndex      { get; set; }
+
+    // Gen 3 - NoUniversity
+    public Dictionary<string, string> CustomMwDiscipline  { get; set; } = new();
+    public Dictionary<string, string> CustomMwType        { get; set; } = new();
+    public Dictionary<string, string> CustomMwName        { get; set; } = new();
+    public Dictionary<string, int>    CustomMwCode        { get; set; } = new();
+    public Dictionary<string, bool>   CustomMwCompleted   { get; set; } = new();
+    public int                        CustomMwCompleteCount { get; set; }
+    public List<int>                  BarVenturesRemaining { get; set; } = new();
+    public string                     CurrentBarPlayer    { get; set; } = string.Empty;
 
     public const string WOLVES_EVIL_TOWN_NAME  = "Rage";
     public const string HUNTERS_EVIL_TOWN_NAME = "Kraven";
@@ -132,6 +181,43 @@ public class TheCostOfDiseaseVars
         GoodCount            = 0;
         Society              = Society.None;
 
+        DetVisited           = [false, false, false, false];
+        Killed               = false;
+        Lycan                = false;
+        Ultimate             = false;
+        Peeps                = false;
+        Ending               = string.Empty;
+        TiedPlayers          = new List<string>();
+        Winner               = string.Empty;
+
+        Mental               = 0;
+        SanePlayer           = string.Empty;
+
+        HuntVp               = 0;
+        Confront             = false;
+        Taxes                = true;
+        VialCleansed         = false;
+        VoteYea              = 0;
+        VoteNay              = 0;
+        DonatedVpTotal       = 0;
+        DonatedLevel         = string.Empty;
+
+        ReturnToEvil         = false;
+        FarmersMarketCreepy  = false;
+        HuntCount            = 0;
+        HuntRound            = 1;
+        HuntRound1Players    = [string.Empty, string.Empty];
+        HuntRound2Players    = [string.Empty, string.Empty];
+        HuntName             = string.Empty;
+        HuntDirection        = string.Empty;
+        HuntMonsters         = [string.Empty, string.Empty, string.Empty, string.Empty];
+        HuntRewards          = [string.Empty, string.Empty];
+        AngryMobIndex        = 0;
+
+        CustomMwCompleteCount = 0;
+        BarVenturesRemaining  = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        CurrentBarPlayer      = string.Empty;
+
         string[] players = [globalData.PlayerAName, globalData.PlayerBName, globalData.PlayerCName, globalData.PlayerDName];
 
         foreach (string player in players)
@@ -141,6 +227,13 @@ public class TheCostOfDiseaseVars
             Ally[player]                 = Faction.None;
             BuildingPlay[player]         = 0;
             HelpedExposeBuilding[player] = [false, false, false];
+            Scores[player]               = 0;
+            TieSelection[player]         = false;
+            CustomMwDiscipline[player]   = string.Empty;
+            CustomMwType[player]         = string.Empty;
+            CustomMwName[player]         = string.Empty;
+            CustomMwCode[player]         = 0;
+            CustomMwCompleted[player]    = false;
         }
 
         for (int x = 0; x < 6; ++x) Letter[x] = string.Empty;

@@ -1,4 +1,4 @@
-﻿using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.Components;
 
 namespace MyFathersWorkWebApp;
@@ -14,7 +14,10 @@ public static class Extensions
 
         for (int x = 0; x < lines.Length; ++x)
         {
-            string[] data = lines[x].Split(';');
+            if (string.IsNullOrWhiteSpace(lines[x])) continue;
+            string[] data = languages.Length > 0
+                ? lines[x].Split(';', languages.Length + 1)
+                : lines[x].Split(';');
 
             if (x == 0)
             {
@@ -33,7 +36,7 @@ public static class Extensions
             if (data[0] == string.Empty) continue;
             string tag = data[0];
 
-            for (int y = 1; y < data.Length; ++y)
+            for (int y = 1; y < data.Length && y - 1 < languages.Length; ++y)
             {
                 if (target[languages[y - 1]].ContainsKey(tag)) throw new Exception("Duplicate tag: " + tag);
                 target[languages[y - 1]][tag] = data[y];
@@ -44,11 +47,11 @@ public static class Extensions
     public static string InsertImages(this string text)
     {
         string pattern     = "<icon=([A-Za-z0-9_]+)>";
-        string replacement = "<img style=\"display: inline-block; height: 1.5em; width: auto; transform: translate(0, -0.1em);\" src=\"./images/gameplay/$1.png\" alt=\"$1\">";
+        string replacement = "<img style=\"display: inline-block; height: 1.5em; width: auto; transform: translate(0, -0.1em);\" src=\"./images/gameplay/$1.png\" onerror=\"if(!this.src.includes('/images/setup/'))this.src=this.src.replace('/images/gameplay/','/images/setup/');\" alt=\"$1\">";
         text = Regex.Replace(text, pattern, replacement);
 
         string pattern2     = "<sprite=([A-Za-z0-9_]+)>";
-        string replacement2 = "<img class=\"full-image\" style=\"height: 8em; display: block; margin: 1rem auto;\" src=\"./images/gameplay/$1.png\" alt=\"$1\">";
+        string replacement2 = "<img class=\"full-image\" style=\"height: 8em; display: block; margin: 1rem auto;\" src=\"./images/gameplay/$1.png\" onerror=\"if(!this.src.includes('/images/setup/'))this.src=this.src.replace('/images/gameplay/','/images/setup/');\" alt=\"$1\">";
         return Regex.Replace(text, pattern2, replacement2);
     }
 

@@ -23,6 +23,18 @@
       <Content Update="wwwroot\localization\TheCostOfDisease_Localization.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>
+      <Content Update="wwwroot\localization\FearOfTheUnknown_Gameplay_Localization.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\localization\FearOfTheUnknown_Localization.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\localization\ATimeOfWar_Gameplay_Localization.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Update="wwwroot\localization\ATimeOfWar_Localization.csv">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
       <Content Update="wwwroot\localization\UI_Localization.csv">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </Content>

@@ -1,4 +1,4 @@
-﻿namespace MyFathersWorkWebApp;
+namespace MyFathersWorkWebApp;
 
 public static partial class TheCostOfDisease
 {
@@ -87,12 +87,7 @@ public static partial class TheCostOfDisease
     private static void FirstPlayer(GlobalData globalData)
     {
         globalData.SaveToUndo();
-        string firstPlayerName = globalData.PlayersNum switch
-        {
-            2 => globalData.TheCostOfDiseaseVars.RandomElement([globalData.PlayerAName, globalData.PlayerBName],                         2),
-            3 => globalData.TheCostOfDiseaseVars.RandomElement([globalData.PlayerAName, globalData.PlayerBName, globalData.PlayerCName], 2),
-            _ => globalData.TheCostOfDiseaseVars.RandomElement([globalData.PlayerAName, globalData.PlayerBName, globalData.PlayerDName], 2), // 4
-        };
+        string firstPlayerName = globalData.TheCostOfDiseaseVars.RandomElement([.. globalData.GetActivePlayers()], 2);
 
         globalData.ActivePopup = new GameplayPopup(globalData, PopUpTitle.Setup, PopUpIcon.StartPlayerToken, PopUpButton.Accept, Fever, content => content.FormatWithReplacement(0, firstPlayerName));
     }

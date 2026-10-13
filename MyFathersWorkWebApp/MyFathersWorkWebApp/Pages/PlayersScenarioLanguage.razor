@@ -1,4 +1,4 @@
-﻿@page "/PlayersScenarioLanguage"
+@page "/PlayersScenarioLanguage"
 @inject NavigationManager Nav
 @inject HttpClient        Http
 
@@ -37,7 +37,12 @@
 
         foreach (string localizationId in _ScenarioLocalizations.Keys)
         {
-            _LocalizationOptions[localizationId] = GlobalData.GetLocalizedUITag("ScenarioLang_" + localizationId);
+            string label = GlobalData.GetLocalizedUITag("ScenarioLang_" + localizationId);
+            if (label.StartsWith("Missing Translation"))
+            {
+                label = localizationId.Replace("_", " ");
+            }
+            _LocalizationOptions[localizationId] = label;
         }
     }
 
@@ -47,7 +52,12 @@
         GlobalData.Years                          = Years.Early;
         GlobalData.Generation                     = Generation.First;
         GlobalData.Scenario_Localization          = _ScenarioLocalizations[key];
-        GlobalData.Scenario_Gameplay_Localization = _ScenarioGameplayLocalizations[_ScenarioLocalizations[key]["Gameplay_Lang"]];
+        string gameplayLang                       = _ScenarioLocalizations[key].TryGetValue("Gameplay_Lang", out string? gl) ? gl : key;
+        if (!_ScenarioGameplayLocalizations.ContainsKey(gameplayLang) && _ScenarioGameplayLocalizations.Count > 0)
+        {
+            gameplayLang = _ScenarioGameplayLocalizations.Keys.First();
+        }
+        GlobalData.Scenario_Gameplay_Localization = _ScenarioGameplayLocalizations[gameplayLang];
 
         GlobalData.ActiveWindow     = null;
         GlobalData.ActiveHub        = null;
@@ -55,12 +65,24 @@
         GlobalData.ActiveInputPopup = null;
         
         GlobalData.TheCostOfDiseaseVars.Reset(GlobalData);
+        GlobalData.ATimeOfWarVars.Reset(GlobalData);
+        GlobalData.FearOfTheUnknownVars.Reset(GlobalData);
 
         switch (GlobalData.ScenarioId)
         {
             case ScenarioId.CostOfDisease:
             {
                 TheCostOfDisease.Init(GlobalData);
+                break;
+            }
+            case ScenarioId.TimeOfWar:
+            {
+                ATimeOfWar.Init(GlobalData);
+                break;
+            }
+            case ScenarioId.FearOfUnknown:
+            {
+                FearOfTheUnknown.Init(GlobalData);
                 break;
             }
             default:
